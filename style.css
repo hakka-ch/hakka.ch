@@ -111,6 +111,10 @@ section {
   background: #F3FCFC;
 }
 
+section + section {
+  margin-top: 16px;
+}
+
 section > h2:nth-child(1),
 section > h3:nth-child(1),
 section > h4:nth-child(1) {
@@ -123,6 +127,10 @@ section > h2 {
 
 section > h3 {
   font-size: 1.25rem;
+}
+
+section li {
+  margin-bottom: 0.25em;
 }
 
 section:nth-child(1) {
