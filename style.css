@@ -190,6 +190,21 @@ footer > ul {
   list-style: none;
 }
 
+a.link-button {
+  display: block;
+  margin: 1rem;
+  padding: 0.5rem 2rem;
+  border: 2px solid #719a9d;
+  text-align: center;
+  color: #1e3e41;
+  transition: all ease .3s;
+}
+
+a.link-button:hover,
+a.link-button:focus {
+  background: #cfe8e0;
+}
+
 .mono {
   font-family: "Fira Mono", "DejaVu Sans Mono", Menlo, Consolas, "Liberation Mono", Monaco, "Lucida Console", monospace;
 }
