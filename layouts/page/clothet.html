@@ -1,0 +1,29 @@
+{{ partial "header.html" . }}
+
+  <div class="container page-main">
+
+    {{ .Content }}
+
+    {{ range $.Site.Data.clothes }}
+      <section>
+        <ul>
+          {{ range . }}
+            <li><a href="{{ .url }}">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+  </div>
+
+  <div class="container page-footer">
+    <footer>
+      <ul>
+        <li><a href="{{ ref . "policy" }}">サイトポリシー</a></li>
+      </ul>
+    </footer>
+  </div>
+
+{{ partial "footer.html"}}
+
+
