@@ -1,103 +1,170 @@
 
 [[cloth]]
 name = "ぶかぶかニット"
-author = "mio"
+author = "mio3io"
 url = "https://booth.pm/ja/items/2309065"
 
 [[cloth]]
 name = "お花とフリルの水着セット"
-author = "mio"
+author = "mio3io"
 url = "https://booth.pm/ja/items/1934795"
 
 [[cloth]]
 name = "ストリートジャケット"
-author = ""
+author = "snori"
 url = "https://booth.pm/ja/items/2230427"
 
 [[cloth]]
 name = "オフショルワンピース"
-author = ""
+author = "木漏れ日の小物屋"
+boothPrefix = "sunnyf"
 url = "https://booth.pm/ja/items/2254768"
 
 [[cloth]]
 name = "アクティブパーカー"
-author = ""
+author = "アトリエORCA"
+boothPrefix = "atelierorca"
 url = "https://booth.pm/ja/items/2540465"
 
 [[cloth]]
 name = "テックジャケットスタイル"
-author = ""
+author = "ALCマート"
+boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2622996"
 
 [[cloth]]
 name = "ムーンライト / クラシックムーン"
-author = ""
-url = "https://woodapple.booth.pm/items/2660785"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/2660785"
+
+[[cloth]]
+name = "白きなこ"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/2673799"
 
 [[cloth]]
 name = "キュートセーラー"
-author = ""
+author = "紅雨の降る蒼"
+boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2254157"
 
 [[cloth]]
 name = "CoolWear"
-author = ""
+author = "紅雨の降る蒼"
+boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2546086"
 
-[[cloth]]
-name = "カジュアルパーカーセット"
-author = ""
-url = "https://booth.pm/ja/items/2254020"
 
 [[cloth]]
 name = "ライダースジャケットスタイル"
-author = ""
+author = "食寝遊「ku-.nel.asob」"
+boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2462407"
 
 [[cloth]]
 name = "スマートパンツスタイル"
-author = ""
+author = "食寝遊「ku-.nel.asob」"
+boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2285652"
 
 [[cloth]]
+name = "カジュアルパーカーセット"
+author = "食寝遊「ku-.nel.asob」"
+boothPrefix = "reichan355"
+url = "https://booth.pm/ja/items/2254020"
+
+[[cloth]]
 name = "オーバーオールセット"
-author = ""
+author = "食寝遊「ku-.nel.asob」"
+boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2294323"
 
 [[cloth]]
 name = "ファンシーパンツスタイル"
-author = ""
+author = "食寝遊「ku-.nel.asob」"
+boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2388041"
 
 [[cloth]]
 name = "3-way Casual Parka -HEAVY-"
-author = ""
+author = "P_Store"
+boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2508896"
+
+[[cloth]]
+name = "ポロシャツ&スカート"
+author = "アトリエORCA"
+url = "https://booth.pm/ja/items/2241653"
+
+[[cloth]]
+name = "ニットカーディガン"
+author = "アトリエORCA"
+url = "https://booth.pm/ja/items/2409867"
+
+[[cloth]]
+name = "メイド服"
+author = "seele"
+url = "https://booth.pm/ja/items/2533140"
+
+[[cloth]]
+name = "カジュアル・ウエア Casual Wear"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2327331"
+
+[[cloth]]
+name = "L_Punk Skirt Outfit"
+author = "IsA_Q"
+boothPrefix = "isaurq"
+url = "https://booth.pm/ja/items/2600108"
+
+[[cloth]]
+name = "ツーピース"
+author = "エネ_"
+boothPrefix = "ene-0919"
+url = "https://booth.pm/ja/items/2463260"
 
 
 [[nail]]
 name = "お正月ネイルチップ"
-author = "mio"
+author = "mio3io"
 url = "https://booth.pm/ja/items/2630051"
 
 [[nail]]
 name = "ウィンターネイル2020"
-author = ""
+author = "van-labo"
 url = "https://booth.pm/ja/items/2619157"
 
 [[nail]]
 name = "てんしなネイル"
-author = ""
+author = "van-labo"
 url = "https://booth.pm/ja/items/2564616"
 
 
 [[hair]]
 name = "ワンサイドロングヘアー"
-author = ""
+author = "snori"
 url = "https://booth.pm/ja/items/2310161"
 
 [[hair]]
 name = "ポニーテール"
-author = ""
+author = "snori"
 url = "https://booth.pm/ja/items/2107705"
 
+[[hair]]
+name = "ツインテール&サイドテール"
+author = "エネ_"
+boothPrefix = "ene-0919"
+url = "https://booth.pm/ja/items/2422925"
+
+[[hair]]
+name = "ロングヘアー"
+author = "エネ_"
+boothPrefix = "ene-0919"
+url = "https://booth.pm/ja/items/2597531"
+
+[[hair]]
+name = "Side Tail　サイドテール"
+author = "Three Dots and a Dash"
+url = "https://booth.pm/ja/items/2559673"
