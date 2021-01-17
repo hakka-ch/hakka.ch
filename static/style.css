@@ -243,6 +243,11 @@ footer > ul {
 
 .imagelist > .image {
   height: 300px;
+  margin-bottom: 16px;
+}
+
+.imagelist > .image:last-of-type {
+  margin-bottom: 0;
 }
 
 .image__contents {

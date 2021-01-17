@@ -6,6 +6,7 @@
     {{ .Content }}
   <!-- </section> -->
   {{ end }}
+  {{ if ne (len .Pages) 0 }}
   <section>
     <ul class="postlist">
     {{ range .Pages }}
@@ -20,5 +21,6 @@
     {{ end }}
     </ul>
   </section>
+  {{ end }}
 </div>
 {{ end }}
