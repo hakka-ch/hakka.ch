@@ -1,14 +1,21 @@
 {{/* gallery/list.html */}}
 {{ define "main" }}
 <div class="container page-main">
+  {{ if ne (len .Content) 0 }}
+  <!-- <section class="post-content"> -->
+    {{ .Content }}
+  <!-- </section> -->
+  {{ end }}
   <section>
-    <ul>
-    {{ range .RegularPages }}
-      <li>
-        <a href="{{ .Permalink }}">
-          {{ .Date.Format "2006-01-02" }} | {{ .Title }}
-          <img src="{{ $image := index (.Resources.ByType "image" ) 0 }}{{ $image.RelPermalink }}" alt="">
-        </a>
+    <ul class="postlist">
+    {{ range .Pages }}
+      <li class="post">
+        <div class="post__contents">
+          <figure class="post__contents__thumb">
+            <div style="background: center / contain no-repeat url('{{ $image := index (.Resources.ByType "image" ) 0 }}{{ ($image.Fit "200x300").RelPermalink }}');">
+          </figure>
+          <div class="post__content__body"><a href="{{ (.Permalink) }}">{{ .Date.Format "2006-01-02" }} | {{ .Title }}</a></div>
+        </div>
       </li>
     {{ end }}
     </ul>

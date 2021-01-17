@@ -8,9 +8,16 @@
   {{ end }}
   {{ if .Params.autoImageList }}
   <section>
+    <div class="imagelist">
     {{ range .Resources.ByType "image" }}
-    <img src="{{ .RelPermalink }}">
+      <div class="image">
+        <div class="image__contents">
+          <div class="image__body" style="background-image: url({{ (.Fit "1920x1080 q80").RelPermalink }}"></div>
+          <div class="image__desc"></div>
+        </div>
+      </div>
     {{ end }}
+    </div>
   </section>
   {{ end }}
 </div>
