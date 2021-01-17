@@ -1,0 +1,17 @@
+{{/* gallery/list.html */}}
+{{ define "main" }}
+<div class="container page-main">
+  <section>
+    <ul>
+    {{ range .RegularPages }}
+      <li>
+        <a href="{{ .Permalink }}">
+          {{ .Date.Format "2006-01-02" }} | {{ .Title }}
+          <img src="{{ $image := index (.Resources.ByType "image" ) 0 }}{{ $image.RelPermalink }}" alt="">
+        </a>
+      </li>
+    {{ end }}
+    </ul>
+  </section>
+</div>
+{{ end }}

@@ -140,6 +140,10 @@ section li {
   margin-bottom: 0.25em;
 }
 
+section img {
+  width: 90%;
+}
+
 section:nth-child(1) {
   /*margin-top: -32px;*/
 }

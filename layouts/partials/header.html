@@ -1,22 +1,12 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>薄荷ちゃ！！</title>
-  <link rel="stylesheet" href="{{ "style.css" | relURL }}">
-  <script type="text/javascript" async src="https://platform.twitter.com/widgets.js"></script>
-</head>
-<body>
-  <div class="container page-header{{ if not .Params.BigPageHeader }}--close{{ end }}">
-    <header class="header">
-      <div class="header__title">
-        {{ if .Params.TitleHideLink }}<h1 onclick="location.href='{{ ref . "2.html" }}'">薄荷ちゃ！！</h1>{{ else }}
-        <h1>薄荷ちゃ！！</h1>{{ end }}
-        <div class="share">
-          <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=%E8%96%84%E8%8D%B7%E3%81%A1%E3%82%83&url=http://hakka.ch">Tweet</a>
-        </div>
-      </div>
-    </header>
 
-  </div>
+<div class="container page-header{{ if not .Params.BigPageHeader }}--close{{ end }}">
+  <header class="header">
+    <div class="header__title">
+      {{ if .Params.TitleHideLink }}<h1 onclick="location.href='{{ ref . "2.html" }}'">薄荷ちゃ！！</h1>{{ else }}
+      <h1>薄荷ちゃ！！</h1>{{ end }}
+      <div class="share">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=%E8%96%84%E8%8D%B7%E3%81%A1%E3%82%83&url=http://hakka.ch">Tweet</a>
+      </div>
+    </div>
+  </header>
+</div>

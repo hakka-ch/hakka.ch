@@ -1,17 +1,9 @@
-{{ partial "header.html" . }}
-
+{{/* page/single.html */}}
+{{ define "main" }}
   <div class="container page-main">
 
     {{ .Content }}
 
   </div>
 
-  <div class="container page-footer">
-    <footer>
-      <ul>
-        <li><a href="{{ ref . "policy" }}">サイトポリシー</a></li>
-      </ul>
-    </footer>
-  </div>
-
-{{ partial "footer.html"}}
+{{ end }}
