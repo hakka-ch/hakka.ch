@@ -24,7 +24,7 @@ hugo
 `/data/clothes.toml` を編集してビルドする必要があります。
 フォーマットは以下の通りです。
 
-```
+```toml
 [[カテゴリー]]
 name = "服/アクセサリーのなまえ"
 author = "著作者"
@@ -42,5 +42,10 @@ url = "入手できる URL"
 
 
 ### 「ギャラリー」の更新
-どうやっていこうかまだ考えてません。
 
+```
+hugo new --kind gallery-bundle gallery/{name}
+```
+
+`{name}` フォルダが `content/gallery/` 以下に生成されます。
+このなかに画像を配置すると自動でリスト化されます。
