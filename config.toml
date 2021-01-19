@@ -1,3 +1,9 @@
 baseURL = ""
 languageCode = "ja-jp"
 title = "薄荷ちゃ"
+
+defaultContentLanguage = "ja"
+hasCJKLanguage = true
+
+enableRobotsTXT = true
+
