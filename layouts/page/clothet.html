@@ -5,9 +5,22 @@
 
     {{ range $.Site.Data.clothes }}
       <section>
-        <ul>
+        <ul class="clothet">
           {{ range . }}
-            <li><a target="_blank" href="{{ .url }}">{{ .name }}</a></li>
+          {{ $json := getJSON (printf "http://localhost:4040/getogp?%s" (querify "url" .url)) }}
+          {{ $ogpimage := resources.Get $json.ogp_image }}
+            <li class="clothet__item" data-key="{{ .name }} {{ .author }}">
+              <div class="item__image">
+                <div style="background-image: url({{ ($ogpimage.Resize "150x").RelPermalink }});" loading="lazy"></div>
+                {{/*<img src="{{ ($ogpimage.Resize "150x").RelPermalink }}" loading="lazy" draggable="false" >*/}}
+              </div>
+              <div class="item__name">
+                <a target="_blank" href="{{ .url }}"><span>{{ .name }}</span></a>
+              </div>
+              <div class="item__author">
+                <span>{{ .author }}</span>
+              </div>
+            </li>
           {{ end }}
         </ul>
       </section>
