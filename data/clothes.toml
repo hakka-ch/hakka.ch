@@ -3,52 +3,54 @@
 name = "ぶかぶかニット"
 author = "mio3io"
 url = "https://booth.pm/ja/items/2309065"
+style = "casual"
 
 [[cloth]]
 name = "お花とフリルの水着セット"
 author = "mio3io"
 url = "https://booth.pm/ja/items/1934795"
+style = "swimsuit"
 
 [[cloth]]
 name = "ストリートジャケット"
 author = "snori"
 url = "https://booth.pm/ja/items/2230427"
+style = "casualjacket"
 
 [[cloth]]
 name = "オフショルワンピース"
 author = "木漏れ日の小物屋"
 boothPrefix = "sunnyf"
 url = "https://booth.pm/ja/items/2254768"
-
-[[cloth]]
-name = "アクティブパーカー"
-author = "アトリエORCA"
-boothPrefix = "atelierorca"
-url = "https://booth.pm/ja/items/2540465"
+style = "casual"
 
 [[cloth]]
 name = "テックジャケットスタイル"
 author = "ALCマート"
 boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2622996"
+style = "casualjacket"
 
 [[cloth]]
 name = "ムーンライト / クラシックムーン"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2660785"
+style = "kawaii"
 
 [[cloth]]
 name = "白きなこ"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2673799"
+style = "kawaii"
 
 [[cloth]]
 name = "キュートセーラー"
 author = "紅雨の降る蒼"
 boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2254157"
+style = "Sailor"
 
 [[cloth]]
 name = "CoolWear"
@@ -94,6 +96,12 @@ boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2508896"
 
 [[cloth]]
+name = "アクティブパーカー"
+author = "アトリエORCA"
+boothPrefix = "atelierorca"
+url = "https://booth.pm/ja/items/2540465"
+
+[[cloth]]
 name = "ポロシャツ&スカート"
 author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2241653"
@@ -109,9 +117,39 @@ author = "seele"
 url = "https://booth.pm/ja/items/2533140"
 
 [[cloth]]
+name = "ナース／Nurse Outfit"
+author = "seele"
+url = "https://booth.pm/ja/items/2280235"
+
+[[cloth]]
 name = "カジュアル・ウエア Casual Wear"
 author = "ハルカップ麺"
 url = "https://booth.pm/ja/items/2327331"
+
+[[cloth]]
+name = "バニースーツ"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2265589"
+
+[[cloth]]
+name = "スタイリッシュ・パッフィー Stylish Puffy"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2251017"
+
+[[cloth]]
+name = "シンプル・クラシックス || Simple Classics"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2358151"
+
+[[cloth]]
+name = "ハッピーハロウィン"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2478136"
+
+[[cloth]]
+name = "魔法剣士風衣装"
+author = "洋灰色のおみせ"
+url = "https://booth.pm/ja/items/2672053"
 
 [[cloth]]
 name = "L_Punk Skirt Outfit"
@@ -120,10 +158,100 @@ boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2600108"
 
 [[cloth]]
+name = "LL_Boy style suit"
+author = "IsA_Q"
+url = "https://booth.pm/ja/items/2583799"
+
+[[cloth]]
+name = "Chu Chu ワンピース"
+author = "IsA_Q"
+url = "https://booth.pm/ja/items/2347703"
+
+[[cloth]]
 name = "ツーピース"
 author = "エネ_"
 boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2463260"
+
+[[cloth]]
+name = "CROP TOP & JEANS"
+author = "JIHA"
+url = "https://booth.pm/ja/items/2537716"
+
+[[cloth]]
+name = "Dream Rabbit"
+author = "JIHA"
+url = "https://booth.pm/ja/items/2364667"
+
+[[cloth]]
+name = "オフショルダー＆スカート"
+author = "ふぉいショップ"
+url = "https://booth.pm/ja/items/2590672"
+
+[[cloth]]
+name = "リボンワンピース＆カーディガン"
+author = "ふぉいショップ"
+url = "https://booth.pm/ja/items/2677004"
+
+[[cloth]]
+name = "パーカーシャツ＆ショートパンツ"
+author = "ふぉいショップ"
+url = "https://booth.pm/ja/items/2654391"
+
+[[cloth]]
+name = "ハイスクールセーラー服"
+author = "OwObits"
+url = "https://booth.pm/ja/items/1699116"
+
+[[cloth]]
+name = "Just Pajamas!! パジャマワンピース"
+author = "OwObits"
+url = "https://booth.pm/ja/items/1830547"
+
+[[cloth]]
+name = "ねここーと"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/2623037"
+
+[[cloth]]
+name = "体操服"
+author = "agape_love"
+url = "https://booth.pm/ja/items/2373629"
+
+[[cloth]]
+name = "クロップセーラー服"
+author = "Popapi"
+url = "https://booth.pm/ja/items/2629841"
+
+[[cloth]]
+name = "少女用ワンピース"
+author = "Popapi"
+url = "https://booth.pm/ja/items/2507155"
+
+[[cloth]]
+name = "ジーンズ/ジャンパー/ジャッケット"
+author = "kazawappa"
+url = "https://booth.pm/ja/items/2655512"
+
+[[cloth]]
+name = "ライダースジャケットスタイル追加パンクテクスチャセット"
+author = "にゅにゅにゅぱれ～ど！通販"
+url = "https://booth.pm/ja/items/2463170"
+
+[[cloth]]
+name = "ファンシーパンツスタイルのハロウィンテクスチャ"
+author = "にゅにゅにゅぱれ～ど！通販"
+url = "https://booth.pm/ja/items/2424769"
+
+[[cloth]]
+name = "uniform/制服/제복"
+author = "Three Dots and a Dash"
+url = "https://booth.pm/ja/items/2654513"
+
+[[cloth]]
+name = "薄荷ちゃんツーピース & メリージェーン / Hakka's TwoPiece & MeryJane"
+author = "DiBi's Factory"
+url = "https://booth.pm/ja/items/2405969"
 
 
 [[nail]]
@@ -153,6 +281,26 @@ author = "snori"
 url = "https://booth.pm/ja/items/2107705"
 
 [[hair]]
+name = "ツインテール"
+author = "snori"
+url = "https://booth.pm/ja/items/2470594"
+
+[[hair]]
+name = "サイドポニーテール - Side Ponytail"
+author = "seele"
+url = "https://booth.pm/ja/items/2416867"
+
+[[hair]]
+name = "ショートヘアA型 - Short Hair"
+author = "seele"
+url = "https://booth.pm/ja/items/2648648"
+
+[[hair]]
+name = "ハーフツイン - Half Twintail"
+author = "seele"
+url = "https://booth.pm/ja/items/2576518"
+
+[[hair]]
 name = "ツインテール&サイドテール"
 author = "エネ_"
 boothPrefix = "ene-0919"
@@ -168,3 +316,9 @@ url = "https://booth.pm/ja/items/2597531"
 name = "Side Tail　サイドテール"
 author = "Three Dots and a Dash"
 url = "https://booth.pm/ja/items/2559673"
+
+[[hair]]
+name = "ショート・クリップ・ヘア || Short Clip Hair"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2492285"
+
