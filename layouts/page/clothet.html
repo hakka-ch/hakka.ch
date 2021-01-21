@@ -6,9 +6,16 @@
     {{ range $.Site.Data.clothes }}
       <section>
         <ul class="clothet">
-          {{ range . }}
-          {{ $json := getJSON (printf "http://localhost:4040/getogp?%s" (querify "url" .url)) }}
-          {{ $ogpimage := resources.Get $json.ogp_image }}
+        {{ range . }}
+          {{ $json := getJSON (printf $.Site.Params.ogpParserURL (querify "url" .url)) }}
+
+          {{ if eq (index $json "status") "ok" }}
+          {{ $ogpimage := resources.Get $json.local_ogp_image_path }}
+
+          {{/* $og_image := index (index $json.ogp "og:image") 0 */}}
+          {{/* $image_path := (urls.Parse $og_image).Path */}}
+          {{/* $image_path_split := strings.Split $image_path "/" */}}
+          {{/* $ogpImage := resources.Get (printf "ogp_image/%s" (index $image_path_split (add (len $image_path_split) -1) ) ) */}}
             <li class="clothet__item" data-key="{{ .name }} {{ .author }}">
               <div class="item__image">
                 <div style="background-image: url({{ ($ogpimage.Resize "150x").RelPermalink }});" loading="lazy"></div>
@@ -21,7 +28,10 @@
                 <span>{{ .author }}</span>
               </div>
             </li>
-          {{ end }}
+          {{ else }}
+            <!-- {{ .name }} {{ .url }} -->
+          {{end}}
+        {{ end }}
         </ul>
       </section>
     {{ end }}

@@ -7,3 +7,5 @@ hasCJKLanguage = true
 
 enableRobotsTXT = true
 
+[params]
+  ogpParserURL = "http://localhost:4040/getogp?%s"
