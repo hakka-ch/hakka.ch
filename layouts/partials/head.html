@@ -1,4 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>薄荷ちゃ！！</title>
-<link rel="stylesheet" href="{{ "style.css" | relURL }}">
+{{- $scss := resources.Get "style/style.scss" -}}
+{{- $style := $scss | resources.ToCSS -}}
+<link rel="stylesheet" href="{{ $style.Permalink }}">
