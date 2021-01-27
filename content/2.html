@@ -17,7 +17,10 @@ hidePageFooter: true
       </div>
     </div>
     <div class="header__image">
-      {{< figure src="/images/hakka_happy2.png">}}
+      <picture>
+        <source srcset="/images/hakka_happy2.webp" type="image/webp">
+        <img src="/images/hakka_happy2.png" alt="Hakka Chang">
+      </picture>
     </div>
   </header>
 </div>
@@ -27,6 +30,7 @@ hidePageFooter: true
     <h2><ruby>薄荷<rp>(</rp><rt>はっか</rt><rp>)</ruby>ちゃん</h2>
     <a class="link-button" href="https://mio3works.booth.pm/items/2215270">お迎え</a>
     <a class="link-button" href="{{< ref "clothet.html" >}}">くろーぜっと</a>
+    <a class="link-button" href="{{< ref "extra/" >}}">えくすとら</a>
     <a class="link-button" href="{{< ref "gallery" >}}">ギャラリー</a>
   </section>
 </div>
