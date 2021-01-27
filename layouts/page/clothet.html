@@ -1,25 +1,30 @@
-{{ define "main" }}
+{{- define "main" -}}
+{{- $enableOGP := true -}}
   <div class="container page-main">
 
-    {{ .Content }}
+    {{- .Content -}}
 
-    {{ range $.Site.Data.clothes }}
-      <section>
-        <ul class="clothet">
-        {{ range . }}
-          {{ $json := getJSON (printf $.Site.Params.ogpParserURL (querify "url" .url)) }}
-
-          {{ if eq (index $json "status") "ok" }}
-          {{ $ogpimage := resources.Get $json.local_ogp_image_path }}
-
-          {{/* $og_image := index (index $json.ogp "og:image") 0 */}}
-          {{/* $image_path := (urls.Parse $og_image).Path */}}
-          {{/* $image_path_split := strings.Split $image_path "/" */}}
-          {{/* $ogpImage := resources.Get (printf "ogp_image/%s" (index $image_path_split (add (len $image_path_split) -1) ) ) */}}
-            <li class="clothet__item" data-key="{{ .name }} {{ .author }}">
+    <section>
+      <div class="search">
+        簡易検索 <input type="text" class="searchItems">
+      </div>
+      <ul class="clothet">
+    {{- range $key, $val := $.Site.Data.clothes }}
+      {{- range . -}}
+        {{- if $enableOGP -}}
+          {{- $json := getJSON (printf $.Site.Params.ogpParserURL (querify "url" .url)) -}}
+          {{- if eq (index $json "status") "ok" -}}
+            {{- $ogpimage := resources.Get $json.local_ogp_image_path -}}
+            {{/* $og_image := index (index $json.ogp "og:image") 0 */}}
+            {{/* $image_path := (urls.Parse $og_image).Path */}}
+            {{/* $image_path_split := strings.Split $image_path "/" */}}
+            {{/* $ogpImage := resources.Get (printf "ogp_image/%s" (index $image_path_split (add (len $image_path_split) -1) ) ) */}}
+            <li class="clothet__item" data-category="{{ $key }}" data-key="{{ $key }} {{ .name }} {{ .author }} {{ .style }}">
               <div class="item__image">
-                <div style="background-image: url({{ ($ogpimage.Resize "150x").RelPermalink }});" loading="lazy"></div>
+                {{- if $ogpimage -}}
+                  <div style="background-image: url({{ ($ogpimage.Resize "150x").RelPermalink }});" loading="lazy"></div>
                 {{/*<img src="{{ ($ogpimage.Resize "150x").RelPermalink }}" loading="lazy" draggable="false" >*/}}
+                {{- end -}}
               </div>
               <div class="item__name">
                 <a target="_blank" href="{{ .url }}"><span>{{ .name }}</span></a>
@@ -28,13 +33,55 @@
                 <span>{{ .author }}</span>
               </div>
             </li>
-          {{ else }}
-            <!-- {{ .name }} {{ .url }} -->
-          {{end}}
-        {{ end }}
-        </ul>
-      </section>
-    {{ end }}
+          {{- else -}}
+            <li style="display: none; visibility: hidden;">{{ .name }} {{ .url }}</li>
+          {{- end -}}
+        {{- end -}}
+      {{- end -}}
+    {{- end -}}
+      </ul>
+    </section>
 
   </div>
-{{ end }}
+  <script>
+    const itemsEle = document.querySelectorAll('.clothet__item');
+    const itemsArr = Array.from(itemsEle);
+
+    function findItems (word) {
+      word = word.toLowerCase();
+      const found = itemsArr.filter(function (e, i) {
+        if (e.dataset.key.toLowerCase().indexOf(word) >= 0) {
+          e.style.order = 1 + i;
+          return true;
+        } else {
+          e.style.order = itemsArr.length + i;
+          return false;
+        }
+      });
+      return found;
+    }
+
+    function sortItems (ascOrder, by) {
+      by = by ? by : 'name';
+      const sorted = itemsArr.sort(function (a, b) {
+        const sort = ascOrder ? 1 : -1;
+        aName = a.querySelector('.item__' + by + ' span');
+        bName = b.querySelector('.item__' + by + ' span');
+        if (aName.innerText > bName.innerText) {
+          return sort;
+        }
+        if (aName.innerText < bName.innerText) {
+          return - sort;
+        }
+      });
+      sorted.forEach(function (e, i) {
+        e.style.order = i + 1;
+      });
+      return sorted;
+    }
+
+    document.querySelector('input.searchItems').addEventListener('input', function (e) {
+      findItems(e.target.value);
+    }, false);
+  </script>
+{{- end -}}

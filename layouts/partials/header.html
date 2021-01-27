@@ -3,7 +3,7 @@
   <header class="header">
     <div class="header__title">
       {{ if .Params.TitleHideLink }}<h1 onclick="location.href='{{ ref . "2.html" }}'">薄荷ちゃ！！</h1>{{ else }}
-      <h1>薄荷ちゃ！！</h1>{{ end }}
+      <h1><a href="{{ ref . "/" }}">薄荷ちゃ！！</a></h1>{{ end }}
       <div class="share">
         <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=%E8%96%84%E8%8D%B7%E3%81%A1%E3%82%83&url=http://hakka.ch">Tweet</a>
       </div>

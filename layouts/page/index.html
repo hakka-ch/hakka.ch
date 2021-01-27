@@ -2,13 +2,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  {{ partial "head.html" . }}
+  {{- partial "head.html" . -}}
 </head>
 <body>
-  {{ .Content }}
-  {{ if .Params.hidePageFooter }}
-  {{ partial "footer.html" . }}
-  {{ end }}
+  {{- .Content -}}
+  {{- if .Params.hidePageFooter -}}
+  {{- partial "footer.html" . -}}
+  {{- end -}}
   <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>
