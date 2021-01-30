@@ -59,6 +59,12 @@ url = "https://booth.pm/ja/items/2673799"
 style = "kawaii"
 
 [[cloth]]
+name = "Valentinecostume"
+author = "紅雨の降る蒼"
+boothPrefix = "kouuao"
+url = "https://booth.pm/ja/items/2708125"
+
+[[cloth]]
 name = "キュートセーラー"
 author = "紅雨の降る蒼"
 boothPrefix = "kouuao"
@@ -132,6 +138,25 @@ name = "ニットカーディガン"
 author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2409867"
 style = "knit"
+
+[[cloth]]
+name = "ワンショルダーシャツ"
+author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/2710521"
+
+[[cloth]]
+name = "ウインターコート Winter Coat&Boots"
+author = "Days"
+boothPrefix = "dibifactory"
+url = "https://booth.pm/ja/items/2709860"
+style = "coat"
+
+[[cloth]]
+name = "ツーピース & メリージェーン / Hakka's TwoPiece & MeryJane"
+author = "Days"
+url = "https://booth.pm/ja/items/2405969"
+style = "twopiece"
 
 [[cloth]]
 name = "メイド服"
@@ -259,7 +284,7 @@ url = "https://booth.pm/ja/items/1830547"
 name = "ねここーと"
 author = "かぷちやのぶーす"
 url = "https://booth.pm/ja/items/2623037"
-style = "cort winter"
+style = "coat winter"
 
 [[cloth]]
 name = "体操服"
@@ -304,12 +329,6 @@ url = "https://booth.pm/ja/items/2654513"
 style = ""
 
 [[cloth]]
-name = "ツーピース & メリージェーン / Hakka's TwoPiece & MeryJane"
-author = "DiBi's Factory"
-url = "https://booth.pm/ja/items/2405969"
-style = "twopiece"
-
-[[cloth]]
 name = "hakka-tech"
 author = "RyGrK　WebShop"
 boothPrefix = 'rygrk888ggg'
@@ -317,8 +336,15 @@ url = "https://booth.pm/ja/items/2691165"
 style = "parka"
 
 [[cloth]]
+name = "シンプルなシャツ"
+author = "yukonkon3"
+boothPrefix = "yukonkon"
+url = "https://booth.pm/ja/items/2711792"
+
+[[cloth]]
 name = "シンプルビキニ"
 author = "yukonkon3"
+boothPrefix = "yukonkon"
 url = "https://booth.pm/ja/items/2300252"
 
 [[cloth]]
