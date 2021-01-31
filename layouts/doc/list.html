@@ -1,0 +1,29 @@
+{{/* doc/list.html */}}
+{{ define "main" }}
+<div class="container page-main">
+  {{ if ne (len .Content) 0 }}
+  <!-- <section class="post-content"> -->
+    {{ .Content }}
+  <!-- </section> -->
+  {{ end }}
+  {{ if ne (len .Pages) 0 }}
+  <section>
+    <ul class="postlist">
+    {{ range .Pages }}
+      <li class="post">
+        <div class="post__contents">
+          <figure class="post__contents__thumb">
+            <div style="background: center / contain no-repeat url('{{ $image := index (.Resources.ByType "image" ) 0 }}{{ ($image.Fit "200x300").RelPermalink }}');">
+          </figure>
+          <div class="post__contents__body">
+            <a href="{{ (.Permalink) }}">{{ .Title }}</a>
+            <div class="date">{{ .Date.Format "2006-01-02" }}</div>
+          </div>
+        </div>
+      </li>
+    {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+</div>
+{{ end }}

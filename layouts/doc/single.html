@@ -1,0 +1,14 @@
+{{/* doc/single.html */}}
+{{ define "main" }}
+<div class="container page-main">
+  <article>
+    <header class="post-header">
+      <h2>{{ .Title }}</h2>
+      <div class="date">{{ .Date.Format "2006-01-02" }}</div>
+    </header>
+    <section class="post-content">
+      {{ .Content }}
+    </section>
+  </article>
+</div>
+{{ end }}

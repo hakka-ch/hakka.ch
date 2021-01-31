@@ -1,0 +1,22 @@
+{{/* gallery/baseof.html */}}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ .Title }} | 薄荷ちゃ！！</title>
+  {{- $scss := resources.Get "style/style.scss" -}}
+  {{- $style := $scss | resources.ToCSS | resources.Minify -}}
+  <link rel="stylesheet" href="{{ $style.Permalink }}">
+  {{ partial "ogtag.html" .}}
+</head>
+<body>
+  {{ partial "header.html" .}}
+  {{ block "main" . }}
+  {{ end }}
+  {{ block "footer" . }}
+  {{ end }}
+  {{ partial "footer.html" .}}
+  <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>
+</body>
+</html>
