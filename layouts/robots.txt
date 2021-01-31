@@ -1,0 +1,11 @@
+User-agent: Googlebot-Image
+Disallow: /
+
+User-agent: *
+{{- range .Site.Sections }}
+Disallow: {{ .RelPermalink }}
+{{- end }}
+Allow: {{ .Site.Home.RelPermalink }}
+
+User-agent: Twitterbot
+Allow: /

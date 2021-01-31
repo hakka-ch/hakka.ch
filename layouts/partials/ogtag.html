@@ -1,0 +1,31 @@
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{- if .Title }}
+<meta property="og:title" content="{{ .Title }}">
+{{- end }}
+<!-- <meta property="image" content=""> -->
+{{- if and .Description (not .IsHome) }}
+<meta property="og:description" content="{{ .Description }}">
+{{- else if and .Summary (not .IsHome) }}
+<meta property="og:description" content="{{ .Summary }}">
+{{- else -}}
+<meta property="og:description" content="{{ .Site.Params.description }}">
+{{- end -}}
+{{- if .IsHome -}}
+<meta property="og:type" content="website">
+{{- else -}}
+<meta property="og:type" content="article">
+{{- end -}}
+{{- if .Title -}}
+<meta name="twitter:title" content="{{ .Title }}">
+{{- else -}}
+<meta name="twitter:title" content="{{ .Site.Title }}">
+{{- end -}}
+{{- if and .Description (not .IsHome) -}}
+<meta name="twitter:description" content="{{ .Description }}">
+{{- else if and .Summary (not .IsHome) -}}
+<meta name="twitter:description" content="{{ .Summary }}">
+{{- else -}}
+<meta name="twitter:description" content="{{ .Site.Params.description }}">
+{{- end -}}
+<meta name="twitter:card" content="summary">

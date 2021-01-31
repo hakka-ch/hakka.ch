@@ -3,13 +3,14 @@
 <html>
 <head>
   {{- partial "head.html" . -}}
+  {{- partial "ogtag.html" . -}}
 </head>
 <body>
   {{- .Content -}}
   {{- if .Params.hidePageFooter -}}
   {{- partial "footer.html" . -}}
   {{- end -}}
-  {{- $twTextGen := resources.Get "js/shareTextGen.js" | js.Build -}}
+  {{- $twTextGen := resources.Get "js/shareTextGen.js" | js.Build | resources.Minify -}}
   <script type="text/javascript" src="{{ $twTextGen.RelPermalink }}"></script>
   <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>
 </body>
