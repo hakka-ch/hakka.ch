@@ -112,6 +112,10 @@ author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2388041"
 
+[[cloth]]
+name = "きょうりゅうパーカー"
+author = "3D WORKSHOP「びたんさんぽっど」"
+url = "https://booth.pm/ja/items/2668311"
 
 [[cloth]]
 name = "3-way Casual Parka -HEAVY-"
@@ -183,6 +187,16 @@ url = "https://booth.pm/ja/items/2371807"
 name = "ストリートジャージ／Street Jersey"
 author = "seele"
 url = "https://booth.pm/ja/items/2373843"
+
+[[cloth]]
+name = "例のセーター - Open Back Sweater"
+author = "seele"
+url = "https://seele.booth.pm/items/2535454"
+
+[[cloth]]
+name = "例のセーターB型 - Open-Chest Sweater"
+author = "seele"
+url = "https://seele.booth.pm/items/2711389"
 
 [[cloth]]
 name = "カジュアル・ウエア Casual Wear"
@@ -329,6 +343,11 @@ url = "https://booth.pm/ja/items/2654513"
 style = ""
 
 [[cloth]]
+name = "水着モデルと思い出のジャージ"
+author = "仮想人形商店２号店"
+url = "https://booth.pm/ja/items/2590283"
+
+[[cloth]]
 name = "hakka-tech"
 author = "RyGrK　WebShop"
 boothPrefix = 'rygrk888ggg'
@@ -351,6 +370,11 @@ url = "https://booth.pm/ja/items/2300252"
 name = "専用衣装"
 author = "nedrive"
 url = "https://booth.pm/ja/items/2367960"
+
+[[cloth]]
+name = "クリスマス服"
+author = "kazawappa"
+url = "https://booth.pm/ja/items/2627733"
 
 
 [[nail]]
@@ -432,3 +456,8 @@ name = "Cosmic ray ネックレス"
 author = "mio3io"
 boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2703709"
+
+[[shoes]]
+name = "-tech midcut shoes"
+author = "RyGrK　WebShop"
+url = "https://booth.pm/ja/items/2660920"
