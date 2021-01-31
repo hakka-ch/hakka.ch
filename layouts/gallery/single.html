@@ -12,7 +12,7 @@
     {{ range .Resources.ByType "image" }}
       <div class="image">
         <div class="image__contents">
-          <div class="image__body" style="background-image: url({{ (.Fit "1920x1080 q80").RelPermalink }}"></div>
+          <div class="image__body" style="background-image: url({{ (.Fit "1920x1080 q80").RelPermalink }})"></div>
           <div class="image__desc"></div>
         </div>
       </div>
