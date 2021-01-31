@@ -43,6 +43,6 @@
     </section>
 
   </div>
-{{- $searchClothet := resources.Get "js/searchClothet.js" | js.Build -}}
+{{- $searchClothet := resources.Get "js/searchClothet.js" | js.Build | resources.Minify -}}
 <script type="text/javascript" src="{{ $searchClothet.RelPermalink }}"></script>
 {{- end -}}
