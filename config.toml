@@ -5,7 +5,10 @@ title = "薄荷ちゃ"
 defaultContentLanguage = "ja"
 hasCJKLanguage = true
 
+disableKinds = ["taxonomy","term"]
+
 enableRobotsTXT = true
 
 [params]
   ogpParserURL = "http://localhost:4040/getogp?%s"
+  description = "薄荷ちゃん"
