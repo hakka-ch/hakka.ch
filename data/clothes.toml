@@ -258,6 +258,11 @@ boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2463260"
 
 [[cloth]]
+name = "トレーニングウェア"
+author = "JIHA"
+url = "https://booth.pm/ja/items/2717292"
+
+[[cloth]]
 name = "CROP TOP & JEANS"
 author = "JIHA"
 url = "https://booth.pm/ja/items/2537716"
