@@ -29,7 +29,7 @@ draft: false
 
 == まばたきとリップシンク
 
-まばたきやリップシンクの設定は `VRC Avatar Descripter` と呼ばれるスクリプトで設定しています。
+まばたきやリップシンクの設定は `VRC Avatar Descriptor` と呼ばれるスクリプトで設定しています。
 VRChat向けアバターでは必須のスクリプトであり、薄荷ちゃんのプレハブではルートオブジェクトにくっついているスクリプトです。
 同時に、`Pipline Manager` と呼ばれるスクリプトによって、アバターのID（BluePrintID）を記録しており、アバターの識別を行なっています。
 
@@ -39,7 +39,7 @@ VRChat向けアバターでは必須のスクリプトであり、薄荷ちゃ�
 
 === 薄荷ちゃんのアニメーションコントローラー
 
-表情の変更は、VRSDK3.0 （Avatars 3.0）の環境では、Animation Controllerによって表情の遷移を記述することで実現していますfootnote:[Animation Controllerそのものの解説はここではしません。ねこますさんの記事が完結にまとまっていて参考になるかと思います。「 https://qiita.com/Nekomasu/items/ec6ccfface59c847bc94[UnityのAnimationControllerの簡易的な解説」] ]。
+表情の変更は、VRSDK3.0 （Avatars 3.0）の環境では、Animation Controllerによって表情の遷移を記述することで実現していますfootnote:[Animation Controllerそのものの解説はここではしません。ねこますさんの記事が完結にまとまっていて参考になるかと思います。「 https://qiita.com/Nekomasu/items/ec6ccfface59c847bc94[UnityのAnimationControllerの簡易的な解説]」 ]。
 VRChatではControllerを `VRC Avatar Descripter` に関連付けることで表情を制御しています（薄荷ちゃんの場合は服装の変更なども）。
 
 薄荷ちゃんの表情制御のAnimation Controllerは、標準の状態では、`Animations/Controllers/Hakka_FX.controller` です。
@@ -77,11 +77,26 @@ image::vrcatc.png[align="center"]
 テストビルドをし、表情を変えてしゃべったときにリップシンクしたり、まばたき、目が動いていたら成功です。
 `VRC Animator Tracking Control` を設定することにより、表情変更時にもまばたきとリップシンクが機能するようになりました。
 
+
 == まとめ
 
 `VRC Animator Tracking Control` を適切に設定することでまばたきとリップシンクを機能するようにできました。
 
 表情を固定して遊ぶ方法もあるので、固定するジェスチャーとそうでないジェスチャーを設定してみるのもいいかもしれません。
+
+
+== 追記 表情の破綻について
+
+mio3ioさんから、このようなコメントを頂きました。
+
++++
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Tipsサイトになってる…🤔ちなみに薄荷の顔トラは表情によっては破綻する場合があるため故意に止めているので、トラッキング解除する場合は破綻しないかを確認しながらやってみてくださいね！</p>&mdash; mio🐿️クロマケ2 (@mio3io) <a href="https://twitter.com/mio3io/status/1356099306961334272?ref_src=twsrc%5Etfw">February 1, 2021</a></blockquote>
++++
+
+表情によっては破綻する場合があるようです（憶測ですが、同じ部位をちがうBlendShapeで動かす際に破綻しそうです。目を閉じているのにまばたきしようとしたり、口を閉じているのにリップシンクで口を動かそうとしたりする時なんかは怪しいですね。そのうち調査したいと思います）。
+テストビルドでは一時的にまばたきの頻度を高めるなどして破綻がないか確認しながら調整するといいと思われます。
+まばたきの頻度は `VRC Avatar Descriptor` の `Eye Look > General > Eye Movements > Calm - Excited`
+をExcited側に設定することでまばたきの頻度を高めることができます。
 
 
 == 参考
