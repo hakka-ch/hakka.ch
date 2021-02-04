@@ -7,5 +7,5 @@ draft: false
 
   {{< youtube KgIpYpdgfaY >}}
 
-
+  {{< ogp "https://vrchat.com/home/world/wrld_37297c0d-a10b-419a-9398-b1c71347b3ab" >}}
   <!-- https://shindanmaker.com/1043899 -->
