@@ -4,7 +4,8 @@
   <article>
     <header class="post-header">
       <h2>{{ .Title }}</h2>
-      <div class="date">{{ .Date.Format "2006-01-02" }}</div>
+      <div class="date">Published: {{ .Date.Format "2006-01-02" }}</div>
+      <div class="lastmodDate">Last modified: {{ .Lastmod.Format "2006-01-02 15:04:05 -07" }}</div>
     </header>
     <section class="post-content">
       {{ .Content }}
