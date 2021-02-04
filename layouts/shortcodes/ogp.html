@@ -1,0 +1,27 @@
+{{- $URL := .Get 0 }}
+{{- $json := getJSON (printf $.Site.Params.ogpParserURL (querify "url" $URL)) -}}
+
+{{- if $json.ogp }}
+{{- $ogpimage := resources.Get $json.local_ogp_image_path -}}
+<div class="ogp-card">
+  <div class="ogp-card__contents">
+    <div class="ogp-card__title"><a href="{{ index ($json.ogp) "url" }}">{{ index ($json.ogp) "title" }}</a></div>
+    <div class="ogp-card__desc"><span>{{ index ($json.ogp) "description" }}</span></div>
+  </div>
+</div>
+{{- else if in $URL "vrchat.com/home/" }}
+{{- $ogpimage := resources.Get $json.local_ogp_image_path -}}
+<div class="ogp-card vrc">
+  <div class="ogp-card__contents">
+    <div class="ogp-card__image"><img src="{{ ($ogpimage.Resize "150x webp").RelPermalink }}" alt=""></div>
+    <div class="ogp-card__title"><a href="{{ $URL }}">{{ index (index ($json.seo) "twitter:title") 0 }}</a></div>
+    <div class="ogp-card__desc"><span>{{ index (index ($json.seo) "twitter:description") 0 }}</span></div>
+  </div>
+</div>
+{{- else if $json.seo }}
+<div class="ogp-card">
+  <div class="ogp-card__contents">
+    <div class="ogp-card__title"><a href="{{ $URL }}">{{ index $json "title" }}</a></div>
+  </div>
+</div>
+{{- end }}

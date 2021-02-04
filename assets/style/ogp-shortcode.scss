@@ -1,0 +1,26 @@
+.ogp-card {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: #feffff;
+
+  &__contents {
+    display: grid;
+    gap: .5rem;
+    grid-template-columns: 7rem 1fr;
+    grid-auto-flow: column;
+    // grid-template-rows: 7rem 1fr;
+
+    & > div:nth-child(n+2) {
+      grid-column-start: 2;
+      grid-column-end: 3;
+    }
+  }
+  &__image {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    img {
+      width: 7rem;
+    }
+  }
+
+}
