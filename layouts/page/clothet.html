@@ -1,8 +1,14 @@
 {{- define "main" -}}
 {{- $enableOGP := true -}}
   <div class="container page-main">
-
-    {{- .Content -}}
+    <article>
+    <header class="post-header">
+      <h2>{{ .Title }}</h2>
+      <div class="lastmodDate"><span>LastMod: {{ (os.Stat "data/clothes.toml").ModTime.Format "2006-01-02 15:04:05 MST" }}</span></div>
+    </header>
+    <section>
+      {{- .Content -}}
+    </section>
 
     <section>
       <div class="search">
@@ -27,6 +33,7 @@
                 {{- end -}}
               </div>
               <div class="item__name">
+                <!-- <div class="item__category">{{ $key }}</div> -->
                 <a target="_blank" href="{{ .url }}"><span>{{ .name }}</span></a>
               </div>
               <div class="item__author">
@@ -43,6 +50,7 @@
     </section>
 
   </div>
+  </article>
 {{- $searchClothet := resources.Get "js/searchClothet.js" | js.Build | resources.Minify -}}
 <script type="text/javascript" src="{{ $searchClothet.RelPermalink }}"></script>
 {{- end -}}
