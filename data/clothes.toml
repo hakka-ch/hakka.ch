@@ -235,6 +235,11 @@ author = "洋灰色のおみせ"
 url = "https://booth.pm/ja/items/2705680"
 
 [[cloth]]
+name = "平凡なTシャツ"
+author = "黒森"
+url = "https://booth.pm/ja/items/2718863"
+
+[[cloth]]
 name = "L_Punk Skirt Outfit"
 author = "IsA_Q"
 boothPrefix = "isaurq"
@@ -312,6 +317,12 @@ url = "https://booth.pm/ja/items/2373629"
 style = "sports uniform"
 
 [[cloth]]
+name = "한복 Hanbok 韓服"
+author = "CatsWorkshop"
+boothPrefix = "catsws"
+url = "https://booth.pm/ja/items/2725457"
+
+[[cloth]]
 name = "クロップセーラー服"
 author = "Popapi"
 url = "https://booth.pm/ja/items/2629841"
@@ -324,10 +335,21 @@ url = "https://booth.pm/ja/items/2507155"
 style = "onepiece"
 
 [[cloth]]
+name = "TechWear Outfit"
+author = "Origami Unicorn"
+boothPrefix = "origami-unicorn"
+url = "https://booth.pm/ja/items/2645495"
+
+[[cloth]]
 name = "ジーンズ/ジャンパー/ジャッケット"
 author = "kazawappa"
 url = "https://booth.pm/ja/items/2655512"
 style = "jacket "
+
+[[cloth]]
+name = "クリスマス服"
+author = "kazawappa"
+url = "https://booth.pm/ja/items/2627733"
 
 [[cloth]]
 name = "ライダースジャケットスタイル追加パンクテクスチャセット"
@@ -375,11 +397,6 @@ url = "https://booth.pm/ja/items/2300252"
 name = "専用衣装"
 author = "nedrive"
 url = "https://booth.pm/ja/items/2367960"
-
-[[cloth]]
-name = "クリスマス服"
-author = "kazawappa"
-url = "https://booth.pm/ja/items/2627733"
 
 
 [[nail]]
