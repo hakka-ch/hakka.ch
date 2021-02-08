@@ -1,4 +1,10 @@
 
+article {
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1.75;
+  }
+}
+
 .post-content {
   line-height: 2;
 
@@ -57,6 +63,7 @@
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
     font-size: 90%;
     background: #eee;
+    word-break: break-all;
   }
 }
 
@@ -66,4 +73,11 @@
   margin: 0 auto;
   margin-top: 3rem;
   display: block;
+}
+
+@media screen and (max-width: 37rem) {
+  .post-header {
+    width: inherit;
+    margin: 1rem;
+  }
 }
