@@ -10,10 +10,21 @@
       {{- .Content -}}
     </section>
 
-    <section>
+    <section style="margin-top: 0;padding-top: 0;">
       <div class="search">
+        <div class="cloth__category">
+          <ul>
+            {{- range $key, $val := .Site.Data.clothes }}
+            <li><label for="{{ $key }}">
+              <input type="checkbox" name="cloth-category" id="{{ $key }}" checked>
+              <span>{{ $key }}</span>
+            </label></li>
+            {{- end }}
+          </ul>
+        </div>
         簡易検索 <input type="text" class="searchItems">
       </div>
+
       <ul class="clothet">
     {{- range $key, $val := $.Site.Data.clothes }}
       {{- range . -}}

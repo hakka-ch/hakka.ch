@@ -36,7 +36,44 @@ document.addEventListener('DOMContentLoaded', function() {
     return sorted;
   }
 
+  /**
+   * カテゴリで絞るやつ
+   */
+  document.querySelectorAll('input[name=cloth-category]').forEach(el => {
+    el.addEventListener('change', function (ev) {
+      const checked = ev.target.checked;
+      const category = ev.target.id;
+      itemsArr.forEach(item => {
+        if (item.dataset.category == category) {
+          if (checked) {
+            item.classList.remove('clothet__item--hidden');
+          } else {
+            item.classList.add('clothet__item--hidden');
+          }
+        }
+      });
+    });
+  });
+
+  /**
+   * リロード時などチェックボックスの状態にあわせる
+   */
+  document.querySelectorAll('input[name=cloth-category]').forEach(el => {
+    const checked = el.checked;
+    const category = el.id;
+    itemsArr.forEach(item => {
+      if (item.dataset.category == category) {
+        if (checked) {
+          item.classList.remove('clothet__item--hidden');
+        } else {
+          item.classList.add('clothet__item--hidden');
+        }
+      }
+    });
+  });
+
   document.querySelector('input.searchItems').addEventListener('input', function (e) {
     findItems(e.target.value);
   }, false);
 });
+

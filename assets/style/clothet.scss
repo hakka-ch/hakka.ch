@@ -1,0 +1,80 @@
+
+.clothet {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    min-height: 7rem;
+    /*margin-bottom: 1rem;*/
+    padding: 1.5em 0;
+    border-bottom: 1px solid #32282c;
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    column-gap: 1rem;
+    line-height: 1.25;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    &--hidden {
+      display: none;
+    }
+
+    & > .item {
+      &__name {
+        margin-bottom: 0.25rem;
+        grid-column-start: 2;
+      }
+      &__author {
+        grid-column-start: 2;
+        grid-row-start: 2;
+      }
+      &__image {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+      }
+      &__image div {
+        width: 7em;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+  }
+}
+
+.cloth__category {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    label {
+      display: block;
+      input {
+        display: none;
+      }
+      span {
+        display: block;
+        margin: 0;
+        margin-right: 0.5em;
+        padding: 0 0.5em;
+        border: #719a9d solid 1px;
+      }
+    }
+    input:checked {
+      + span {
+        background: #cfe8e0;
+      }
+    }
+
+  }
+}

@@ -275,55 +275,6 @@ footer > ul {
   background-position: center;
 }
 
-.clothet {
-  list-style-type: none;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-.clothet__item {
-  min-height: 7rem;
-  /*margin-bottom: 1rem;*/
-  padding: 1.5em 0;
-  border-bottom: 1px solid #32282c;
-  box-sizing: content-box;
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  column-gap: 1rem;
-  line-height: 1.25;
-}
-
-.clothet__item:last-of-type {
-  margin-bottom: 0;
-}
-
-.clothet__item > .item__name {
-  margin-bottom: 0.25rem;
-  grid-column-start: 2;
-}
-
-.clothet__item > .item__author {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-.clothet__item > .item__image {
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 1;
-  grid-row-end: 3;
-}
-
-.clothet__item > .item__image div {
-  width: 7em;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 a.link-button {
   display: block;
   margin: 1rem;
@@ -405,3 +356,4 @@ i.at::before {
 
 @import './article';
 @import './ogp-shortcode';
+@import './clothet';
