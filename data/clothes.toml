@@ -144,6 +144,12 @@ url = "https://booth.pm/ja/items/2409867"
 style = "knit"
 
 [[cloth]]
+name = "ダッフルコート"
+author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/2737300"
+
+[[cloth]]
 name = "ワンショルダーシャツ"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
