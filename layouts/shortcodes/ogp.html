@@ -5,7 +5,7 @@
 {{- $ogpimage := resources.Get $json.local_ogp_image_path -}}
 <div class="ogp-card">
   <div class="ogp-card__contents">
-    <div class="ogp-card__title"><a href="{{ index ($json.ogp) "url" }}">{{ index ($json.ogp) "title" }}</a></div>
+    <div class="ogp-card__title"><a href="{{ index ($json.ogp) "url" }}" target="_blank">{{ index ($json.ogp) "title" }}</a></div>
     <div class="ogp-card__desc"><span>{{ index ($json.ogp) "description" }}</span></div>
   </div>
 </div>
