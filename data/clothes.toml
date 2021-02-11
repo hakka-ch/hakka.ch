@@ -39,6 +39,12 @@ url = "https://booth.pm/ja/items/2341161"
 style = "pants"
 
 [[cloth]]
+name = "ガオガオ / しずく"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/2739888"
+
+[[cloth]]
 name = "ムーンライト / クラシックムーン"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -169,6 +175,11 @@ url = "https://booth.pm/ja/items/2405969"
 style = "twopiece"
 
 [[cloth]]
+name = "ビキニオーバーオール - Bikini Overalls"
+author = "seele"
+url = "https://booth.pm/ja/items/2734180"
+
+[[cloth]]
 name = "メイド服"
 author = "seele"
 url = "https://booth.pm/ja/items/2533140"
@@ -197,12 +208,14 @@ url = "https://booth.pm/ja/items/2373843"
 [[cloth]]
 name = "例のセーター - Open Back Sweater"
 author = "seele"
-url = "https://seele.booth.pm/items/2535454"
+boothPrefix = "seele"
+url = "https://booth.pm/ja/items/2535454"
 
 [[cloth]]
 name = "例のセーターB型 - Open-Chest Sweater"
 author = "seele"
-url = "https://seele.booth.pm/items/2711389"
+boothPrefix = "seele"
+url = "https://booth.pm/ja/items/2711389"
 
 [[cloth]]
 name = "カジュアル・ウエア Casual Wear"
@@ -261,6 +274,11 @@ name = "Chu Chu ワンピース"
 author = "IsA_Q"
 url = "https://booth.pm/ja/items/2347703"
 style = "onepiece"
+
+[[cloth]]
+name = "制服ドレス (school dress)"
+author = "エネ_"
+url = "https://booth.pm/ja/items/2736328"
 
 [[cloth]]
 name = "ツーピース"
@@ -425,7 +443,8 @@ url = "https://booth.pm/ja/items/2564616"
 [[nail]]
 name = "チョコネイル[An-Lumi]"
 author = "van-labo"
-url = "https://van-labo.booth.pm/items/2700313"
+boothPrefix = "van-labo"
+url = "https://booth.pm/ja/items/2700313"
 
 [[hair]]
 name = "ワンサイドロングヘアー"
