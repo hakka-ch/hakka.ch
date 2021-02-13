@@ -39,6 +39,12 @@ url = "https://booth.pm/ja/items/2341161"
 style = "pants"
 
 [[cloth]]
+name = "ストリートファッション005"
+author = "childfactory"
+boothPrefix = "childfactory"
+url = "https://booth.pm/ja/items/2742298"
+
+[[cloth]]
 name = "ガオガオ / しずく"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -150,6 +156,12 @@ url = "https://booth.pm/ja/items/2409867"
 style = "knit"
 
 [[cloth]]
+name = "スポーツウェア"
+author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/2747710"
+
+[[cloth]]
 name = "ダッフルコート"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
@@ -216,6 +228,11 @@ name = "例のセーターB型 - Open-Chest Sweater"
 author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2711389"
+
+[[cloth]]
+name = "魔法使い"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2743193"
 
 [[cloth]]
 name = "カジュアル・ウエア Casual Wear"
@@ -287,6 +304,11 @@ boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2463260"
 
 [[cloth]]
+name = "スーツ, Suit"
+author = "Eliya Workshop"
+url = "https://booth.pm/ja/items/2742810"
+
+[[cloth]]
 name = "トレーニングウェア"
 author = "JIHA"
 url = "https://booth.pm/ja/items/2717292"
@@ -318,6 +340,11 @@ author = "ふぉいショップ"
 url = "https://booth.pm/ja/items/2654391"
 
 [[cloth]]
+name = "シンプルワンピース"
+author = "ラケシア洋裁"
+url = "https://booth.pm/ja/items/2589918"
+
+[[cloth]]
 name = "ハイスクールセーラー服"
 author = "OwObits"
 url = "https://booth.pm/ja/items/1699116"
@@ -327,6 +354,21 @@ style = "sailor uniform"
 name = "Just Pajamas!! パジャマワンピース"
 author = "OwObits"
 url = "https://booth.pm/ja/items/1830547"
+
+[[cloth]]
+name = "旧型スクール水着"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/1746937"
+
+[[cloth]]
+name = "アイドル衣装TypeA"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/2561659"
+
+[[cloth]]
+name = "アイドル衣装TypeB"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/2561637"
 
 [[cloth]]
 name = "ねここーと"
@@ -422,6 +464,10 @@ name = "専用衣装"
 author = "nedrive"
 url = "https://booth.pm/ja/items/2367960"
 
+[[cloth]]
+name = "競泳水着 Ver1.0"
+author = "Qrochairo Store"
+url = "https://booth.pm/ja/items/2578726"
 
 [[nail]]
 name = "お正月ネイルチップ"
@@ -494,6 +540,11 @@ author = "Three Dots and a Dash"
 url = "https://booth.pm/ja/items/2559673"
 
 [[hair]]
+name = "魔法使い"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2743193"
+
+[[hair]]
 name = "ショート・クリップ・ヘア || Short Clip Hair"
 author = "ハルカップ麺"
 url = "https://booth.pm/ja/items/2492285"
@@ -503,6 +554,11 @@ name = "Cosmic ray ネックレス"
 author = "mio3io"
 boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2703709"
+
+[[accessory]]
+name = "Tactical Utility Gear`s"
+author = "RyGrK　WebShop"
+url = "https://booth.pm/ja/items/2553020"
 
 [[shoes]]
 name = "-tech midcut shoes"
