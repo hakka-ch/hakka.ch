@@ -137,6 +137,21 @@ url = "https://booth.pm/ja/items/2508896"
 style = "parka"
 
 [[cloth]]
+name = "テックウェア"
+author = "Pini"
+url = "https://booth.pm/ja/items/2753107"
+
+[[cloth]]
+name = "シスター服"
+author = "Pini"
+url = "https://booth.pm/ja/items/2731280"
+
+[[cloth]]
+name = "トレーニングウェア"
+author = "Pini"
+url = "https://booth.pm/ja/items/2747433"
+
+[[cloth]]
 name = "アクティブパーカー"
 author = "アトリエORCA"
 boothPrefix = "atelierorca"
@@ -377,6 +392,11 @@ url = "https://booth.pm/ja/items/2623037"
 style = "coat winter"
 
 [[cloth]]
+name = "Mini Dress"
+author = "agape_love"
+url = "https://booth.pm/ja/items/2602847"
+
+[[cloth]]
 name = "体操服"
 author = "agape_love"
 url = "https://booth.pm/ja/items/2373629"
@@ -493,6 +513,11 @@ boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2700313"
 
 [[hair]]
+name = "ロングポニーテール"
+author = "seunchan"
+url = "https://booth.pm/ja/items/2543461"
+
+[[hair]]
 name = "ワンサイドロングヘアー"
 author = "snori"
 url = "https://booth.pm/ja/items/2310161"
@@ -559,6 +584,12 @@ url = "https://booth.pm/ja/items/2703709"
 name = "Tactical Utility Gear`s"
 author = "RyGrK　WebShop"
 url = "https://booth.pm/ja/items/2553020"
+
+[[accessory]]
+name = "AL-LW Platecarrier"
+author = "RyGrK　WebShop"
+url = "https://booth.pm/ja/items/2698787"
+
 
 [[shoes]]
 name = "-tech midcut shoes"
