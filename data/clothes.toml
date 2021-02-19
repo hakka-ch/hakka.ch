@@ -45,6 +45,12 @@ boothPrefix = "childfactory"
 url = "https://booth.pm/ja/items/2742298"
 
 [[cloth]]
+name = "あんみつ"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/2761854"
+
+[[cloth]]
 name = "ガオガオ / しずく"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
