@@ -136,11 +136,28 @@ author = "3D WORKSHOP「びたんさんぽっど」"
 url = "https://booth.pm/ja/items/2668311"
 
 [[cloth]]
+name = "だるだるパジャマ"
+author = "P_Store"
+boothPrefix = "poppo-shop"
+url = "https://booth.pm/ja/items/2612921"
+
+[[cloth]]
 name = "3-way Casual Parka -HEAVY-"
 author = "P_Store"
 boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2508896"
 style = "parka"
+
+[[cloth]]
+name = "ストラップスカートの衣装"
+author = "Pini"
+url = "https://booth.pm/ja/items/2770832"
+
+[[cloth]]
+name = "九尾フード"
+author = "Pini"
+boothPrefix = "kainrypus"
+url = "https://booth.pm/ja/items/2762819"
 
 [[cloth]]
 name = "テックウェア"
@@ -175,6 +192,12 @@ name = "ニットカーディガン"
 author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2409867"
 style = "knit"
+
+[[cloth]]
+name = "欧風コート＆ロングスカート"
+author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/2759136"
 
 [[cloth]]
 name = "スポーツウェア"
@@ -330,19 +353,28 @@ author = "Eliya Workshop"
 url = "https://booth.pm/ja/items/2742810"
 
 [[cloth]]
+name = "花見行こう！"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
+url = "https://booth.pm/ja/items/2778633"
+
+[[cloth]]
 name = "トレーニングウェア"
-author = "JIHA"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2717292"
 
 [[cloth]]
 name = "CROP TOP & JEANS"
-author = "JIHA"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2537716"
 style = "pants"
 
 [[cloth]]
 name = "Dream Rabbit"
-author = "JIHA"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2364667"
 
 [[cloth]]
@@ -377,23 +409,33 @@ author = "OwObits"
 url = "https://booth.pm/ja/items/1830547"
 
 [[cloth]]
+name = "ねのひチャイナ"
+author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
+url = "https://booth.pm/ja/items/2753564"
+
+[[cloth]]
 name = "旧型スクール水着"
 author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/1746937"
 
 [[cloth]]
 name = "アイドル衣装TypeA"
 author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2561659"
 
 [[cloth]]
 name = "アイドル衣装TypeB"
 author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2561637"
 
 [[cloth]]
 name = "ねここーと"
 author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2623037"
 style = "coat winter"
 
