@@ -45,6 +45,11 @@ boothPrefix = "childfactory"
 url = "https://booth.pm/ja/items/2742298"
 
 [[cloth]]
+name = "フェアリー"
+author =  "Noah’sArk"
+url = "https://booth.pm/ja/items/2795814"
+
+[[cloth]]
 name = "あんみつ"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -192,6 +197,17 @@ name = "ニットカーディガン"
 author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2409867"
 style = "knit"
+
+[[cloth]]
+name = "チューブトップコーデ"
+author = "赤羽雑貨店"
+url = "https://akabanevrc.booth.pm/items/2792581"
+
+
+[[cloth]]
+name = "春物ワンピース"
+author = "赤羽雑貨店"
+url = "https://booth.pm/ja/items/2789250"
 
 [[cloth]]
 name = "欧風コート＆ロングスカート"
@@ -409,6 +425,12 @@ author = "OwObits"
 url = "https://booth.pm/ja/items/1830547"
 
 [[cloth]]
+name = "ロリータシリーズ -スイート-"
+author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
+url = "https://booth.pm/ja/items/2783991"
+
+[[cloth]]
 name = "ねのひチャイナ"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
@@ -611,6 +633,11 @@ url = "https://booth.pm/ja/items/2597531"
 name = "Side Tail　サイドテール"
 author = "Three Dots and a Dash"
 url = "https://booth.pm/ja/items/2559673"
+
+[[hari]]
+name = "ポニーテール＆猫耳 ||Ponytail and Cat Ears"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/2787826"
 
 [[hair]]
 name = "魔法使い"
