@@ -39,6 +39,12 @@ url = "https://booth.pm/ja/items/2341161"
 style = "pants"
 
 [[cloth]]
+name = "街衣装セット"
+author = "chi-store"
+boothPrefix = "chi-chan"
+url = "https://booth.pm/ja/items/2798511"
+
+[[cloth]]
 name = "ストリートファッション005"
 author = "childfactory"
 boothPrefix = "childfactory"
