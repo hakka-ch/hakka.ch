@@ -12,3 +12,6 @@ enableRobotsTXT = true
 [params]
   ogpParserURL = "http://localhost:4040/getogp?%s"
   description = "薄荷ちゃん"
+
+[frontmatter]
+lastmod = [":git", "lastmod", ":fileModTime", ":default"]
