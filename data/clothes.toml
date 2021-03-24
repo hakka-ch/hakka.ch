@@ -51,6 +51,16 @@ boothPrefix = "childfactory"
 url = "https://booth.pm/ja/items/2742298"
 
 [[cloth]]
+name = "カプチーノ"
+author = "Noah’sArk"
+url = "https://booth.pm/ja/items/2829250"
+
+[[cloth]]
+name = "黒猫"
+author = "Noah’sArk"
+url = "https://booth.pm/ja/items/2813830"
+
+[[cloth]]
 name = "フェアリー"
 author =  "Noah’sArk"
 url = "https://booth.pm/ja/items/2795814"
@@ -420,6 +430,11 @@ author = "ラケシア洋裁"
 url = "https://booth.pm/ja/items/2589918"
 
 [[cloth]]
+name = "秋のトレンチワンピ"
+author = "レグナ大佐の製作所"
+url = "https://booth.pm/ja/items/2468646"
+
+[[cloth]]
 name = "ハイスクールセーラー服"
 author = "OwObits"
 url = "https://booth.pm/ja/items/1699116"
@@ -429,6 +444,11 @@ style = "sailor uniform"
 name = "Just Pajamas!! パジャマワンピース"
 author = "OwObits"
 url = "https://booth.pm/ja/items/1830547"
+
+[[cloth]]
+name = "ロリータシリーズ -クラシック-"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/2783990"
 
 [[cloth]]
 name = "ロリータシリーズ -スイート-"
@@ -514,6 +534,11 @@ author = "kazawappa"
 url = "https://booth.pm/ja/items/2627733"
 
 [[cloth]]
+name = "SPORTSWEAR"
+author = "khanzan"
+url = "https://booth.pm/ja/items/2792358"
+
+[[cloth]]
 name = "ライダースジャケットスタイル追加パンクテクスチャセット"
 author = "にゅにゅにゅぱれ～ど！通販"
 url = "https://booth.pm/ja/items/2463170"
@@ -556,6 +581,11 @@ boothPrefix = "yukonkon"
 url = "https://booth.pm/ja/items/2300252"
 
 [[cloth]]
+name = "ハル-Haru"
+author = "ゆりちゃんねる"
+url = "https://booth.pm/ja/items/2826461"
+
+[[cloth]]
 name = "専用衣装"
 author = "nedrive"
 url = "https://booth.pm/ja/items/2367960"
@@ -589,9 +619,19 @@ boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2700313"
 
 [[hair]]
+name = "フレイポニーテール"
+author = "Noah’sArk"
+url = "https://booth.pm/ja/items/2822580"
+
+[[hair]]
 name = "ロングポニーテール"
 author = "seunchan"
 url = "https://booth.pm/ja/items/2543461"
+
+[[hair]]
+name = "セミロング"
+author = "snori"
+url = "https://booth.pm/ja/items/2833210"
 
 [[hair]]
 name = "ワンサイドロングヘアー"
@@ -607,6 +647,11 @@ url = "https://booth.pm/ja/items/2107705"
 name = "ツインテール"
 author = "snori"
 url = "https://booth.pm/ja/items/2470594"
+
+[[hair]]
+name = "ショートヘアK-型 Short Hair Type K"
+author = "seele"
+url = "https://booth.pm/ja/items/2811066"
 
 [[hair]]
 name = "サイドポニーテール - Side Ponytail"
@@ -660,6 +705,11 @@ name = "Cosmic ray ネックレス"
 author = "mio3io"
 boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2703709"
+
+[[accessory]]
+name = "ノーツキーホルダー3Dモデル＠無料"
+author = "mio3io"
+url = "https://booth.pm/ja/items/2519225"
 
 [[accessory]]
 name = "Tactical Utility Gear`s"
