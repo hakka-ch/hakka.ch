@@ -240,7 +240,8 @@ url = "https://booth.pm/ja/items/2850452"
 [[cloth]]
 name = "チューブトップコーデ"
 author = "赤羽雑貨店"
-url = "https://akabanevrc.booth.pm/items/2792581"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/2792581"
 
 [[cloth]]
 name = "春物ワンピース"
