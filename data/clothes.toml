@@ -596,6 +596,11 @@ url = "https://booth.pm/ja/items/2424769"
 style = "helloween autumn"
 
 [[cloth]]
+name = "西空の鯨 ～Western Sky Whale～"
+author = "りくベーカリー"
+url = "https://booth.pm/ja/items/2872047"
+
+[[cloth]]
 name = "uniform/制服/제복"
 author = "Three Dots and a Dash"
 url = "https://booth.pm/ja/items/2654513"
@@ -615,6 +620,11 @@ url = "https://booth.pm/ja/items/2590283"
 name = "HyunA"
 author = "𝓡𝓮𝓷𝓮𝓮"
 url = "https://booth.pm/ja/items/2850785"
+
+[[cloth]]
+name = "うさみみワンピ"
+author = "RiumuStore"
+url = "https://booth.pm/ja/items/2872329'"
 
 [[cloth]]
 name = "hakka-tech"
@@ -776,6 +786,10 @@ name = "AL-LW Platecarrier"
 author = "RyGrK　WebShop"
 url = "https://booth.pm/ja/items/2698787"
 
+[[accessory]]
+name = "はちの巣ピアス"
+author = "碧野屋"
+url = "https://booth.pm/ja/items/2872008"
 
 [[shoes]]
 name = "-tech midcut shoes"
