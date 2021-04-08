@@ -454,7 +454,7 @@ author = "ふぉいショップ"
 url = "https://booth.pm/ja/items/2654391"
 
 [[cloth]]
-name = "シンプルワンピース"
+name = "海夏ワンピース"
 author = "ラケシア洋裁"
 url = "https://booth.pm/ja/items/2589918"
 
@@ -795,3 +795,9 @@ url = "https://booth.pm/ja/items/2872008"
 name = "-tech midcut shoes"
 author = "RyGrK　WebShop"
 url = "https://booth.pm/ja/items/2660920"
+
+[[shoes]]
+name = "スリッポン"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/2808867"
