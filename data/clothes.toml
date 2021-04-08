@@ -795,3 +795,9 @@ url = "https://booth.pm/ja/items/2872008"
 name = "-tech midcut shoes"
 author = "RyGrK　WebShop"
 url = "https://booth.pm/ja/items/2660920"
+
+[[shoes]]
+name = "スリッポン"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/2808867"
