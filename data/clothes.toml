@@ -801,3 +801,23 @@ name = "スリッポン"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2808867"
+
+[[shoes]]
+name = "ローカットスニーカー"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/2882289"
+
+[[cloth]]
+name = "ねこパーカー"
+author = "わこーのあとりえ"
+boothPrefix = 'wakonoatorie'
+url = "https://booth.pm/ja/items/2877994"
+style = "parka"
+
+[[nail]]
+name = "３Dアバター向けネイルテクスチャ ７色"
+author = "む"
+boothPrefix = "mumumumum"
+url = "https://booth.pm/ja/items/2805447"
+
