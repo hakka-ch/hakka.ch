@@ -13,8 +13,15 @@ http://hakka.ch は Hugo を利用してサイトをビルドしています。
 ```
 hugo
 ```
+生成物は `./public` へ出力されます。  
 
-生成物は `./public` へ出力されます。
+## Run in local
+1. 商品コンテンツのOGP-Parserの起動
+[ogp-getterの起動](lib\ogp-getter\README.md)  
+
+2. `hugo serve`  
+
+3. Access http://localhost:1313/  
 
 
 ## Development and Writing
