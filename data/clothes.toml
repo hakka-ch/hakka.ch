@@ -4,18 +4,21 @@ name = "ぶかぶかニット"
 author = "mio3io"
 url = "https://booth.pm/ja/items/2309065"
 style = "casual knit"
+vrc_new_item = "2020-08-19"
 
 [[cloth]]
 name = "お花とフリルの水着セット"
 author = "mio3io"
 url = "https://booth.pm/ja/items/1934795"
 style = "swimsuit"
+vrc_new_item = "2020-04-02"
 
 [[cloth]]
 name = "ストリートジャケット"
 author = "snori"
 url = "https://booth.pm/ja/items/2230427"
 style = "casualjacket"
+vrc_new_item = "2020-07-20"
 
 [[cloth]]
 name = "オフショルワンピース"
@@ -23,6 +26,7 @@ author = "木漏れ日の小物屋"
 boothPrefix = "sunnyf"
 url = "https://booth.pm/ja/items/2254768"
 style = "casual"
+vrc_new_item = "2020-07-30"
 
 [[cloth]]
 name = "テックジャケットスタイル"
@@ -30,6 +34,7 @@ author = "ALCマート"
 boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2622996"
 style = "casualjacket"
+twitter_first_post = "2020-12-23"
 
 [[cloth]]
 name = "ストリートラップスカートスタイル"
@@ -37,63 +42,77 @@ author = "ALCマート"
 boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2341161"
 style = "pants"
+vrc_new_item = "2020-08-31"
 
 [[cloth]]
 name = "シンプルパーカー-Simple Parka-"
 author = "ボブキャット工房"
 boothPrefix = "bobcat-world"
 url = "https://booth.pm/ja/items/2829984"
+twitter_first_post = "2021-03-19"
+release = "2021-03-19"
 
 [[cloth]]
 name = "街衣装セット"
 author = "chi-store"
 boothPrefix = "chi-chan"
 url = "https://booth.pm/ja/items/2798511"
+twitter_first_post = "2021-03-05"
+release = "2021-03-05"
 
 [[cloth]]
 name = "ストリートファッション005"
 author = "childfactory"
 boothPrefix = "childfactory"
 url = "https://booth.pm/ja/items/2742298"
+release = "2021-02-12"
 
 [[cloth]]
 name = "キャット&サロペットスカート"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2859263"
+twitter_first_post = "2021-03-31"
+release = "2021-03-31"
 
 [[cloth]]
 name = "公立高校制服 / 私立高校制服"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2862866"
+release = "2021-04-01"
 
 [[cloth]]
 name = "カプチーノ"
 author = "Noah’sArk"
 url = "https://booth.pm/ja/items/2829250"
+release = "2021-03-18"
 
 [[cloth]]
 name = "黒猫"
 author = "Noah’sArk"
 url = "https://booth.pm/ja/items/2813830"
+release = "2021-03-12"
 
 [[cloth]]
 name = "フェアリー"
 author =  "Noah’sArk"
 url = "https://booth.pm/ja/items/2795814"
+release = "2021-03-4"
 
 [[cloth]]
 name = "あんみつ"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2761854"
+release = "2021-02-19"
 
 [[cloth]]
 name = "ガオガオ / しずく"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2739888"
+release = "2021-02-10"
 
 [[cloth]]
 name = "ムーンライト / クラシックムーン"
@@ -101,12 +120,14 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2660785"
 style = "kawaii"
+release = "2021-01-08"
 
 [[cloth]]
 name = "ミルクチョコレート / ミントチョコレート"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2691385"
+release = "2021-01-21"
 
 [[cloth]]
 name = "白きなこ"
@@ -114,12 +135,14 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2673799"
 style = "kawaii"
+release = "2021-01-13"
 
 [[cloth]]
 name = "Valentinecostume"
 author = "紅雨の降る蒼"
 boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2708125"
+release = "2021-01-29"
 
 [[cloth]]
 name = "キュートセーラー"
@@ -127,6 +150,7 @@ author = "紅雨の降る蒼"
 boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2254157"
 style = "sailor uniform"
+release = "2020-07-29"
 
 [[cloth]]
 name = "CoolWear"
@@ -134,6 +158,7 @@ author = "紅雨の降る蒼"
 boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2546086"
 style = "casual"
+release = "2020-12-06"
 
 [[cloth]]
 name = "ライダースジャケットスタイル"
@@ -141,6 +166,7 @@ author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2462407"
 style = "jacket"
+vrc_new_item = "2020-10-18"
 
 [[cloth]]
 name = "スマートパンツスタイル"
@@ -148,6 +174,7 @@ author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2285652"
 style = "shirts pants"
+vrc_new_item = "2020-08-10"
 
 [[cloth]]
 name = "カジュアルパーカーセット"
@@ -155,6 +182,7 @@ author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2254020"
 style = "casual parka"
+vrc_new_item = "2020-07-30"
 
 [[cloth]]
 name = "オーバーオールセット"
@@ -162,23 +190,27 @@ author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2294323"
 style = "casual"
+vrc_new_item = "2020-08-14"
 
 [[cloth]]
 name = "ファンシーパンツスタイル"
 author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2388041"
+vrc_new_item = "2020-09-19"
 
 [[cloth]]
 name = "きょうりゅうパーカー"
 author = "3D WORKSHOP「びたんさんぽっど」"
 url = "https://booth.pm/ja/items/2668311"
+release = "2021-01-11"
 
 [[cloth]]
 name = "だるだるパジャマ"
 author = "P_Store"
 boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2612921"
+release = "2021-02-26"
 
 [[cloth]]
 name = "3-way Casual Parka -HEAVY-"
@@ -186,32 +218,38 @@ author = "P_Store"
 boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2508896"
 style = "parka"
+release = "2020-11-28"
 
 [[cloth]]
 name = "ストラップスカートの衣装"
 author = "Pini"
 url = "https://booth.pm/ja/items/2770832"
+release = "2021-02-22"
 
 [[cloth]]
 name = "九尾フード"
 author = "Pini"
 boothPrefix = "kainrypus"
 url = "https://booth.pm/ja/items/2762819"
+release = "2021-02-20"
 
 [[cloth]]
 name = "テックウェア"
 author = "Pini"
 url = "https://booth.pm/ja/items/2753107"
+release = "2021-02-15"
 
 [[cloth]]
 name = "シスター服"
 author = "Pini"
 url = "https://booth.pm/ja/items/2731280"
+release = "2021-02-06"
 
 [[cloth]]
 name = "トレーニングウェア"
 author = "Pini"
 url = "https://booth.pm/ja/items/2747433"
+release = "2021-02-13"
 
 [[cloth]]
 name = "アクティブパーカー"
@@ -219,22 +257,27 @@ author = "アトリエORCA"
 boothPrefix = "atelierorca"
 url = "https://booth.pm/ja/items/2540465"
 style = "parka"
+release = "2020-11-21"
 
 [[cloth]]
 name = "ポロシャツ&スカート"
 author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2241653"
 style = "shirts skirt"
+release = "2020-09-11"
+origRelease = "2020-07-25"
 
 [[cloth]]
 name = "ニットカーディガン"
 author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2409867"
 style = "knit"
+release = "2020-10-09"
 
 [[cloth]]
 name = "中華風ワンピース"
 author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2850452"
 
 [[cloth]]
@@ -242,41 +285,49 @@ name = "チューブトップコーデ"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2792581"
+release = "2021-03-27"
 
 [[cloth]]
 name = "春物ワンピース"
 author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2789250"
+release = "2021-03-01"
 
 [[cloth]]
 name = "欧風コート＆ロングスカート"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2759136"
+release = "2021-02-18"
 
 [[cloth]]
 name = "スポーツウェア"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2747710"
+release = "2021-02-13"
 
 [[cloth]]
 name = "ダッフルコート"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2737300"
+release = "2021-02-09"
 
 [[cloth]]
 name = "ワンショルダーシャツ"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2710521"
+release = "2021-01-29"
 
 [[cloth]]
 name = "ダボダボカーディガン"
 author = "Akachan's items"
+boothPrefix = "akachan00"
 url = "https://booth.pm/ja/items/2866343"
-
+twitter_first_post = "2021-04-03"
 
 [[cloth]]
 name = "ウインターコート Winter Coat&Boots"
@@ -284,146 +335,192 @@ author = "Days"
 boothPrefix = "dibifactory"
 url = "https://booth.pm/ja/items/2709860"
 style = "coat"
+release = "2021-01-29"
 
 [[cloth]]
 name = "ツーピース & メリージェーン / Hakka's TwoPiece & MeryJane"
 author = "Days"
+boothPrefix = "dibifactory"
 url = "https://booth.pm/ja/items/2405969"
 style = "twopiece"
+release = "2020-09-25"
 
 [[cloth]]
 name = "ビキニオーバーオール - Bikini Overalls"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2734180"
+release = "2021-02-10"
 
 [[cloth]]
 name = "メイド服"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2533140"
 style = "uniform"
+release = "2020-11-18"
 
 [[cloth]]
 name = "ナース／Nurse Outfit"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2280235"
+release = "2020-08-08"
 
 [[cloth]]
 name = "バニースーツ／競泳水着／体操着 - Bunny Suit, Gym Unitform, Competition Swimsuit"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2234501"
+release = "2020-07-22"
 
 [[cloth]]
 name = "スクール水着 - School Swimwear"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2371807"
+release = "2020-09-13"
 
 [[cloth]]
 name = "ストリートジャージ／Street Jersey"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2373843"
+release = "2020-09-13"
 
 [[cloth]]
 name = "例のセーター - Open Back Sweater"
 author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2535454"
+release = "2020-11-18"
 
 [[cloth]]
 name = "例のセーターB型 - Open-Chest Sweater"
 author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2711389"
+release = "2021-01-30"
 
 [[cloth]]
 name = "魔法使い"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2743193"
+release = "2021-02-10"
 
 [[cloth]]
 name = "カジュアル・ウエア Casual Wear"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2327331"
+release = "2020-08-25"
 
 [[cloth]]
 name = "バニースーツ"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2265589"
+release = "2020-08-02"
 
 [[cloth]]
 name = "スタイリッシュ・パッフィー Stylish Puffy"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2251017"
+release = "2020-07-28"
 
 [[cloth]]
 name = "シンプル・クラシックス || Simple Classics"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2358151"
+release = "2020-09-06"
 
 [[cloth]]
 name = "ハッピーハロウィン"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2478136"
 style = "helloween autumn"
+release = "2020-10-26"
 
 [[cloth]]
 name = "魔法剣士風衣装"
 author = "洋灰色のおみせ"
+boothPrefix = "cement"
 url = "https://booth.pm/ja/items/2672053"
+release = "2021-01-12"
 
 [[cloth]]
 name = "猫耳ローブ"
 author = "洋灰色のおみせ"
+boothPrefix = "cement"
 url = "https://booth.pm/ja/items/2705680"
+release = "2021-01-27"
 
 [[cloth]]
 name = "平凡なTシャツ"
 author = "黒森"
+boothPrefix = "kuromori"
 url = "https://booth.pm/ja/items/2718863"
+release = "2021-02-01"
 
 [[cloth]]
 name = "L_Punk Skirt Outfit"
 author = "IsA_Q"
 boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2600108"
+release = "2020-12-13"
 
 [[cloth]]
 name = "LL_Boy style suit"
 author = "IsA_Q"
+boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2583799"
+release = "2020-12-07"
 
 [[cloth]]
 name = "Chu Chu ワンピース"
 author = "IsA_Q"
+boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2347703"
 style = "onepiece"
+release = "2020-09-02"
 
 [[cloth]]
 name = "制服ドレス (school dress)"
 author = "エネ_"
+boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2736328"
+release = "2021-02-10"
 
 [[cloth]]
 name = "ツーピース"
 author = "エネ_"
 boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2463260"
+release = "2020-10-18"
 
 [[cloth]]
 name = "スーツ, Suit"
 author = "Eliya Workshop"
 url = "https://booth.pm/ja/items/2742810"
+twitter_first_post = "2021-02-13"
 
 [[cloth]]
 name = "花見行こう！"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2778633"
+release = "2021-02-26"
 
 [[cloth]]
 name = "トレーニングウェア"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2717292"
+release = "2021-02-01"
 
 [[cloth]]
 name = "CROP TOP & JEANS"
@@ -431,37 +528,49 @@ author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2537716"
 style = "pants"
+release = "2020-12-21"
 
 [[cloth]]
 name = "Dream Rabbit"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2364667"
+vrc_new_item = "2020-09-10"
 
 [[cloth]]
 name = "オフショルダー＆スカート"
 author = "ふぉいショップ"
+boothPrefix = "foiv"
 url = "https://booth.pm/ja/items/2590672"
+release = "2020-12-10"
 
 [[cloth]]
 name = "リボンワンピース＆カーディガン"
 author = "ふぉいショップ"
+boothPrefix = "foiv"
 url = "https://booth.pm/ja/items/2677004"
+release = "2021-01-15"
 
 [[cloth]]
 name = "パーカーシャツ＆ショートパンツ"
 author = "ふぉいショップ"
+boothPrefix = "foiv"
 url = "https://booth.pm/ja/items/2654391"
+release = "2021-01-05"
 
 [[cloth]]
 name = "海夏ワンピース"
 author = "ラケシア洋裁"
+boothPrefix = "lachexia"
 url = "https://booth.pm/ja/items/2589918"
+release = "2021-02-12"
 
 [[cloth]]
 name = "秋のトレンチワンピ"
 author = "レグナ大佐の製作所"
+boothPrefix = "regnataisa"
 url = "https://booth.pm/ja/items/2468646"
+vrc_new_item = "2020-10-24"
 
 [[cloth]]
 name = "ハイスクールセーラー服"
@@ -477,47 +586,58 @@ url = "https://booth.pm/ja/items/1830547"
 [[cloth]]
 name = "ロリータシリーズ -ミリタリー-"
 author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2851700"
+release = "2021-03-28"
 
 [[cloth]]
 name = "ロリータシリーズ -セーラー-"
 author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2851701"
+release = "2021-03-28"
 
 [[cloth]]
 name = "ロリータシリーズ -クラシック-"
 author = "かぷちやのぶーす"
 url = "https://booth.pm/ja/items/2783990"
+release = "2021-02-27"
 
 [[cloth]]
 name = "ロリータシリーズ -スイート-"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2783991"
+release = "2021-02-27"
 
 [[cloth]]
 name = "ねのひチャイナ"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2753564"
+release = "2021-02-16"
 
 [[cloth]]
 name = "旧型スクール水着"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/1746937"
+origRelease = "2019-12-26"
+release = "2020-07-04"
 
 [[cloth]]
 name = "アイドル衣装TypeA"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2561659"
+release = "2020-11-28"
 
 [[cloth]]
 name = "アイドル衣装TypeB"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2561637"
+release = "2020-11-28"
 
 [[cloth]]
 name = "ねここーと"
@@ -525,106 +645,145 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2623037"
 style = "coat winter"
+release = "2020-12-23"
 
 [[cloth]]
 name = "セーラー服"
 author = "agape_love"
 boothPrefix = "agapelove"
 url = "https://booth.pm/ja/items/2861894"
+twitter_first_post = "2021-04-01"
 
 [[cloth]]
 name = "Mini Dress"
 author = "agape_love"
 url = "https://booth.pm/ja/items/2602847"
+twitter_first_post = "2021-02-16"
 
 [[cloth]]
 name = "体操服"
 author = "agape_love"
 url = "https://booth.pm/ja/items/2373629"
 style = "sports uniform"
+twitter_first_post = "2020-09-14"
 
 [[cloth]]
 name = "한복 Hanbok 韓服"
 author = "CatsWorkshop"
 boothPrefix = "catsws"
 url = "https://booth.pm/ja/items/2725457"
+release = "2021-02-05"
 
 [[cloth]]
 name = "クロップセーラー服"
 author = "Popapi"
+boothPrefix = "zzyya"
 url = "https://booth.pm/ja/items/2629841"
 style = "sailor uniform"
+twitter_first_post = "2021-01-01"
 
 [[cloth]]
 name = "少女用ワンピース"
 author = "Popapi"
 url = "https://booth.pm/ja/items/2507155"
 style = "onepiece"
+vrc_new_item = "2020-11-07"
 
 [[cloth]]
 name = "TechWear Outfit"
 author = "Origami Unicorn"
 boothPrefix = "origami-unicorn"
 url = "https://booth.pm/ja/items/2645495"
+origRelease = "2021-01-08"
+release = "2021-02-07"
 
 [[cloth]]
 name = "ジーンズ/ジャンパー/ジャッケット"
 author = "kazawappa"
+boothPrefix = "kazawappa"
 url = "https://booth.pm/ja/items/2655512"
 style = "jacket "
+twitter_first_post = "2021-01-06"
 
 [[cloth]]
 name = "クリスマス服"
 author = "kazawappa"
+boothPrefix = "kazawappa"
 url = "https://booth.pm/ja/items/2627733"
+twitter_first_post = "2020-12-29"
 
 [[cloth]]
 name = "SPORTSWEAR"
 author = "khanzan"
+boothPrefix = "khanzan"
 url = "https://booth.pm/ja/items/2792358"
+twitter_first_post = "2021-03-30"
 
 [[cloth]]
 name = "ライダースジャケットスタイル追加パンクテクスチャセット"
 author = "にゅにゅにゅぱれ～ど！通販"
+boothPrefix = "nyupara"
 url = "https://booth.pm/ja/items/2463170"
 style = "jacket"
+release = "2020-10-18"
 
 [[cloth]]
 name = "ファンシーパンツスタイルのハロウィンテクスチャ"
 author = "にゅにゅにゅぱれ～ど！通販"
+boothPrefix = "nyupara"
 url = "https://booth.pm/ja/items/2424769"
 style = "helloween autumn"
+release = "2020-10-04"
+
+[[cloth]]
+name = "天の川 ～Galaxy～"
+author = "りくベーカリー"
+boothPrefix = "rikubakery"
+url = "https://booth.pm/ja/items/2890049"
+release = "2021-04-13"
 
 [[cloth]]
 name = "西空の鯨 ～Western Sky Whale～"
 author = "りくベーカリー"
+boothPrefix = "rikubakery"
 url = "https://booth.pm/ja/items/2872047"
+release = "2021-04-05"
 
 [[cloth]]
 name = "uniform/制服/제복"
 author = "Three Dots and a Dash"
+boothPrefix = "minamotosyun"
 url = "https://booth.pm/ja/items/2654513"
 style = ""
+release = "2021-01-05"
 
 [[cloth]]
 name = "👕日常服LUUU👕"
 author = "tiana"
+boothPrefix = "tiana"
 url = "https://booth.pm/ja/items/2867596"
+twitter_first_post = "2021-04-07"
 
 [[cloth]]
 name = "水着モデルと思い出のジャージ"
 author = "仮想人形商店２号店"
+boothPrefix = "wagamin"
 url = "https://booth.pm/ja/items/2590283"
+release = "2020-12-10"
 
 [[cloth]]
 name = "HyunA"
 author = "𝓡𝓮𝓷𝓮𝓮"
+boothPrefix = "chareyalmmx"
 url = "https://booth.pm/ja/items/2850785"
+release = "2021-03-27"
 
 [[cloth]]
 name = "うさみみワンピ"
 author = "RiumuStore"
+boothPrefix = "riumu960"
 url = "https://booth.pm/ja/items/2872329'"
+release = "2021-04-06"
 
 [[cloth]]
 name = "hakka-tech"
@@ -632,106 +791,141 @@ author = "RyGrK　WebShop"
 boothPrefix = 'rygrk888ggg'
 url = "https://booth.pm/ja/items/2691165"
 style = "parka"
+release = "2021-01-21"
 
 [[cloth]]
 name = "シンプルなシャツ"
 author = "yukonkon3"
 boothPrefix = "yukonkon"
 url = "https://booth.pm/ja/items/2711792"
+release = "2021-01-30"
 
 [[cloth]]
 name = "シンプルビキニ"
 author = "yukonkon3"
 boothPrefix = "yukonkon"
 url = "https://booth.pm/ja/items/2300252"
+release = "2020-08-16"
 
 [[cloth]]
 name = "ハル-Haru"
 author = "ゆりちゃんねる"
+boothPrefix = "yuriouo"
 url = "https://booth.pm/ja/items/2826461"
+release = "2021-03-20"
 
 [[cloth]]
 name = "専用衣装"
 author = "nedrive"
 url = "https://booth.pm/ja/items/2367960"
+vrc_new_item = "2020-09-11"
 
 [[cloth]]
 name = "競泳水着 Ver1.0"
 author = "Qrochairo Store"
+boothPrefix = "qrochairo"
 url = "https://booth.pm/ja/items/2578726"
+release = "2020-12-06"
 
 [[nail]]
 name = "お正月ネイルチップ"
 author = "mio3io"
+boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2630051"
 style = "winter newyear"
+release = "2020-12-26"
 
 [[nail]]
 name = "ウィンターネイル2020"
-author = "van-labo"
+author = "VAn-Labo"
+boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2619157"
 style = "winter"
+release = "2020-12-21"
 
 [[nail]]
 name = "てんしなネイル"
-author = "van-labo"
+author = "VAn-Labo"
+boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2564616"
+release = "2020-11-29"
 
 [[nail]]
-name = "チョコネイル[An-Lumi]"
-author = "van-labo"
+name = "チョコネイル"
+author = "VAn-Labo"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2700313"
+release = "2020-01-25"
 
 [[hair]]
 name = "フレイポニーテール"
 author = "Noah’sArk"
+boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2822580"
+release = "2021-03-15"
 
 [[hair]]
 name = "ロングポニーテール"
 author = "seunchan"
+boothPrefix = "seunchan"
 url = "https://booth.pm/ja/items/2543461"
+release = "2020-11-22"
 
 [[hair]]
 name = "セミロング"
 author = "snori"
+boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2833210"
+release = "2021-03-20"
 
 [[hair]]
 name = "ワンサイドロングヘアー"
 author = "snori"
+boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2310161"
+release = "2020-08-20"
 
 [[hair]]
 name = "ポニーテール"
 author = "snori"
+boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2107705"
+release = "2020-05-28"
 
 [[hair]]
 name = "ツインテール"
 author = "snori"
+boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2470594"
+release = "2020-10-22"
 
 [[hair]]
 name = "ショートヘアK-型 Short Hair Type K"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2811066"
+release = "2021-03-11"
 
 [[hair]]
 name = "サイドポニーテール - Side Ponytail"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2416867"
+release = "2020-10-02"
 
 [[hair]]
 name = "ショートヘアA型 - Short Hair"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2648648"
+release = "2021-01-02"
 
 [[hair]]
 name = "ハーフツイン - Half Twintail"
 author = "seele"
+boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2576518"
+release = "2020-12-07"
 
 [[hair]]
 name = "ツインテール&サイドテール"
@@ -744,69 +938,91 @@ name = "ロングヘアー"
 author = "エネ_"
 boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2597531"
+twitter_first_post = "2020-12-22"
 
 [[hair]]
 name = "Side Tail　サイドテール"
 author = "Three Dots and a Dash"
+boothPrefix = "minamotosyun"
 url = "https://booth.pm/ja/items/2559673"
+release = "2020-11-28"
 
 [[hair]]
 name = "ポニーテール＆猫耳 ||Ponytail and Cat Ears"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2787826"
+release = "2021-02-28"
 
 [[hair]]
 name = "魔法使い"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2743193"
+release = "2021-02-10"
 
 [[hair]]
 name = "ショート・クリップ・ヘア || Short Clip Hair"
 author = "ハルカップ麺"
+boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2492285"
+release = "2020-10-30"
 
 [[accessory]]
 name = "Cosmic ray ネックレス"
 author = "mio3io"
 boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2703709"
+release = "2021-01-26"
 
 [[accessory]]
 name = "ノーツキーホルダー3Dモデル＠無料"
 author = "mio3io"
+boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2519225"
+release = "2020-11-12"
 
 [[accessory]]
 name = "Tactical Utility Gear`s"
 author = "RyGrK　WebShop"
+boothPrefix = "rygrk888ggg"
 url = "https://booth.pm/ja/items/2553020"
+release = "2020-11-25"
 
 [[accessory]]
 name = "AL-LW Platecarrier"
 author = "RyGrK　WebShop"
+boothPrefix = "rygrk888ggg"
 url = "https://booth.pm/ja/items/2698787"
+release = "2021-01-24"
 
 [[accessory]]
 name = "はちの巣ピアス"
 author = "碧野屋"
+boothPrefix = "hekino"
 url = "https://booth.pm/ja/items/2872008"
+release = "2021-04-05"
 
 [[shoes]]
 name = "-tech midcut shoes"
 author = "RyGrK　WebShop"
+boothPrefix = "rygrk888ggg"
 url = "https://booth.pm/ja/items/2660920"
+release = "2021-01-08"
 
 [[shoes]]
 name = "スリッポン"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2808867"
+release = "2021-03-10"
 
 [[shoes]]
 name = "ローカットスニーカー"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2882289"
+release = "2021-04-10"
 
 [[cloth]]
 name = "ねこパーカー"
@@ -814,10 +1030,11 @@ author = "わこーのあとりえ"
 boothPrefix = 'wakonoatorie'
 url = "https://booth.pm/ja/items/2877994"
 style = "parka"
+release = "2021-04-02"
 
 [[nail]]
 name = "３Dアバター向けネイルテクスチャ ７色"
 author = "む"
 boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/2805447"
-
+release = "2021-04-21"
