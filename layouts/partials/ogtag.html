@@ -3,7 +3,7 @@
 {{- if .Title }}
 <meta property="og:title" content="{{ .Title }}">
 {{- end }}
-<!-- <meta property="image" content=""> -->
+<meta property="og:image" content="{{ .Site.BaseURL }}/images/hakka_pero_ogp.png">
 {{- if and .Description (not .IsHome) }}
 <meta property="og:description" content="{{ .Description }}">
 {{- else if and .Summary (not .IsHome) }}
