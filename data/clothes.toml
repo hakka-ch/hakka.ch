@@ -279,13 +279,14 @@ name = "中華風ワンピース"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2850452"
+release = "2021-03-27"
 
 [[cloth]]
 name = "チューブトップコーデ"
 author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2792581"
-release = "2021-03-27"
+release = "2021-03-03"
 
 [[cloth]]
 name = "春物ワンピース"
