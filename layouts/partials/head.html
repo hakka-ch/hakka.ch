@@ -3,4 +3,4 @@
 <title>薄荷ちゃ！！</title>
 {{- $scss := resources.Get "style/style.scss" -}}
 {{- $style := $scss | resources.ToCSS | resources.Minify -}}
-<link rel="stylesheet" href="{{ $style.Permalink }}">
+<link rel="stylesheet" href="{{ $style.RelPermalink }}">
