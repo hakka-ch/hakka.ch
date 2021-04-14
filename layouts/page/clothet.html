@@ -23,6 +23,7 @@
           </ul>
         </div>
         簡易検索 <input type="text" class="searchItems">
+        <div class="cloth__sort"><select class="clothet-sort"></select></div>
       </div>
 
       <ul class="clothet">
@@ -36,7 +37,15 @@
             {{/* $image_path := (urls.Parse $og_image).Path */}}
             {{/* $image_path_split := strings.Split $image_path "/" */}}
             {{/* $ogpImage := resources.Get (printf "ogp_image/%s" (index $image_path_split (add (len $image_path_split) -1) ) ) */}}
-            <li class="clothet__item" data-category="{{ $key }}" data-key="{{ $key }} {{ .name }} {{ .author }} {{ .style }}">
+            {{- $date := "" -}}
+            {{- if .release -}}
+              {{- $date = .release -}}
+            {{- else if .vrc_new_item -}}
+              {{- $date = .vrc_new_item -}}
+            {{- else if .twitter_first_post -}}
+              {{- $date = .twitter_first_post -}}
+            {{- end -}}
+            <li class="clothet__item" data-category="{{ $key }}" data-key="{{ $key }} {{ .name }} {{ .author }} {{ .style }}" data-release="{{ $date }}" data-name="{{ .name }}" data-author="{{ .author }}">
               <div class="item__image">
                 {{- if $ogpimage -}}
                   <div style="background-image: url({{ ($ogpimage.Resize "150x").RelPermalink }});" loading="lazy"></div>
