@@ -76,6 +76,13 @@ twitter_first_post = "2021-03-31"
 release = "2021-03-31"
 
 [[cloth]]
+name = "弥生高校制服A / 弥生高校制服B"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/2896470"
+release = "2021-04-16"
+
+[[cloth]]
 name = "公立高校制服 / 私立高校制服"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -667,6 +674,13 @@ author = "agape_love"
 url = "https://booth.pm/ja/items/2373629"
 style = "sports uniform"
 twitter_first_post = "2020-09-14"
+
+[[cloth]]
+name = "Littlecat"
+author = "CatsWorkshop"
+boothPrefix = "catsws"
+url = "https://booth.pm/ja/items/2894083"
+release = "2021-04-19"
 
 [[cloth]]
 name = "한복 Hanbok 韓服"
