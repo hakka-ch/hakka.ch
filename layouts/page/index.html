@@ -6,10 +6,44 @@
   {{- partial "ogtag.html" . -}}
 </head>
 <body>
-  {{- .Content -}}
-  {{- if .Params.hidePageFooter -}}
-  {{- partial "footer.html" . -}}
+  {{- if .Params.showHeroHeader -}}
+    {{- partial "hero-header" . -}}
   {{- end -}}
+<div class="container page-main">
+  {{- .Content -}}
+
+  {{- if .Params.showVRCEvents -}}
+  <section class="event-info">
+    <h2>いべんと</h2>
+    <div class="events">
+      {{- $evt := where .Site.RegularPages "Section" "==" "events" -}}
+      {{- range $evt -}}
+
+      {{- if gt (time .Params.event_date) (now.AddDate 0 0 -10) -}}
+
+        <h3>{{ .Page.Title }}</h3>
+        {{ dateFormat "2006年01年02日 15:05 MST" .Params.event_date }}
+        {{- if not .Params.hideContent -}}
+          {{ .Content }}
+        {{- end -}}
+        {{- if .Params.tweet -}}
+          <!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/twitter.html -->
+          {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
+          {{- $json := getJSON $url -}}
+          {{ $json.html | safeHTML }}
+        {{- end -}}
+      {{- end -}}
+
+      {{- end -}}
+    </div>
+  </section>
+  {{- end -}}
+
+  {{- if .Params.hidePageFooter -}}
+    {{- partial "footer.html" . -}}
+  {{- end -}}
+</div>
+
   {{- $twTextGen := resources.Get "js/shareTextGen.js" | js.Build | resources.Minify -}}
   <script type="text/javascript" src="{{ $twTextGen.RelPermalink }}"></script>
   <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>

@@ -1,0 +1,18 @@
+<div class="container page-header">
+
+  <header class="header">
+    <div class="header__title">
+      <h1 {{ if ne .RelPermalink "/2/" -}}onclick="location.href={{ ref . "2.html" }}"{{- end }}>薄荷ちゃ！！</h1>
+
+      <div class="share">
+        <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=%E8%96%84%E8%8D%B7%E3%81%A1%E3%82%83&url=http://hakka.ch">Tweet</a>
+      </div>
+    </div>
+    <div class="header__image">
+      <picture>
+        <source srcset="/images/hakka_happy2.webp" type="image/webp">
+        <img src="/images/hakka_happy2.png" alt="Hakka Chang">
+      </picture>
+    </div>
+  </header>
+</div>
