@@ -331,6 +331,13 @@ url = "https://booth.pm/ja/items/2710521"
 release = "2021-01-29"
 
 [[cloth]]
+name = "シャツワンピース"
+author = "Akachan's items"
+boothPrefix = "akachan00"
+url = "https://booth.pm/ja/items/2910982"
+twitter_first_post = "2021-04-23"
+
+[[cloth]]
 name = "ダボダボカーディガン"
 author = "Akachan's items"
 boothPrefix = "akachan00"
@@ -473,6 +480,13 @@ author = "黒森"
 boothPrefix = "kuromori"
 url = "https://booth.pm/ja/items/2718863"
 release = "2021-02-01"
+
+[[cloth]]
+name = "💕Sweet💕"
+author = "IsA_Q"
+boothPrefix = "isaurq"
+url = "https://booth.pm/ja/items/2919357"
+release = "2021-04-25"
 
 [[cloth]]
 name = "L_Punk Skirt Outfit"
@@ -749,6 +763,13 @@ boothPrefix = "nyupara"
 url = "https://booth.pm/ja/items/2424769"
 style = "helloween autumn"
 release = "2020-10-04"
+
+[[cloth]]
+name = "黒龍 ～Dark Dragon～"
+author = "りくベーカリー"
+boothPrefix = "rikubakery"
+url = "https://booth.pm/ja/items/2910485"
+release = "2021-04-22"
 
 [[cloth]]
 name = "天の川 ～Galaxy～"
