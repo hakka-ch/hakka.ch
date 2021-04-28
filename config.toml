@@ -1,17 +1,20 @@
-baseURL = ""
-languageCode = "ja-jp"
+baseURL = "https://hakka.ch/"
 title = "薄荷ちゃ"
 
 defaultContentLanguage = "ja"
+languageCode = "ja-jp"
 hasCJKLanguage = true
 
 disableKinds = ["taxonomy","term"]
 
+enableGitInfo = true
+
 enableRobotsTXT = true
 
 [params]
+  enableOGP = true
   ogpParserURL = "http://localhost:4040/getogp?%s"
   description = "薄荷ちゃん"
 
 [frontmatter]
-lastmod = [":git", "lastmod", ":fileModTime", ":default"]
+  lastmod = [":git", "lastmod", ":fileModTime", ":default"]
