@@ -1,0 +1,41 @@
+
+name: Hugo Website Build Test CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  buildtest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: npm cache
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: hugo cache
+        uses: actions/cache@v2
+        with:
+          path: ~/cache/hugo
+          key: ${{ runner.os }}-hugo-
+          restore-keys: |
+            ${{ runner.os }}-hugo-
+
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2.4.13
+        with:
+          extended: true
+      - name: Hugo Website Build
+        run: hugo --minify --config config.test.toml
+        env:
+          HUGO_CACHEDIR: ~/cache/hugo
