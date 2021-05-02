@@ -2,5 +2,5 @@
 npm install
 npm run start &
 sleep 5
-hugo
+hugo --minify
 kill %1
