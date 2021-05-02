@@ -24,7 +24,14 @@ jobs:
         with:
           node-version: '16.x'
 
-      - name: Cache
+      - name: Hugo Cache
+        uses: actions/cache@v2
+        with:
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: ${{ runner.os }}-hugomod-
+          path: /tmp/hugo_cache
+
+      - name: OGP Image Cache
         uses: actions/cache@v2
         with:
           key: ogp_image
