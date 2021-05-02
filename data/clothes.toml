@@ -1032,6 +1032,13 @@ boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2492285"
 release = "2020-10-30"
 
+[[hair]]
+name = "ふわっとウェーブ　Fluffy Wave Hair"
+author = "神無月のにゃんこ"
+boothPrefix = "kannya"
+url = "https://booth.pm/ja/items/2926559"
+release = "2021-05-01"
+
 [[accessory]]
 name = "Cosmic ray ネックレス"
 author = "mio3io"
