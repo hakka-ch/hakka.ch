@@ -1,0 +1,46 @@
+name: Build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: |
+          sudo apt-get update -y
+          sudo apt-get upgrade -y
+          sudo apt-get install -y asciidoctor
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.80.0'
+          extended: true
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: Hugo Cache
+        uses: actions/cache@v2
+        with:
+          key: ${{ runner.os }}-hugomod-${{ hashFiles('**/go.sum') }}
+          restore-keys: ${{ runner.os }}-hugomod-
+          path: /tmp/hugo_cache
+
+      - name: OGP Image Cache
+        uses: actions/cache@v2
+        with:
+          key: ogp_image
+          path: assets/ogp_image
+
+      - name: Build
+        run: ./build.sh
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: public
+          path: public/
