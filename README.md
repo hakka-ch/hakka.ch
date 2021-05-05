@@ -3,17 +3,21 @@
 [薄荷ちゃん](https://mio3works.booth.pm/items/2215270) のファンサイト的ななにか。  
 http://hakka.ch は Hugo を利用してサイトをビルドしています。
 
-## requipments
 
-* hugo v0.80.0
+## Requirement
+
+* hugo v0.83.1 extended
+* [asciidoctor](https://asciidoctor.org/) 2.0.15 (Ruby環境が必要です)
+* node 14.16.1
 
 
-## build
+## Build
 
 ```
-hugo
+./build.sh
 ```
 生成物は `./public` へ出力されます。  
+
 
 ## Run in local
 1. 商品コンテンツのOGP-Parserの起動
