@@ -338,6 +338,13 @@ url = "https://booth.pm/ja/items/2710521"
 release = "2021-01-29"
 
 [[cloth]]
+name = "デニムジャケット"
+author = "Akachan's items"
+boothPrefix = "akachan00"
+url = "https://booth.pm/ja/items/2938677"
+twitter_first_post = "2021-05-02"
+
+[[cloth]]
 name = "シャツワンピース"
 author = "Akachan's items"
 boothPrefix = "akachan00"
@@ -746,6 +753,13 @@ boothPrefix = "origami-unicorn"
 url = "https://booth.pm/ja/items/2645495"
 origRelease = "2021-01-08"
 release = "2021-02-07"
+
+[[cloth]]
+name = "パイロットジャケット/ジーンズ"
+author = "kazawappa"
+boothPrefix = "kazawappa"
+url = "https://booth.pm/ja/items/2936580"
+vrc_new_item = "2021-05-03"
 
 [[cloth]]
 name = "ジーンズ/ジャンパー/ジャッケット"
