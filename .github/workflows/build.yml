@@ -53,7 +53,7 @@ jobs:
           public/*   \
           $SSH_REMOTE_USER@$SSH_REMOTE_HOST:$REMOTE_DIRECTORY
         env:
-          SSH_PORT: {{ secrets.SSH_PORT }}
-          SSH_REMOTE_USER: {{ secrets.SSH_REMOTE_USER }}
-          SSH_REMOTE_HOST: {{ secrets.SSH_REMOTE_HOST }}
-          REMOTE_DIRECTORY: {{ secrets.REMOTE_DIRECTORY }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_REMOTE_USER: ${{ secrets.SSH_REMOTE_USER }}
+          SSH_REMOTE_HOST: ${{ secrets.SSH_REMOTE_HOST }}
+          REMOTE_DIRECTORY: ${{ secrets.REMOTE_DIRECTORY }}
