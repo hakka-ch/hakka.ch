@@ -595,13 +595,6 @@ url = "https://booth.pm/ja/items/2654391"
 release = "2021-01-05"
 
 [[cloth]]
-name = "海夏ワンピース"
-author = "ラケシア洋裁"
-boothPrefix = "lachexia"
-url = "https://booth.pm/ja/items/2589918"
-release = "2021-02-12"
-
-[[cloth]]
 name = "秋のトレンチワンピ"
 author = "レグナ大佐の製作所"
 boothPrefix = "regnataisa"
@@ -613,11 +606,6 @@ name = "ハイスクールセーラー服"
 author = "OwObits"
 url = "https://booth.pm/ja/items/1699116"
 style = "sailor uniform"
-
-[[cloth]]
-name = "Just Pajamas!! パジャマワンピース"
-author = "OwObits"
-url = "https://booth.pm/ja/items/1830547"
 
 [[cloth]]
 name = "ロリータシリーズ -ジャパニーズ-"
@@ -800,13 +788,6 @@ style = "helloween autumn"
 release = "2020-10-04"
 
 [[cloth]]
-name = "黒龍 ～Dark Dragon～"
-author = "りくベーカリー"
-boothPrefix = "rikubakery"
-url = "https://booth.pm/ja/items/2910485"
-release = "2021-04-22"
-
-[[cloth]]
 name = "天の川 ～Galaxy～"
 author = "りくベーカリー"
 boothPrefix = "rikubakery"
@@ -827,20 +808,6 @@ boothPrefix = "minamotosyun"
 url = "https://booth.pm/ja/items/2654513"
 style = ""
 release = "2021-01-05"
-
-[[cloth]]
-name ="👚crop_fashion_clothes👚"
-author = "tiana"
-boothPrefix = "tiana"
-url = "https://booth.pm/ja/items/2908029"
-twitter_first_post = "2021-04-22"
-
-[[cloth]]
-name = "👕日常服LUUU👕"
-author = "tiana"
-boothPrefix = "tiana"
-url = "https://booth.pm/ja/items/2867596"
-twitter_first_post = "2021-04-07"
 
 [[cloth]]
 name = "水着モデルと思い出のジャージ"
@@ -891,12 +858,6 @@ author = "ゆりちゃんねる"
 boothPrefix = "yuriouo"
 url = "https://booth.pm/ja/items/2826461"
 release = "2021-03-20"
-
-[[cloth]]
-name = "専用衣装"
-author = "nedrive"
-url = "https://booth.pm/ja/items/2367960"
-vrc_new_item = "2020-09-11"
 
 [[cloth]]
 name = "競泳水着 Ver1.0"
@@ -1004,12 +965,6 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2576518"
 release = "2020-12-07"
-
-[[hair]]
-name = "ツインテール&サイドテール"
-author = "エネ_"
-boothPrefix = "ene-0919"
-url = "https://booth.pm/ja/items/2422925"
 
 [[hair]]
 name = "ロングヘアー"
