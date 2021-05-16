@@ -21,21 +21,26 @@
 
       {{- if gt (time .Params.event_date) (now.AddDate 0 0 -10) -}}
 
-        <h3>{{ .Page.Title }}</h3>
-        {{ dateFormat "2006年01年02日 15:05 MST" .Params.event_date }}
-        {{- if not .Params.hideContent -}}
-          {{ .Content }}
-        {{- end -}}
-        {{- if .Params.tweet -}}
-          <!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/twitter.html -->
-          {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
-          {{- $json := getJSON $url -}}
-          {{ $json.html | safeHTML }}
-        {{- end -}}
+        <h3 class="event-title">{{ .Page.Title }}</h3>
+        <div class="event-date">
+          {{- dateFormat "2006/01/02 15:05 MST" .Params.event_date -}}
+        </div>
+        <div class="event-content">
+          {{- if not .Params.hideContent -}}
+            {{ .Content }}
+          {{- end -}}
+          {{- if .Params.tweet -}}
+            <!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/twitter.html -->
+            {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
+            {{- $json := getJSON $url -}}
+            {{ $json.html | safeHTML }}
+          {{- end -}}
+        </div>
       {{- end -}}
 
       {{- end -}}
     </div>
+    <a href="{{ref . "events"}} ">過去に開催されたイベントはこちら</a>
   </section>
   {{- end -}}
 
