@@ -302,6 +302,17 @@ i.at::before {
   content: '@';
 }
 
+blockquote.twitter-tweet {
+  margin: 0;
+  padding: 1rem;
+  border: 1px #1da1f2 solid;
+  background: #fff;
+  > p {
+    margin: 0;
+    margin-bottom: .5rem;
+  }
+}
+
 @media screen and (max-width: 37rem) {
   header {
     flex-direction: column;
@@ -357,3 +368,4 @@ i.at::before {
 @import './article';
 @import './ogp-shortcode';
 @import './clothet';
+@import './events'

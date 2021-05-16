@@ -1,4 +1,12 @@
 
+$category-border-width: 1rem;
+$category-accessory: #89A1EF;
+$category-cloth: #CFE8E0;
+$category-eyes: #384545;
+$category-hair: #BA637C;
+$category-nail: #A15E49;
+$category-shoes: #F7B801;
+
 .clothet {
   list-style-type: none;
   list-style: none;
@@ -10,6 +18,7 @@
     min-height: 7rem;
     /*margin-bottom: 1rem;*/
     padding: 1.5em 0;
+    padding-left: 1rem;
     border-bottom: 1px solid #32282c;
     box-sizing: content-box;
     display: grid;
@@ -48,6 +57,25 @@
         background-position: center;
       }
     }
+
+    &[data-category="cloth"] {
+      border-left: $category-cloth solid $category-border-width;
+    }
+    &[data-category="hair"] {
+      border-left: $category-hair solid $category-border-width;
+    }
+    &[data-category="eyes"] {
+      border-left: $category-eyes solid $category-border-width;
+    }
+    &[data-category="accessory"] {
+      border-left: $category-accessory solid $category-border-width;
+    }
+    &[data-category="nail"] {
+      border-left: $category-nail solid $category-border-width;
+    }
+    &[data-category="shoes"] {
+      border-left: $category-shoes solid $category-border-width;
+    }
   }
 }
 
@@ -73,6 +101,36 @@
     input:checked {
       + span {
         background: #cfe8e0;
+      }
+    }
+    input#accessory:checked {
+      + span {
+        background: rgba($category-accessory, 0.3);
+      }
+    }
+    input#cloth:checked {
+      + span {
+        background: rgba($category-cloth, 1);
+      }
+    }
+    input#eyes:checked {
+      + span {
+        background: rgba($category-eyes, 0.3);
+      }
+    }
+    input#hair:checked {
+      + span {
+        background: rgba($category-hair, 0.3);
+      }
+    }
+    input#nail:checked {
+      + span {
+        background: rgba($category-nail, 0.3);
+      }
+    }
+   input#shoes:checked {
+      + span {
+        background: rgba($category-shoes, 0.3);
       }
     }
 
