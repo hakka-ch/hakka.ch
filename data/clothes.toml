@@ -68,6 +68,13 @@ url = "https://booth.pm/ja/items/2742298"
 release = "2021-02-12"
 
 [[cloth]]
+name = "キャット&スカジャンコーデ"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/2964663"
+release = "2021-05-14"
+
+[[cloth]]
 name = "キャット&サロペットスカート"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
@@ -1115,8 +1122,15 @@ url = "https://booth.pm/ja/items/2958732"
 release = "2021-05-10"
 
 [[cloth]]
-name = "薄荷用衣装)なつつばめ"
+name = "なつつばめ"
 author =  "ふぃーねちゃんのあれこれ"
 boothPrefix = "3dfactorydayo"
 url = "https://booth.pm/ja/items/2960153"
 release = "2021-05-11"
+
+[[cloth]]
+name = "春のアリス"
+author = "ふぃーねちゃんのあれこれ"
+boothPrefix = "3dfactorydayo"
+url = "https://booth.pm/ja/items/2961244"
+release = "2021-05-12"
