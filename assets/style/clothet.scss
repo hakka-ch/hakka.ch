@@ -8,131 +8,134 @@ $category-nail: #A15E49;
 $category-shoes: #F7B801;
 
 .clothet {
-  list-style-type: none;
-  list-style: none;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
 
-  &__item {
-    min-height: 7rem;
-    /*margin-bottom: 1rem;*/
-    padding: 1.5em 0;
-    padding-left: 1rem;
-    border-bottom: 1px solid #32282c;
-    box-sizing: content-box;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    column-gap: 1rem;
-    line-height: 1.25;
+  &-items {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 
-    &:last-of-type {
-      margin-bottom: 0;
-    }
+    & > li {
+      min-height: 7rem;
+      /*margin-bottom: 1rem;*/
+      padding: 1.5em 0;
+      padding-left: 1rem;
+      border-bottom: 1px solid #32282c;
+      box-sizing: content-box;
+      display: grid;
+      grid-template-columns: 1fr 3fr;
+      column-gap: 1rem;
+      line-height: 1.25;
 
-    &--hidden {
-      display: none;
-    }
-
-    & > .item {
-      &__name {
-        margin-bottom: 0.25rem;
-        grid-column-start: 2;
+      &:last-of-type {
+        margin-bottom: 0;
       }
-      &__author {
-        grid-column-start: 2;
-        grid-row-start: 2;
-      }
-      &__image {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 1;
-        grid-row-end: 3;
-      }
-      &__image div {
-        width: 7em;
-        height: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-      }
-    }
 
-    &[data-category="cloth"] {
-      border-left: $category-cloth solid $category-border-width;
-    }
-    &[data-category="hair"] {
-      border-left: $category-hair solid $category-border-width;
-    }
-    &[data-category="eyes"] {
-      border-left: $category-eyes solid $category-border-width;
-    }
-    &[data-category="accessory"] {
-      border-left: $category-accessory solid $category-border-width;
-    }
-    &[data-category="nail"] {
-      border-left: $category-nail solid $category-border-width;
-    }
-    &[data-category="shoes"] {
-      border-left: $category-shoes solid $category-border-width;
+      &--hidden {
+        display: none;
+      }
+
+      & > .item {
+        &__name {
+          margin-bottom: 0.25rem;
+          grid-column-start: 2;
+        }
+        &__author {
+          grid-column-start: 2;
+          grid-row-start: 2;
+        }
+        &__image {
+          grid-column-start: 1;
+          grid-column-end: 2;
+          grid-row-start: 1;
+          grid-row-end: 3;
+        }
+        &__image div {
+          width: 7em;
+          height: 100%;
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+
+      &[data-category="cloth"] {
+        border-left: $category-cloth solid $category-border-width;
+      }
+      &[data-category="hair"] {
+        border-left: $category-hair solid $category-border-width;
+      }
+      &[data-category="eyes"] {
+        border-left: $category-eyes solid $category-border-width;
+      }
+      &[data-category="accessory"] {
+        border-left: $category-accessory solid $category-border-width;
+      }
+      &[data-category="nail"] {
+        border-left: $category-nail solid $category-border-width;
+      }
+      &[data-category="shoes"] {
+        border-left: $category-shoes solid $category-border-width;
+      }
     }
   }
 }
 
-.cloth__category {
-  ul {
+.search {
+  &-category {
     margin: 0;
     padding: 0;
     list-style-type: none;
     display: flex;
+    gap: 4px;
     label {
       display: block;
+      user-select: none;
       input {
         display: none;
       }
       span {
         display: block;
         margin: 0;
-        margin-right: 0.5em;
         padding: 0 0.5em;
         border: #719a9d solid 1px;
       }
-    }
-    input:checked {
-      + span {
-        background: #cfe8e0;
+      input:checked {
+        + span {
+          background: #cfe8e0;
+        }
+      }
+      input#accessory:checked {
+        + span {
+          background: rgba($category-accessory, 0.3);
+        }
+      }
+      input#cloth:checked {
+        + span {
+          background: rgba($category-cloth, 1);
+        }
+      }
+      input#eyes:checked {
+        + span {
+          background: rgba($category-eyes, 0.3);
+        }
+      }
+      input#hair:checked {
+        + span {
+          background: rgba($category-hair, 0.3);
+        }
+      }
+      input#nail:checked {
+        + span {
+          background: rgba($category-nail, 0.3);
+        }
+      }
+      input#shoes:checked {
+        + span {
+          background: rgba($category-shoes, 0.3);
+        }
       }
     }
-    input#accessory:checked {
-      + span {
-        background: rgba($category-accessory, 0.3);
-      }
-    }
-    input#cloth:checked {
-      + span {
-        background: rgba($category-cloth, 1);
-      }
-    }
-    input#eyes:checked {
-      + span {
-        background: rgba($category-eyes, 0.3);
-      }
-    }
-    input#hair:checked {
-      + span {
-        background: rgba($category-hair, 0.3);
-      }
-    }
-    input#nail:checked {
-      + span {
-        background: rgba($category-nail, 0.3);
-      }
-    }
-   input#shoes:checked {
-      + span {
-        background: rgba($category-shoes, 0.3);
-      }
-    }
-
   }
 }

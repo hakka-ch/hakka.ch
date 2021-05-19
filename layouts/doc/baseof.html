@@ -8,15 +8,17 @@
   {{- $scss := resources.Get "style/style.scss" -}}
   {{- $style := $scss | resources.ToCSS | resources.Minify -}}
   <link rel="stylesheet" href="{{ $style.Permalink }}">
-  {{ partial "ogtag.html" .}}
+  {{ partial "ogtag.html" . }}
 </head>
 <body>
-  {{ partial "header.html" .}}
-  {{ block "main" . }}
-  {{ end }}
-  {{ block "footer" . }}
-  {{ end }}
-  {{ partial "footer.html" .}}
+  <div class="pageWrapper">
+    {{ partial "header.html" .}}
+    {{ block "main" . }}
+    {{ end }}
+    {{ block "footer" . }}
+    {{ end }}
+    {{ partial "footer.html" .}}
+  </div>
   <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>

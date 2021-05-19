@@ -1,40 +1,32 @@
 {{/* events/list.html */}}
 {{ define "main" }}
-<div class="container page-main">
+<div class="pageMain">
   {{ if ne (len .Content) 0 }}
-  <!-- <section class="post-content"> -->
     {{ .Content }}
-  <!-- </section> -->
   {{ end }}
   {{ if ne (len .Pages) 0 }}
-  <section>
-    <ul class="postlist">
+    <ul class="eventPosts">
     {{ range sort .Pages "Params.event_date" "desc" }}
-      <li class="post">
-        <div class="post__contents">
-          <div class="post__contents__body">
-            <div class="timeLine-date">{{ dateFormat "2006/1/2" (.Params.event_date) }}</div>
-            <header>
-              <h3 class="eventTitle">{{ .Title }}</h3>
-              <div class="eventDate">{{ dateFormat "2006/1/2 15:04:05 MST" (.Params.event_date) }}</div>
-            </header>
-            <div class="content">
-              {{- if not .Params.hideContent -}}
-                {{ .Content }}
-              {{- end -}}
-              {{- if .Params.tweet -}}
-                <!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/twitter.html -->
-                {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
-                {{- $json := getJSON $url -}}
-                {{ $json.html | safeHTML }}
-              {{- end -}}
-            </div>
-          </div>
+      <li class="eventPost">
+        <div class="eventPost-header">
+          <div class="timeLine-date">{{ dateFormat "2006/1/2" (.Params.event_date) }}</div>
+          <h3 class="eventTitle">{{ .Title }}</h3>
+          <div class="eventDate">{{ dateFormat "2006/1/2 15:04:05 MST" (.Params.event_date) }}</div>
+        </div>
+        <div class="eventPost-content">
+          {{- if not .Params.hideContent -}}
+            {{ .Content }}
+          {{- end -}}
+          {{- if .Params.tweet -}}
+            <!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/twitter.html -->
+            {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
+            {{- $json := getJSON $url -}}
+            {{ $json.html | safeHTML }}
+          {{- end -}}
         </div>
       </li>
     {{ end }}
     </ul>
-  </section>
   {{ end }}
 </div>
 {{ end }}
