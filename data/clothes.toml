@@ -68,6 +68,13 @@ url = "https://booth.pm/ja/items/2742298"
 release = "2021-02-12"
 
 [[cloth]]
+name = "キャット&スカジャンコーデ"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/2964663"
+release = "2021-05-14"
+
+[[cloth]]
 name = "キャット&サロペットスカート"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
@@ -802,6 +809,13 @@ url = "https://booth.pm/ja/items/2872047"
 release = "2021-04-05"
 
 [[cloth]]
+name = "風流夢 ～Dream Of Flow～"
+author = "りくベーカリー"
+boothPrefix = "rikubakery"
+url = "https://booth.pm/ja/items/2956444"
+twitter_first_post = "2021-05-09"
+
+[[cloth]]
 name = "uniform/制服/제복"
 author = "Three Dots and a Dash"
 boothPrefix = "minamotosyun"
@@ -1079,6 +1093,13 @@ boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/2805447"
 release = "2021-03-21"
 
+[[nail]]
+name = "３Dアバター向けネイルテクスチャ ”夜空イメージ”"
+author = "む"
+boothPrefix = "mumumumum"
+url = "https://booth.pm/ja/items/2903635"
+release = "2021-04-21"
+
 [[eyes]]
 name = "キラキラ夜空の瞳テクスチャ"
 author = "-Silence-"
@@ -1092,3 +1113,24 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/2921946"
 release = "2021-04-26"
+
+[[eyes]]
+name = "おめかしテクスチャセット"
+author = "-Silence-"
+boothPrefix = "silence-track"
+url = "https://booth.pm/ja/items/2958732"
+release = "2021-05-10"
+
+[[cloth]]
+name = "なつつばめ"
+author =  "ふぃーねちゃんのあれこれ"
+boothPrefix = "3dfactorydayo"
+url = "https://booth.pm/ja/items/2960153"
+release = "2021-05-11"
+
+[[cloth]]
+name = "春のアリス"
+author = "ふぃーねちゃんのあれこれ"
+boothPrefix = "3dfactorydayo"
+url = "https://booth.pm/ja/items/2961244"
+release = "2021-05-12"
