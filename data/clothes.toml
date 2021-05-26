@@ -29,6 +29,13 @@ style = "casual"
 vrc_new_item = "2020-07-30"
 
 [[cloth]]
+name = "ミリタリードレス"
+author = "ALCマート"
+boothPrefix = "arukarisui"
+url = "https://booth.pm/ja/items/2991134"
+release = "2021-05-24"
+
+[[cloth]]
 name = "テックジャケットスタイル"
 author = "ALCマート"
 boothPrefix = "arukarisui"
@@ -51,6 +58,13 @@ boothPrefix = "bobcat-world"
 url = "https://booth.pm/ja/items/2829984"
 twitter_first_post = "2021-03-19"
 release = "2021-03-19"
+
+[[cloth]]
+name = "†地雷系† 十字架ドレスセット"
+author = "chi-store"
+boothPrefix = "chi-chan"
+url = "https://booth.pm/ja/items/2973283"
+release = "2021-05-19"
 
 [[cloth]]
 name = "街衣装セット"
@@ -81,6 +95,13 @@ boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2859263"
 twitter_first_post = "2021-03-31"
 release = "2021-03-31"
+
+[[cloth]]
+name = "白虎隊 / 黒漆隊"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/2975008"
+release = "2021-05-17"
 
 [[cloth]]
 name = "弥生高校制服A / 弥生高校制服B"
@@ -294,6 +315,13 @@ author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2409867"
 style = "knit"
 release = "2020-10-09"
+
+[[cloth]]
+name = "クラシカルファッション"
+author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/2963316"
+release = "2021-05-12"
 
 [[cloth]]
 name = "中華風ワンピース"
@@ -795,6 +823,20 @@ style = "helloween autumn"
 release = "2020-10-04"
 
 [[cloth]]
+name = "菫の子 ～A Violet Child～"
+author = "りくベーカリー"
+boothPrefix = "rikubakery"
+url = "https://booth.pm/ja/items/2995299"
+release = "2021-05-26"
+
+[[cloth]]
+name = "桜の香り ～Fragrance Of Cherry Blossom～"
+author = "りくベーカリー"
+boothPrefix = "rikubakery"
+url = "https://booth.pm/ja/items/2975641"
+release = "2021-05-18"
+
+[[cloth]]
 name = "天の川 ～Galaxy～"
 author = "りくベーカリー"
 boothPrefix = "rikubakery"
@@ -953,6 +995,13 @@ url = "https://booth.pm/ja/items/2470594"
 release = "2020-10-22"
 
 [[hair]]
+name = "ハイポニーテール High Ponytail"
+author = "seele"
+boothPrefix = "seele"
+url = "https://booth.pm/ja/items/2985695"
+release = "2021-05-22"
+
+[[hair]]
 name = "ショートヘアK-型 Short Hair Type K"
 author = "seele"
 boothPrefix = "seele"
@@ -1100,6 +1149,20 @@ boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/2903635"
 release = "2021-04-21"
 
+[[nail]]
+name = "フラワーモチーフネイル"
+author = "-Silence-"
+boothPrefix = "silence-track"
+url = "https://booth.pm/ja/items/2980652"
+release = "2021-05-20"
+
+[[eyes]]
+name = "ドールアイテクスチャ"
+author = "-Silence-"
+boothPrefix = "silence-track"
+url = "https://booth.pm/ja/items/2980135"
+release = "2021-05-19"
+
 [[eyes]]
 name = "キラキラ夜空の瞳テクスチャ"
 author = "-Silence-"
@@ -1134,3 +1197,38 @@ author = "ふぃーねちゃんのあれこれ"
 boothPrefix = "3dfactorydayo"
 url = "https://booth.pm/ja/items/2961244"
 release = "2021-05-12"
+
+[[cloth]]
+name = "ギンガムチェック水着"
+author = "Melty Lily"
+boothPrefix = "meltylily"
+url = "https://booth.pm/ja/items/2865864"
+release = "2021-05-20"
+
+[[cloth]]
+name = "カエルのレインコート"
+author = "くらにゃ工房"
+boothPrefix = "cloudnyan"
+url = "https://booth.pm/ja/items/2986632"
+release = "2021-05-22"
+
+[[cloth]]
+name = "浴衣"
+author = "Atelier Astra"
+boothPrefix = "vic"
+url = "https://booth.pm/ja/items/2982499"
+release = "2021-05-21"
+
+[[hair]]
+name = "ベリーショートヘアー初めての髪ー"
+author = "無知なむちのガラクタ置き場"
+boothPrefix = "chiya-muti"
+url = "https://booth.pm/ja/items/2988618"
+release = "2021-05-23"
+
+[[cloth]]
+name = "サマーセットアップ"
+author = "あいのスタジオ"
+boothPrefix = "ai-studio"
+release = "2021-05-24"
+url = "https://booth.pm/ja/items/2988424"
