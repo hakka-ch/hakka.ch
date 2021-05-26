@@ -6,12 +6,14 @@
   {{- partial "ogtag.html" . -}}
 </head>
 <body>
-{{- partial "header.html" . -}}
-{{- block "main" . -}}
-{{- end -}}
-{{- block "footer" . -}}
-{{- end }}
-{{- partial "footer.html" . -}}
+  <div class="pageWrapper">
+    {{- partial "header.html" . -}}
+    {{- block "main" . -}}
+    {{- end -}}
+    {{- block "footer" . -}}
+    {{- end }}
+    {{- partial "footer.html" . -}}
+  </div>
 <script type="text/javascript" async="" src="https://platform.twitter.com/widgets.js"></script>
 </body>
 </html>

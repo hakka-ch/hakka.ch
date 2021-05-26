@@ -1,0 +1,36 @@
+
+.event-info {
+  .events {
+    .event-title {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.eventPost {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  list-style: none;
+
+  &-header {
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: inherit;
+    width: 100%;
+    min-height: inherit;
+  }
+  .eventTitle {
+    margin-bottom: 0;
+  }
+  .eventDate {
+    margin-top: 0;
+    text-align: right;
+  }
+}
+.timeLine-date {
+  font-size: 2rem;
+  margin-left: -3rem;
+}

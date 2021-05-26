@@ -1,0 +1,21 @@
+{{/* events/single.html */}}
+{{ define "main" }}
+<div class="container pageMain">
+  <article class="events-single">
+    <header class="post-header">
+      <h2>{{ .Title }}</h2>
+      <div class="date">開催日: {{ (time .Params.event_date).Format "2006/01/02 15:04 MST" }}</div>
+    </header>
+    <section class="post-content">
+      <div class="paragraph">
+        {{- if .Params.tweet -}}
+          {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
+          {{- $json := getJSON $url -}}
+          {{ $json.html | safeHTML }}
+        {{- end -}}
+      </div>
+      {{ .Content }}
+    </section>
+  </article>
+</div>
+{{ end }}

@@ -1,32 +1,31 @@
 {{- define "main" -}}
 {{- $enableOGP := .Site.Params.enableOGP -}}
-  <div class="container page-main">
-    <article>
-    <header class="post-header">
+  <div class="container pageMain">
+    <article class="clothet">
+    <header class="clothet-header">
       <h2>{{ .Title }}</h2>
       <div class="lastmodDate"><span>LastMod: {{ (os.Stat "data/clothes.toml").ModTime.Format "2006-01-02 15:04:05 MST" }}</span></div>
     </header>
-    <section>
+    <section class="clothet-section">
       {{- .Content -}}
     </section>
 
-    <section style="margin-top: 0;padding-top: 0;">
+    <section class="clothet-section" style="margin-top: 0;padding-top: 0;">
       <div class="search">
-        <div class="cloth__category">
-          <ul>
-            {{- range $key, $val := .Site.Data.clothes }}
-            <li><label for="{{ $key }}">
-              <input type="checkbox" name="cloth-category" id="{{ $key }}" checked>
-              <span>{{ $key }}</span>
-            </label></li>
-            {{- end }}
-          </ul>
-        </div>
+        <ul class="search-category">
+          {{- range $key, $val := .Site.Data.clothes }}
+          <li><label for="{{ $key }}">
+            <input type="checkbox" name="cloth-category" id="{{ $key }}" checked>
+            <span>{{ $key }}</span>
+          </label></li>
+          {{- end }}
+        </ul>
+
         簡易検索 <input type="text" class="searchItems">
         <div class="cloth__sort"><select class="clothet-sort"></select></div>
       </div>
 
-      <ul class="clothet">
+      <ul class="clothet-items">
     {{- range $key, $val := $.Site.Data.clothes }}
       {{- range . -}}
         {{- if $enableOGP -}}
