@@ -105,15 +105,15 @@ $categories: (
         margin: 0;
         padding: 0 0.5em;
         border: #719a9d solid 1px;
-        @each $category, $color in $categories {
-          &::before {
-            display: inline-block;
-            width: 24px;
-            height: 24px;
-            margin-right: 0.5em;
-            content: '';
-            background: url('/pict/#{$category}.png');
-          }
+      }
+      @each $category, $color in $categories {
+        input##{$category} + span::before {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          margin-right: 0.5em;
+          content: '';
+          background: url('/pict/#{$category}.png');
         }
       }
       input:checked {
