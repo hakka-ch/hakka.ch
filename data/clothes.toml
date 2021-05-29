@@ -1232,3 +1232,25 @@ author = "あいのスタジオ"
 boothPrefix = "ai-studio"
 release = "2021-05-24"
 url = "https://booth.pm/ja/items/2988424"
+
+[[cloth]]
+name = "リボン付きエレガント水着"
+author = "うさぎのしっぽ"
+boothPrefix = "nyaro"
+url = "https://booth.pm/ja/items/2998269"
+release = "2021-05-27"
+
+[[cloth]]
+name = "Mermaid beach wear"
+author = "nullの足音"
+boothPrefix = "nul10"
+url = "https://booth.pm/ja/items/2995754"
+origRelease = "2021-05-26"
+release = "2021-05-27"
+
+[[cloth]]
+name = "着物ドレス"
+author = "Apple-store"
+boothPrefix = "rurarinringo"
+url = "https://booth.pm/ja/items/2995319"
+release = "2021-05-28"
