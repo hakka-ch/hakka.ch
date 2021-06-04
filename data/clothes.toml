@@ -97,6 +97,13 @@ twitter_first_post = "2021-03-31"
 release = "2021-03-31"
 
 [[cloth]]
+name = "一華（いちか）"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3018232"
+release = "2021-06-03"
+
+[[cloth]]
 name = "白虎隊 / 黒漆隊"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -580,6 +587,13 @@ url = "https://booth.pm/ja/items/2742810"
 twitter_first_post = "2021-02-13"
 
 [[cloth]]
+name = "Latte School uniform"
+boothPrefix = "jiha"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+url = "https://booth.pm/ja/items/3014565"
+release = "2021-06-02"
+
+[[cloth]]
 name = "花見行こう！"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
@@ -893,20 +907,6 @@ boothPrefix = 'rygrk888ggg'
 url = "https://booth.pm/ja/items/2691165"
 style = "parka"
 release = "2021-01-21"
-
-[[cloth]]
-name = "シンプルなシャツ"
-author = "yukonkon3"
-boothPrefix = "yukonkon"
-url = "https://booth.pm/ja/items/2711792"
-release = "2021-01-30"
-
-[[cloth]]
-name = "シンプルビキニ"
-author = "yukonkon3"
-boothPrefix = "yukonkon"
-url = "https://booth.pm/ja/items/2300252"
-release = "2020-08-16"
 
 [[cloth]]
 name = "ハル-Haru"
@@ -1254,3 +1254,30 @@ author = "Apple-store"
 boothPrefix = "rurarinringo"
 url = "https://booth.pm/ja/items/2995319"
 release = "2021-05-28"
+
+[[cloth]]
+name = "専用衣装"
+author = "Uryu Laboratory"
+boothPrefix = "uryushop"
+url = "https://booth.pm/ja/items/2876647"
+release = "2021-05-31"
+
+[[cloth]]
+name = "シンプルシャツ＆パンツ"
+author = "きゅう番地"
+boothPrefix = "kokonoka99"
+url = "https://booth.pm/ja/items/3013749"
+release = "2021-06-02"
+
+[[nail]]
+name = "フルーツの切り口ネイルテクスチャ"
+author = "きゅう番地"
+boothPrefix = "kokonoka99"
+url = "https://booth.pm/ja/items/3013827"
+release = "2021-06-02"
+
+[[cloth]]
+name = "ブラジャー"
+author = "ストラスショップ"
+url = "https://booth.pm/ja/items/3004663"
+release = "2021-05-29"
