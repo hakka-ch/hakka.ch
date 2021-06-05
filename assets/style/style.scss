@@ -94,6 +94,13 @@ rt {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  a:hover,
+  a:focus,
+  a:active,
+  a:visited {
+    color: inherit;
+  }
 }
 
 .heroHeader {
