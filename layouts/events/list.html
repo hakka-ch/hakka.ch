@@ -1,6 +1,7 @@
 {{/* events/list.html */}}
 {{ define "main" }}
 <div class="pageMain">
+  {{ template "breadcrumb" . }}
   {{ if ne (len .Content) 0 }}
     {{ .Content }}
   {{ end }}

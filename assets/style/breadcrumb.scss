@@ -1,0 +1,14 @@
+.breadcrumb {
+  max-width: 40rem;
+  margin: 1rem auto;
+  padding: 0;
+  list-style: none;
+  > li {
+    display: inline;
+    margin-right: 0.5em;
+    &:not(:last-child)::after {
+      content: '/';
+      margin-left: 0.5em;
+    }
+  }
+}

@@ -1,6 +1,7 @@
 {{/* gallery/list.html */}}
 {{ define "main" }}
 <div class="container pageMain">
+  {{ template "breadcrumb" . }}
   {{ if ne (len .Content) 0 }}
     {{ .Content }}
   {{ end }}
