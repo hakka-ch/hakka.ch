@@ -97,6 +97,13 @@ twitter_first_post = "2021-03-31"
 release = "2021-03-31"
 
 [[cloth]]
+name = "ホワイトメイド"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3043368"
+release = "2021-06-13"
+
+[[cloth]]
 name = "一華（いちか）"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -587,6 +594,13 @@ url = "https://booth.pm/ja/items/2742810"
 twitter_first_post = "2021-02-13"
 
 [[cloth]]
+name = "デニムサスペンダースカート"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
+url = "https://booth.pm/ja/items/3030439"
+release = "2021-06-08"
+
+[[cloth]]
 name = "Latte School uniform"
 boothPrefix = "jiha"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
@@ -792,6 +806,13 @@ origRelease = "2021-01-08"
 release = "2021-02-07"
 
 [[cloth]]
+name = "夏セーラー+藁帽子"
+author = "kazawappa"
+boothPrefix = "kazawappa"
+url = "https://booth.pm/ja/items/3032361"
+twitter_first_post = "2021-06-10"
+
+[[cloth]]
 name = "パイロットジャケット/ジーンズ"
 author = "kazawappa"
 boothPrefix = "kazawappa"
@@ -931,8 +952,15 @@ style = "winter newyear"
 release = "2020-12-26"
 
 [[nail]]
-name = "ウィンターネイル2020"
-author = "VAn-Labo"
+name = "てんしなネイル Reincarnation[An-Lumi]"
+author = "An-Labo ‐ Virtual"
+boothPrefix = "van-labo"
+url = "https://booth.pm/ja/items/3035327"
+release = "2021-06-10"
+
+[[nail]]
+name = "[An-Lumi]ウィンターネイル2020"
+author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2619157"
 style = "winter"
@@ -940,14 +968,14 @@ release = "2020-12-21"
 
 [[nail]]
 name = "てんしなネイル"
-author = "VAn-Labo"
+author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2564616"
 release = "2020-11-29"
 
 [[nail]]
-name = "チョコネイル"
-author = "VAn-Labo"
+name = "チョコネイル[An-Lumi]"
+author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2700313"
 release = "2020-01-25"
@@ -995,11 +1023,25 @@ url = "https://booth.pm/ja/items/2470594"
 release = "2020-10-22"
 
 [[hair]]
+name = "ダブルツインテール Double Twintail"
+author = "seele"
+boothPrefix = "seele"
+url = "https://booth.pm/ja/items/3017014"
+release = "2021-06-04"
+
+[[hair]]
 name = "ハイポニーテール High Ponytail"
 author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2985695"
 release = "2021-05-22"
+
+[[hair]]
+name = "ロングヘア P-型 Long Hair Type P"
+author = "seele"
+boothPrefix = "seele"
+url = "https://booth.pm/ja/items/2886172"
+release = "2021-04-11"
 
 [[hair]]
 name = "ショートヘアK-型 Short Hair Type K"
@@ -1149,6 +1191,20 @@ boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/2903635"
 release = "2021-04-21"
 
+[[eyes]]
+name = "サイバーアイテクスチャ"
+author = "-Silence-"
+boothPrefix = "silence-track"
+url = "https://booth.pm/ja/items/3037890"
+release = "2021-06-11"
+
+[[accessory]]
+name = "✝︎祈り✝︎"
+author = "-Silence-"
+boothPrefix = "silence-track"
+url = "https://booth.pm/ja/items/3017737"
+release = "2021-06-10"
+
 [[nail]]
 name = "フラワーモチーフネイル"
 author = "-Silence-"
@@ -1219,6 +1275,13 @@ boothPrefix = "vic"
 url = "https://booth.pm/ja/items/2982499"
 release = "2021-05-21"
 
+[[eyes]]
+name = "シンプルなおめめ"
+author = "無知なむちのガラクタ置き場"
+boothPrefix = "chiya-muti"
+url = "https://booth.pm/ja/items/3033193"
+release = "2021-06-09"
+
 [[hair]]
 name = "ベリーショートヘアー初めての髪ー"
 author = "無知なむちのガラクタ置き場"
@@ -1279,5 +1342,49 @@ release = "2021-06-02"
 [[cloth]]
 name = "ブラジャー"
 author = "ストラスショップ"
+boothPrefix = "strustrust"
 url = "https://booth.pm/ja/items/3004663"
 release = "2021-05-29"
+
+[[cloth]]
+name = "ニーソックス"
+author = "ストラスショップ"
+boothPrefix = "strustrust"
+url = "https://booth.pm/ja/items/2973532"
+release = "2021-05-19"
+
+[[cloth]]
+name = "背中あきホルターネック"
+author = "Store*Snowlight"
+boothPrefix = "snowlight0102"
+url = "https://booth.pm/ja/items/2440229"
+release = "2021-06-05"
+
+[[cloth]]
+name = "ゆるゆるフリル普段着セット（2着）"
+author = "Core_Sirius"
+boothPrefix = "coresirius"
+url = "https://booth.pm/ja/items/3013260"
+release = "2021-06-01"
+
+[[cloth]]
+name = "巻きバスタオル"
+author = "Store*Snowlight"
+boothPrefix = "snowlight0102"
+url = "https://booth.pm/ja/items/1672708"
+release = "2021-06-11"
+
+[[cloth]]
+name = "水着＆カーディガンセット"
+author = "RiumuStore"
+boothPrefix = "riumu960"
+url = "https://booth.pm/ja/items/3026337"
+release = "2021-06-09"
+
+[[cloth]]
+name  = "Girly summer shirt"
+author = "Yzneko cafe"
+boothPrefix = "yzneko-cafe"
+url = "https://booth.pm/ja/items/3045337"
+release = "2021-06-13"
+comment = "https://twitter.com/Yzha_v/status/1404325435203211264"
