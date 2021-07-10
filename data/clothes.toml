@@ -5,6 +5,7 @@ author = "mio3io"
 url = "https://booth.pm/ja/items/2309065"
 style = "casual knit"
 vrc_new_item = "2020-08-19"
+support = ["薄荷1_2", "透羽", "LSbody", "リア-アリス"]
 
 [[cloth]]
 name = "お花とフリルの水着セット"
@@ -12,6 +13,16 @@ author = "mio3io"
 url = "https://booth.pm/ja/items/1934795"
 style = "swimsuit"
 vrc_new_item = "2020-04-02"
+support = ["薄荷1_2", "透羽"]
+
+[[cloth]]
+name = "ビーチカーディガン"
+author = "mio3io"
+boothPrefix = "mio3works"
+url = "ttps://booth.pm/ja/items/3063339"
+release = "2021-06-21"
+comment = "https://twitter.com/mio3io/status/1406897080132460546"
+support = ["薄荷1_2", "透羽"]
 
 [[cloth]]
 name = "ストリートジャケット"
@@ -19,6 +30,7 @@ author = "snori"
 url = "https://booth.pm/ja/items/2230427"
 style = "casualjacket"
 vrc_new_item = "2020-07-20"
+support = ["薄荷"]
 
 [[cloth]]
 name = "オフショルワンピース"
@@ -27,6 +39,7 @@ boothPrefix = "sunnyf"
 url = "https://booth.pm/ja/items/2254768"
 style = "casual"
 vrc_new_item = "2020-07-30"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ミリタリードレス"
@@ -34,6 +47,7 @@ author = "ALCマート"
 boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2991134"
 release = "2021-05-24"
+support = ["薄荷", "ラスク", "沙猫", "幽狐族", "ミロワール", "ミーシェ", "メリノ", "シャオン", "リア-アリス", "リンツ"]
 
 [[cloth]]
 name = "テックジャケットスタイル"
@@ -42,6 +56,7 @@ boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2622996"
 style = "casualjacket"
 twitter_first_post = "2020-12-23"
+support = ["薄荷", "沙猫", "幽狐族", "ミロワール", "ミーシェ", "メリノ", "トゥエル", "シャオン", "リア-アリス", "リンツ"]
 
 [[cloth]]
 name = "ストリートラップスカートスタイル"
@@ -50,6 +65,7 @@ boothPrefix = "arukarisui"
 url = "https://booth.pm/ja/items/2341161"
 style = "pants"
 vrc_new_item = "2020-08-31"
+support = ["薄荷", "ミーシェ", "シャオン", "リア-アリス", "リンツ"]
 
 [[cloth]]
 name = "シンプルパーカー-Simple Parka-"
@@ -58,6 +74,7 @@ boothPrefix = "bobcat-world"
 url = "https://booth.pm/ja/items/2829984"
 twitter_first_post = "2021-03-19"
 release = "2021-03-19"
+support = ["薄荷1_2", "メリノ", "レイニィ", "ユウ", "ウルフェリア", "ここあ", "イヨ"]
 
 [[cloth]]
 name = "†地雷系† 十字架ドレスセット"
@@ -65,6 +82,9 @@ author = "chi-store"
 boothPrefix = "chi-chan"
 url = "https://booth.pm/ja/items/2973283"
 release = "2021-05-19"
+support = ["薄荷"]
+category = ["cloth", "accessory", "shoes", "ring"]
+comment = "https://twitter.com/chi_store20/status/1395012431856824329"
 
 [[cloth]]
 name = "街衣装セット"
@@ -73,6 +93,9 @@ boothPrefix = "chi-chan"
 url = "https://booth.pm/ja/items/2798511"
 twitter_first_post = "2021-03-05"
 release = "2021-03-05"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/chi_store20/status/1367798230939955208"
 
 [[cloth]]
 name = "ストリートファッション005"
@@ -80,6 +103,7 @@ author = "childfactory"
 boothPrefix = "childfactory"
 url = "https://booth.pm/ja/items/2742298"
 release = "2021-02-12"
+support = ["薄荷", "狐雪", "メリノ", "ミーシェ", "レイニィ", "イヨ", "幽狐族"]
 
 [[cloth]]
 name = "キャット&スカジャンコーデ"
@@ -87,6 +111,11 @@ author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2964663"
 release = "2021-05-14"
+support = ["薄荷", "キッシュ", "リア-アリス", "ラスク", "フィリナ"]
+comment = """
+https://twitter.com/nemutain333/status/1412697902116347906
+https://twitter.com/nemutain333/status/1393131685785399296
+"""
 
 [[cloth]]
 name = "キャット&サロペットスカート"
@@ -95,6 +124,31 @@ boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2859263"
 twitter_first_post = "2021-03-31"
 release = "2021-03-31"
+support = ["薄荷", "キッシュ", "リア-アリス", "ラスク"]
+comment = """
+https://twitter.com/nemutain333/status/1377187192657702914
+https://twitter.com/nemutain333/status/1399653496584998917
+"""
+
+[[hair]]
+name = "カスミ / ダリア"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/items/3110779"
+support = ["薄荷1_2"]
+release = "2021-07-10"
+category = ["cloth", "hair"]
+comment = "https://twitter.com/Noahs00Ark/status/1413799235426734084"
+
+[[cloth]]
+name = "ナイトメア"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3091070"
+release = "2021-07-02"
+support = ["薄荷1_2"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/Noahs00Ark/status/1410911626513969155"
 
 [[cloth]]
 name = "ホワイトメイド"
@@ -102,6 +156,9 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/3043368"
 release = "2021-06-13"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/Noahs00Ark/status/1404031072476618754"
 
 [[cloth]]
 name = "一華（いちか）"
@@ -109,6 +166,12 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/3018232"
 release = "2021-06-03"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = """
+https://twitter.com/Noahs00Ark/status/1400407568791478272
+https://twitter.com/Noahs00Ark/status/1394241857689853958
+"""
 
 [[cloth]]
 name = "白虎隊 / 黒漆隊"
@@ -116,6 +179,8 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2975008"
 release = "2021-05-17"
+category = ["cloth", "shoes", "accessory"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "弥生高校制服A / 弥生高校制服B"
@@ -123,6 +188,9 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2896470"
 release = "2021-04-16"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1383011588865593351"
 
 [[cloth]]
 name = "公立高校制服 / 私立高校制服"
@@ -130,24 +198,39 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2862866"
 release = "2021-04-01"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1377571571829645318"
 
 [[cloth]]
 name = "カプチーノ"
 author = "Noah’sArk"
+boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2829250"
 release = "2021-03-18"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1372505928692469760"
 
 [[cloth]]
 name = "黒猫"
 author = "Noah’sArk"
+boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2813830"
 release = "2021-03-12"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1370313930640302084"
 
 [[cloth]]
 name = "フェアリー"
 author =  "Noah’sArk"
+boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2795814"
 release = "2021-03-4"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1367445208959393793"
 
 [[cloth]]
 name = "あんみつ"
@@ -155,6 +238,9 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2761854"
 release = "2021-02-19"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1362731991230111744"
 
 [[cloth]]
 name = "ガオガオ / しずく"
@@ -162,6 +248,9 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2739888"
 release = "2021-02-10"
+category = ["cloth", "accessory"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1359471651784585218"
 
 [[cloth]]
 name = "ムーンライト / クラシックムーン"
@@ -170,6 +259,8 @@ boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2660785"
 style = "kawaii"
 release = "2021-01-08"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "ミルクチョコレート / ミントチョコレート"
@@ -177,6 +268,9 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2691385"
 release = "2021-01-21"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1352192491869462531"
 
 [[cloth]]
 name = "白きなこ"
@@ -185,6 +279,9 @@ boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2673799"
 style = "kawaii"
 release = "2021-01-13"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Noahs00Ark/status/1349300855657222144"
 
 [[cloth]]
 name = "Valentinecostume"
@@ -192,6 +289,8 @@ author = "紅雨の降る蒼"
 boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2708125"
 release = "2021-01-29"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "キュートセーラー"
@@ -200,6 +299,8 @@ boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2254157"
 style = "sailor uniform"
 release = "2020-07-29"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "CoolWear"
@@ -208,6 +309,9 @@ boothPrefix = "kouuao"
 url = "https://booth.pm/ja/items/2546086"
 style = "casual"
 release = "2020-12-06"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/KouuAo/status/1335461188373647361"
 
 [[cloth]]
 name = "ライダースジャケットスタイル"
@@ -216,6 +320,7 @@ boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2462407"
 style = "jacket"
 vrc_new_item = "2020-10-18"
+support = ["薄荷"]
 
 [[cloth]]
 name = "スマートパンツスタイル"
@@ -224,6 +329,7 @@ boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2285652"
 style = "shirts pants"
 vrc_new_item = "2020-08-10"
+support = ["薄荷"]
 
 [[cloth]]
 name = "カジュアルパーカーセット"
@@ -232,6 +338,7 @@ boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2254020"
 style = "casual parka"
 vrc_new_item = "2020-07-30"
+support = ["薄荷"]
 
 [[cloth]]
 name = "オーバーオールセット"
@@ -240,6 +347,7 @@ boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2294323"
 style = "casual"
 vrc_new_item = "2020-08-14"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ファンシーパンツスタイル"
@@ -247,12 +355,15 @@ author = "食寝遊「ku-.nel.asob」"
 boothPrefix = "reichan355"
 url = "https://booth.pm/ja/items/2388041"
 vrc_new_item = "2020-09-19"
+support = ["薄荷"]
 
 [[cloth]]
 name = "きょうりゅうパーカー"
 author = "3D WORKSHOP「びたんさんぽっど」"
 url = "https://booth.pm/ja/items/2668311"
 release = "2021-01-11"
+support = ["薄荷"]
+comment = "https://twitter.com/tokikaze_ikebo/status/1348467964513644555"
 
 [[cloth]]
 name = "ロイヤルバニー"
@@ -260,6 +371,8 @@ author = "P_Store"
 boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2898981"
 release = "2021-04-25"
+category = ["cloth", "shoes", "accessory"]
+support = ["薄荷1_2", "マロン", "ファジー", "フィリナ", "レイニィ", "ルーシュ", "受付嬢", "メープル", "リア-アリス", "あまなつ", "ラスク", "ミント", "キッシュ", "狐雪", "ここあ", "Tien", "ユメ", "レム", "シリウス", "京狐", "沙猫", "ウルフェリア", "Stier", "幽狐族", "ミーシェ", "メリノ", "ユウ", "ソア", "Noy", "リナリィ・ココ", "狐薄", "ルシナ", "Resqyuna", "ろうちゃん", "アルディナ", "Noranekoseven", "edelweiss", "LSbody", "あずき", "Zwei", "Blanca", "クロッカ", "イヨ", "トゥエル", "桜クロイニャン", "ベア", "レナ・カクテル", "シャオマオ"]
 
 [[cloth]]
 name = "だるだるパジャマ"
@@ -267,6 +380,16 @@ author = "P_Store"
 boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2612921"
 release = "2021-02-26"
+support = ["薄荷1_2", "マロン", "ファジー", "フィリナ", "レイニィ", "ルーシュ", "受付嬢", "メープル", "リア-アリス", "あまなつ", "ラスク", "ミント", "キッシュ", "狐雪", "ここあ", "Tien", "ユメ", "レム", "シリウス", "ウルフェリア", "幽狐族", "サタリナ", "ミーシェ", "メリノ", "ユウ", "ろうちゃん", "LSbody", "あずき", "イヨ"]
+
+[[cloth]]
+name = "玉藻華洛"
+author = "P_Store"
+boothPrefix = "poppo-shop"
+url = "https://booth.pm/ja/items/2635854"
+release = "2021-01-08"
+support = ["薄荷1_2"]
+comment = "https://twitter.com/PoppoPro/status/1350693167268446210"
 
 [[cloth]]
 name = "3-way Casual Parka -HEAVY-"
@@ -275,12 +398,15 @@ boothPrefix = "poppo-shop"
 url = "https://booth.pm/ja/items/2508896"
 style = "parka"
 release = "2020-11-28"
+support = ["薄荷"]
+comment = "https://twitter.com/PoppoPro/status/1332995404858753026"
 
 [[cloth]]
 name = "ストラップスカートの衣装"
 author = "Pini"
 url = "https://booth.pm/ja/items/2770832"
 release = "2021-02-22"
+support = ["薄荷", "イヨ", "狐雪"]
 
 [[cloth]]
 name = "九尾フード"
@@ -288,24 +414,28 @@ author = "Pini"
 boothPrefix = "kainrypus"
 url = "https://booth.pm/ja/items/2762819"
 release = "2021-02-20"
+support = ["薄荷", "イヨ", "狐雪"]
 
 [[cloth]]
 name = "テックウェア"
 author = "Pini"
 url = "https://booth.pm/ja/items/2753107"
 release = "2021-02-15"
+support = ["薄荷", "イヨ", "狐雪"]
 
 [[cloth]]
 name = "シスター服"
 author = "Pini"
 url = "https://booth.pm/ja/items/2731280"
 release = "2021-02-06"
+support = ["薄荷", "イヨ", "狐雪"]
 
 [[cloth]]
 name = "トレーニングウェア"
 author = "Pini"
 url = "https://booth.pm/ja/items/2747433"
 release = "2021-02-13"
+support = ["薄荷", "イヨ", "狐雪"]
 
 [[cloth]]
 name = "アクティブパーカー"
@@ -314,6 +444,7 @@ boothPrefix = "atelierorca"
 url = "https://booth.pm/ja/items/2540465"
 style = "parka"
 release = "2020-11-21"
+support = ["薄荷", "メリノ"]
 
 [[cloth]]
 name = "ポロシャツ&スカート"
@@ -322,6 +453,7 @@ url = "https://booth.pm/ja/items/2241653"
 style = "shirts skirt"
 release = "2020-09-11"
 origRelease = "2020-07-25"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ニットカーディガン"
@@ -329,6 +461,7 @@ author = "アトリエORCA"
 url = "https://booth.pm/ja/items/2409867"
 style = "knit"
 release = "2020-10-09"
+support = ["薄荷"]
 
 [[cloth]]
 name = "クラシカルファッション"
@@ -336,6 +469,7 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2963316"
 release = "2021-05-12"
+support = ["薄荷1_2"]
 
 [[cloth]]
 name = "中華風ワンピース"
@@ -343,6 +477,7 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2850452"
 release = "2021-03-27"
+support = ["薄荷1_2"]
 
 [[cloth]]
 name = "チューブトップコーデ"
@@ -350,6 +485,7 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2792581"
 release = "2021-03-03"
+support = ["薄荷1_2", "狐雪"]
 
 [[cloth]]
 name = "春物ワンピース"
@@ -357,6 +493,7 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2789250"
 release = "2021-03-01"
+support = ["薄荷1_2", "レナ・カクテル"]
 
 [[cloth]]
 name = "欧風コート＆ロングスカート"
@@ -364,6 +501,7 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2759136"
 release = "2021-02-18"
+support = ["薄荷1_2"]
 
 [[cloth]]
 name = "スポーツウェア"
@@ -371,6 +509,8 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2747710"
 release = "2021-02-13"
+support = ["薄荷1_2", "レナ・カクテル"]
+comment = "https://twitter.com/Akabane_Aki_KM/status/1360558853365014530"
 
 [[cloth]]
 name = "ダッフルコート"
@@ -378,6 +518,8 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2737300"
 release = "2021-02-09"
+support = ["薄荷1_2"]
+comment = "https://twitter.com/Akabane_Aki_KM/status/1359061231118680066"
 
 [[cloth]]
 name = "ワンショルダーシャツ"
@@ -385,6 +527,8 @@ author = "赤羽雑貨店"
 boothPrefix = "akabanevrc"
 url = "https://booth.pm/ja/items/2710521"
 release = "2021-01-29"
+support = ["薄荷1_2"]
+comment = "https://twitter.com/Akabane_Aki_KM/status/1355131246263734278"
 
 [[cloth]]
 name = "デニムジャケット"
@@ -392,6 +536,7 @@ author = "Akachan's items"
 boothPrefix = "akachan00"
 url = "https://booth.pm/ja/items/2938677"
 twitter_first_post = "2021-05-02"
+support = ["薄荷"]
 
 [[cloth]]
 name = "シャツワンピース"
@@ -399,6 +544,7 @@ author = "Akachan's items"
 boothPrefix = "akachan00"
 url = "https://booth.pm/ja/items/2910982"
 twitter_first_post = "2021-04-23"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ダボダボカーディガン"
@@ -406,6 +552,7 @@ author = "Akachan's items"
 boothPrefix = "akachan00"
 url = "https://booth.pm/ja/items/2866343"
 twitter_first_post = "2021-04-03"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ウインターコート Winter Coat&Boots"
@@ -414,6 +561,8 @@ boothPrefix = "dibifactory"
 url = "https://booth.pm/ja/items/2709860"
 style = "coat"
 release = "2021-01-29"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "ツーピース & メリージェーン / Hakka's TwoPiece & MeryJane"
@@ -422,6 +571,8 @@ boothPrefix = "dibifactory"
 url = "https://booth.pm/ja/items/2405969"
 style = "twopiece"
 release = "2020-09-25"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "ビキニオーバーオール - Bikini Overalls"
@@ -429,6 +580,8 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2734180"
 release = "2021-02-10"
+category = ["cloth", "shoes", "accessory"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "メイド服"
@@ -437,6 +590,9 @@ boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2533140"
 style = "uniform"
 release = "2020-11-18"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+comment = "https://twitter.com/Eine_Seele/status/1328826393103396864"
 
 [[cloth]]
 name = "ナース／Nurse Outfit"
@@ -444,6 +600,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2280235"
 release = "2020-08-08"
+support = ["薄荷"]
 
 [[cloth]]
 name = "バニースーツ／競泳水着／体操着 - Bunny Suit, Gym Unitform, Competition Swimsuit"
@@ -451,6 +608,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2234501"
 release = "2020-07-22"
+support = ["薄荷"]
 
 [[cloth]]
 name = "スクール水着 - School Swimwear"
@@ -458,6 +616,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2371807"
 release = "2020-09-13"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ストリートジャージ／Street Jersey"
@@ -465,6 +624,8 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2373843"
 release = "2020-09-13"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
 
 [[cloth]]
 name = "例のセーター - Open Back Sweater"
@@ -472,6 +633,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2535454"
 release = "2020-11-18"
+support = ["薄荷"]
 
 [[cloth]]
 name = "例のセーターB型 - Open-Chest Sweater"
@@ -479,6 +641,8 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2711389"
 release = "2021-01-30"
+support = ["薄荷"]
+comment = "https://twitter.com/Eine_Seele/status/1355231112222683137"
 
 [[cloth]]
 name = "魔法使い"
@@ -486,6 +650,8 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2743193"
 release = "2021-02-10"
+support = ["薄荷"]
+category = ["cloth", "shoes", "accessory"]
 
 [[cloth]]
 name = "カジュアル・ウエア Casual Wear"
@@ -493,6 +659,7 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2327331"
 release = "2020-08-25"
+support = ["薄荷"]
 
 [[cloth]]
 name = "バニースーツ"
@@ -500,6 +667,8 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2265589"
 release = "2020-08-02"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "スタイリッシュ・パッフィー Stylish Puffy"
@@ -507,6 +676,8 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2251017"
 release = "2020-07-28"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "シンプル・クラシックス || Simple Classics"
@@ -514,6 +685,8 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2358151"
 release = "2020-09-06"
+support = ["薄荷"]
+category = ["cloth", "shoes", "accessory"]
 
 [[cloth]]
 name = "ハッピーハロウィン"
@@ -522,6 +695,8 @@ boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2478136"
 style = "helloween autumn"
 release = "2020-10-26"
+support = ["薄荷"]
+category = ["cloth", "shoes", "accessory"]
 
 [[cloth]]
 name = "魔法剣士風衣装"
@@ -529,6 +704,8 @@ author = "洋灰色のおみせ"
 boothPrefix = "cement"
 url = "https://booth.pm/ja/items/2672053"
 release = "2021-01-12"
+support = ["薄荷"]
+category = ["cloth", "shoes", "accessory"]
 
 [[cloth]]
 name = "猫耳ローブ"
@@ -536,6 +713,8 @@ author = "洋灰色のおみせ"
 boothPrefix = "cement"
 url = "https://booth.pm/ja/items/2705680"
 release = "2021-01-27"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "平凡なTシャツ"
@@ -543,6 +722,7 @@ author = "黒森"
 boothPrefix = "kuromori"
 url = "https://booth.pm/ja/items/2718863"
 release = "2021-02-01"
+support = ["薄荷"]
 
 [[cloth]]
 name = "💕Sweet💕"
@@ -550,6 +730,9 @@ author = "IsA_Q"
 boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2919357"
 release = "2021-04-25"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/Aur__Q/status/1383769859205468169"
 
 [[cloth]]
 name = "L_Punk Skirt Outfit"
@@ -557,6 +740,7 @@ author = "IsA_Q"
 boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2600108"
 release = "2020-12-13"
+support = ["薄荷"]
 
 [[cloth]]
 name = "LL_Boy style suit"
@@ -564,6 +748,7 @@ author = "IsA_Q"
 boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2583799"
 release = "2020-12-07"
+support = ["薄荷"]
 
 [[cloth]]
 name = "Chu Chu ワンピース"
@@ -572,6 +757,8 @@ boothPrefix = "isaurq"
 url = "https://booth.pm/ja/items/2347703"
 style = "onepiece"
 release = "2020-09-02"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "制服ドレス (school dress)"
@@ -579,6 +766,7 @@ author = "エネ_"
 boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2736328"
 release = "2021-02-10"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ツーピース"
@@ -586,12 +774,24 @@ author = "エネ_"
 boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2463260"
 release = "2020-10-18"
+support = ["薄荷"]
 
 [[cloth]]
 name = "スーツ, Suit"
 author = "Eliya Workshop"
 url = "https://booth.pm/ja/items/2742810"
 twitter_first_post = "2021-02-13"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+
+[[cloth]]
+name = "シースルー ツーピース"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
+url = "https://booth.pm/ja/items/3051668"
+release = "2021-06-17"
+support = ["薄荷1_2", "透羽"]
+comment = "https://twitter.com/SUMMER_VRC/status/1405249379292762112"
 
 [[cloth]]
 name = "デニムサスペンダースカート"
@@ -599,6 +799,8 @@ author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/3030439"
 release = "2021-06-08"
+support = ["薄荷1_2", "透羽", "ここあ", "狐雪", "シグネット"]
+comment = "https://twitter.com/SUMMER_VRC/status/1401965416226824193"
 
 [[cloth]]
 name = "Latte School uniform"
@@ -606,6 +808,9 @@ boothPrefix = "jiha"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 url = "https://booth.pm/ja/items/3014565"
 release = "2021-06-02"
+support = ["薄荷1_2"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/SUMMER_VRC/status/1399800711097946112"
 
 [[cloth]]
 name = "花見行こう！"
@@ -613,6 +818,8 @@ author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2778633"
 release = "2021-02-26"
+support = ["薄荷"]
+comment = "https://twitter.com/JIHA_3D/status/1365042690547585024"
 
 [[cloth]]
 name = "トレーニングウェア"
@@ -620,6 +827,8 @@ author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2717292"
 release = "2021-02-01"
+support = ["薄荷"]
+comment = "https://twitter.com/JIHA_3D/status/1356017909575806976"
 
 [[cloth]]
 name = "CROP TOP & JEANS"
@@ -628,6 +837,7 @@ boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2537716"
 style = "pants"
 release = "2020-12-21"
+support = ["薄荷"]
 
 [[cloth]]
 name = "Dream Rabbit"
@@ -635,6 +845,8 @@ author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2364667"
 vrc_new_item = "2020-09-10"
+support = ["薄荷"]
+category = ["cloth", "accessory"]
 
 [[cloth]]
 name = "オフショルダー＆スカート"
@@ -642,6 +854,8 @@ author = "ふぉいショップ"
 boothPrefix = "foiv"
 url = "https://booth.pm/ja/items/2590672"
 release = "2020-12-10"
+support = ["薄荷"]
+comment = "https://twitter.com/foivrchat/status/1336889727086018561"
 
 [[cloth]]
 name = "リボンワンピース＆カーディガン"
@@ -649,6 +863,7 @@ author = "ふぉいショップ"
 boothPrefix = "foiv"
 url = "https://booth.pm/ja/items/2677004"
 release = "2021-01-15"
+support = ["薄荷"]
 
 [[cloth]]
 name = "パーカーシャツ＆ショートパンツ"
@@ -656,6 +871,8 @@ author = "ふぉいショップ"
 boothPrefix = "foiv"
 url = "https://booth.pm/ja/items/2654391"
 release = "2021-01-05"
+support = ["薄荷"]
+comment = "https://twitter.com/foivrchat/status/1346157886464921602"
 
 [[cloth]]
 name = "秋のトレンチワンピ"
@@ -663,12 +880,23 @@ author = "レグナ大佐の製作所"
 boothPrefix = "regnataisa"
 url = "https://booth.pm/ja/items/2468646"
 vrc_new_item = "2020-10-24"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ハイスクールセーラー服"
 author = "OwObits"
 url = "https://booth.pm/ja/items/1699116"
 style = "sailor uniform"
+support = ["薄荷"]
+
+[[cloth]]
+name = "セーラーフリル水着"
+author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
+url = "https://booth.pm/ja/items/2225439"
+release = "2021-05-29"
+support = ["薄荷", "キッシュ", "ファジー", "フィリナ", "マロン", "ミーシェ", "クレリックカジュアル", "Noy", "幽狐", "メープル", "リア-アリス", "スピカ", "レム", "猫山苗", "ねのひ", "孤雪", "ユウ", "レイニィ", "リリエ", "あまなつ・ラスク", "ミント・ミルク", "セフィラ"]
+comment = "https://twitter.com/shiasakura/status/1398669398102007809"
 
 [[cloth]]
 name = "ロリータシリーズ -ジャパニーズ-"
@@ -676,6 +904,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2915251"
 release = "2021-04-24"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ロリータシリーズ -チャイニーズ-"
@@ -683,6 +912,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2915247"
 release = "2021-04-25"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ロリータシリーズ -ミリタリー-"
@@ -690,6 +920,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2851700"
 release = "2021-03-28"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ロリータシリーズ -セーラー-"
@@ -697,12 +928,14 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2851701"
 release = "2021-03-28"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ロリータシリーズ -クラシック-"
 author = "かぷちやのぶーす"
 url = "https://booth.pm/ja/items/2783990"
 release = "2021-02-27"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ロリータシリーズ -スイート-"
@@ -710,6 +943,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2783991"
 release = "2021-02-27"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ねのひチャイナ"
@@ -717,6 +951,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2753564"
 release = "2021-02-16"
+support = ["薄荷"]
 
 [[cloth]]
 name = "旧型スクール水着"
@@ -725,6 +960,8 @@ boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/1746937"
 origRelease = "2019-12-26"
 release = "2020-07-04"
+support = ["薄荷"]
+comment = "https://twitter.com/shiasakura/status/1348938039129608193"
 
 [[cloth]]
 name = "アイドル衣装TypeA"
@@ -732,6 +969,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2561659"
 release = "2020-11-28"
+support = ["薄荷"]
 
 [[cloth]]
 name = "アイドル衣装TypeB"
@@ -739,6 +977,7 @@ author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2561637"
 release = "2020-11-28"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ねここーと"
@@ -747,6 +986,7 @@ boothPrefix = "capettiya"
 url = "https://booth.pm/ja/items/2623037"
 style = "coat winter"
 release = "2020-12-23"
+support = ["薄荷"]
 
 [[cloth]]
 name = "セーラー服"
@@ -754,12 +994,14 @@ author = "agape_love"
 boothPrefix = "agapelove"
 url = "https://booth.pm/ja/items/2861894"
 twitter_first_post = "2021-04-01"
+support = ["薄荷"]
 
 [[cloth]]
 name = "Mini Dress"
 author = "agape_love"
 url = "https://booth.pm/ja/items/2602847"
 twitter_first_post = "2021-02-16"
+support = ["薄荷"]
 
 [[cloth]]
 name = "体操服"
@@ -767,6 +1009,7 @@ author = "agape_love"
 url = "https://booth.pm/ja/items/2373629"
 style = "sports uniform"
 twitter_first_post = "2020-09-14"
+support = ["薄荷"]
 
 [[cloth]]
 name = "Littlecat"
@@ -774,6 +1017,8 @@ author = "CatsWorkshop"
 boothPrefix = "catsws"
 url = "https://booth.pm/ja/items/2894083"
 release = "2021-04-19"
+support = ["薄荷"]
+comment = "https://twitter.com/VRC_Yaong/status/1384057577378508802"
 
 [[cloth]]
 name = "한복 Hanbok 韓服"
@@ -781,6 +1026,8 @@ author = "CatsWorkshop"
 boothPrefix = "catsws"
 url = "https://booth.pm/ja/items/2725457"
 release = "2021-02-05"
+support = ["薄荷"]
+category = ["cloth", "shoes", "accessory"]
 
 [[cloth]]
 name = "クロップセーラー服"
@@ -789,6 +1036,7 @@ boothPrefix = "zzyya"
 url = "https://booth.pm/ja/items/2629841"
 style = "sailor uniform"
 twitter_first_post = "2021-01-01"
+support = ["薄荷"]
 
 [[cloth]]
 name = "少女用ワンピース"
@@ -796,6 +1044,8 @@ author = "Popapi"
 url = "https://booth.pm/ja/items/2507155"
 style = "onepiece"
 vrc_new_item = "2020-11-07"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "TechWear Outfit"
@@ -804,6 +1054,8 @@ boothPrefix = "origami-unicorn"
 url = "https://booth.pm/ja/items/2645495"
 origRelease = "2021-01-08"
 release = "2021-02-07"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "夏セーラー+藁帽子"
@@ -811,6 +1063,8 @@ author = "kazawappa"
 boothPrefix = "kazawappa"
 url = "https://booth.pm/ja/items/3032361"
 twitter_first_post = "2021-06-10"
+support = ["薄荷"]
+category = ["cloth", "accessory"]
 
 [[cloth]]
 name = "パイロットジャケット/ジーンズ"
@@ -818,6 +1072,8 @@ author = "kazawappa"
 boothPrefix = "kazawappa"
 url = "https://booth.pm/ja/items/2936580"
 vrc_new_item = "2021-05-03"
+support = ["薄荷"]
+category = ["cloth", "accessory"]
 
 [[cloth]]
 name = "ジーンズ/ジャンパー/ジャッケット"
@@ -826,6 +1082,7 @@ boothPrefix = "kazawappa"
 url = "https://booth.pm/ja/items/2655512"
 style = "jacket "
 twitter_first_post = "2021-01-06"
+support = ["薄荷"]
 
 [[cloth]]
 name = "クリスマス服"
@@ -833,6 +1090,8 @@ author = "kazawappa"
 boothPrefix = "kazawappa"
 url = "https://booth.pm/ja/items/2627733"
 twitter_first_post = "2020-12-29"
+support = ["薄荷"]
+category = ["cloth", "accessory"]
 
 [[cloth]]
 name = "SPORTSWEAR"
@@ -840,6 +1099,8 @@ author = "khanzan"
 boothPrefix = "khanzan"
 url = "https://booth.pm/ja/items/2792358"
 twitter_first_post = "2021-03-30"
+support = ["薄荷"]
+category = ["cloth", "accessory"]
 
 [[cloth]]
 name = "ライダースジャケットスタイル追加パンクテクスチャセット"
@@ -848,6 +1109,7 @@ boothPrefix = "nyupara"
 url = "https://booth.pm/ja/items/2463170"
 style = "jacket"
 release = "2020-10-18"
+support = ["薄荷"]
 
 [[cloth]]
 name = "ファンシーパンツスタイルのハロウィンテクスチャ"
@@ -856,6 +1118,7 @@ boothPrefix = "nyupara"
 url = "https://booth.pm/ja/items/2424769"
 style = "helloween autumn"
 release = "2020-10-04"
+support = ["薄荷"]
 
 [[cloth]]
 name = "菫の子 ～A Violet Child～"
@@ -863,6 +1126,9 @@ author = "りくベーカリー"
 boothPrefix = "rikubakery"
 url = "https://booth.pm/ja/items/2995299"
 release = "2021-05-26"
+support = ["薄荷"]
+category = ["cloth", "shoes", "accessory"]
+comment = "https://twitter.com/RikuParfait/status/1397214064703676435"
 
 [[cloth]]
 name = "桜の香り ～Fragrance Of Cherry Blossom～"
@@ -870,6 +1136,9 @@ author = "りくベーカリー"
 boothPrefix = "rikubakery"
 url = "https://booth.pm/ja/items/2975641"
 release = "2021-05-18"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/RikuParfait/status/1394308927492218882"
 
 [[cloth]]
 name = "天の川 ～Galaxy～"
@@ -877,6 +1146,9 @@ author = "りくベーカリー"
 boothPrefix = "rikubakery"
 url = "https://booth.pm/ja/items/2890049"
 release = "2021-04-13"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/RikuParfait/status/1381979554298818564"
 
 [[cloth]]
 name = "西空の鯨 ～Western Sky Whale～"
@@ -884,6 +1156,8 @@ author = "りくベーカリー"
 boothPrefix = "rikubakery"
 url = "https://booth.pm/ja/items/2872047"
 release = "2021-04-05"
+support = ["薄荷"]
+comment = "https://twitter.com/RikuParfait/status/1379017163202129921"
 
 [[cloth]]
 name = "風流夢 ～Dream Of Flow～"
@@ -891,6 +1165,9 @@ author = "りくベーカリー"
 boothPrefix = "rikubakery"
 url = "https://booth.pm/ja/items/2956444"
 twitter_first_post = "2021-05-09"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/RikuParfait/status/1391317865450532865"
 
 [[cloth]]
 name = "uniform/制服/제복"
@@ -899,6 +1176,8 @@ boothPrefix = "minamotosyun"
 url = "https://booth.pm/ja/items/2654513"
 style = ""
 release = "2021-01-05"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "水着モデルと思い出のジャージ"
@@ -906,6 +1185,8 @@ author = "仮想人形商店２号店"
 boothPrefix = "wagamin"
 url = "https://booth.pm/ja/items/2590283"
 release = "2020-12-10"
+support = ["薄荷"]
+comment = "https://twitter.com/momonoki3000/status/1336782589898543105"
 
 [[cloth]]
 name = "HyunA"
@@ -913,6 +1194,7 @@ author = "𝓡𝓮𝓷𝓮𝓮"
 boothPrefix = "chareyalmmx"
 url = "https://booth.pm/ja/items/2850785"
 release = "2021-03-27"
+support = ["薄荷"]
 
 [[cloth]]
 name = "うさみみワンピ"
@@ -920,6 +1202,7 @@ author = "RiumuStore"
 boothPrefix = "riumu960"
 url = "https://booth.pm/ja/items/2872329'"
 release = "2021-04-06"
+support = ["薄荷"]
 
 [[cloth]]
 name = "hakka-tech"
@@ -928,6 +1211,8 @@ boothPrefix = 'rygrk888ggg'
 url = "https://booth.pm/ja/items/2691165"
 style = "parka"
 release = "2021-01-21"
+support = ["薄荷"]
+comment = "https://twitter.com/RyGrK888/status/1352157618370842626"
 
 [[cloth]]
 name = "ハル-Haru"
@@ -935,6 +1220,7 @@ author = "ゆりちゃんねる"
 boothPrefix = "yuriouo"
 url = "https://booth.pm/ja/items/2826461"
 release = "2021-03-20"
+support = ["薄荷"]
 
 [[cloth]]
 name = "競泳水着 Ver1.0"
@@ -942,6 +1228,7 @@ author = "Qrochairo Store"
 boothPrefix = "qrochairo"
 url = "https://booth.pm/ja/items/2578726"
 release = "2020-12-06"
+support = ["薄荷"]
 
 [[nail]]
 name = "お正月ネイルチップ"
@@ -950,6 +1237,8 @@ boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2630051"
 style = "winter newyear"
 release = "2020-12-26"
+support = ["薄荷"]
+comment = "https://twitter.com/mio3io/status/1342649310916141057"
 
 [[nail]]
 name = "てんしなネイル Reincarnation[An-Lumi]"
@@ -957,6 +1246,8 @@ author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/3035327"
 release = "2021-06-10"
+support = ["薄荷"]
+comment = "https://twitter.com/kamomi_iru/status/1402903764458110977"
 
 [[nail]]
 name = "[An-Lumi]ウィンターネイル2020"
@@ -965,6 +1256,7 @@ boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2619157"
 style = "winter"
 release = "2020-12-21"
+support = ["薄荷"]
 
 [[nail]]
 name = "てんしなネイル"
@@ -972,6 +1264,8 @@ author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2564616"
 release = "2020-11-29"
+support = ["薄荷"]
+comment = "https://twitter.com/kamomi_iru/status/1332990122179006465"
 
 [[nail]]
 name = "チョコネイル[An-Lumi]"
@@ -979,6 +1273,7 @@ author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
 url = "https://booth.pm/ja/items/2700313"
 release = "2020-01-25"
+support = ["薄荷"]
 
 [[hair]]
 name = "フレイポニーテール"
@@ -986,13 +1281,15 @@ author = "Noah’sArk"
 boothPrefix = "woodapple"
 url = "https://booth.pm/ja/items/2822580"
 release = "2021-03-15"
+support = ["薄荷"]
 
-[[hair]]
-name = "ロングポニーテール"
-author = "seunchan"
-boothPrefix = "seunchan"
-url = "https://booth.pm/ja/items/2543461"
-release = "2020-11-22"
+# [[hair]]
+# name = "ロングポニーテール"
+# author = "seunchan"
+# boothPrefix = "seunchan"
+# url = "https://booth.pm/ja/items/2543461"
+# release = "2020-11-22"
+# support = ["薄荷"]
 
 [[hair]]
 name = "セミロング"
@@ -1000,6 +1297,7 @@ author = "snori"
 boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2833210"
 release = "2021-03-20"
+support = ["薄荷"]
 
 [[hair]]
 name = "ワンサイドロングヘアー"
@@ -1007,6 +1305,7 @@ author = "snori"
 boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2310161"
 release = "2020-08-20"
+support = ["薄荷"]
 
 [[hair]]
 name = "ポニーテール"
@@ -1014,6 +1313,7 @@ author = "snori"
 boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2107705"
 release = "2020-05-28"
+support = ["薄荷"]
 
 [[hair]]
 name = "ツインテール"
@@ -1021,6 +1321,7 @@ author = "snori"
 boothPrefix = "snori"
 url = "https://booth.pm/ja/items/2470594"
 release = "2020-10-22"
+support = ["薄荷"]
 
 [[hair]]
 name = "ダブルツインテール Double Twintail"
@@ -1028,6 +1329,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/3017014"
 release = "2021-06-04"
+support = ["薄荷"]
 
 [[hair]]
 name = "ハイポニーテール High Ponytail"
@@ -1035,6 +1337,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2985695"
 release = "2021-05-22"
+support = ["薄荷"]
 
 [[hair]]
 name = "ロングヘア P-型 Long Hair Type P"
@@ -1042,6 +1345,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2886172"
 release = "2021-04-11"
+support = ["薄荷"]
 
 [[hair]]
 name = "ショートヘアK-型 Short Hair Type K"
@@ -1049,6 +1353,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2811066"
 release = "2021-03-11"
+support = ["薄荷"]
 
 [[hair]]
 name = "サイドポニーテール - Side Ponytail"
@@ -1056,6 +1361,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2416867"
 release = "2020-10-02"
+support = ["薄荷"]
 
 [[hair]]
 name = "ショートヘアA型 - Short Hair"
@@ -1063,6 +1369,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2648648"
 release = "2021-01-02"
+support = ["薄荷"]
 
 [[hair]]
 name = "ハーフツイン - Half Twintail"
@@ -1070,6 +1377,7 @@ author = "seele"
 boothPrefix = "seele"
 url = "https://booth.pm/ja/items/2576518"
 release = "2020-12-07"
+support = ["薄荷"]
 
 [[hair]]
 name = "ロングヘアー"
@@ -1077,6 +1385,7 @@ author = "エネ_"
 boothPrefix = "ene-0919"
 url = "https://booth.pm/ja/items/2597531"
 twitter_first_post = "2020-12-22"
+support = ["薄荷"]
 
 [[hair]]
 name = "Side Tail　サイドテール"
@@ -1084,6 +1393,7 @@ author = "Three Dots and a Dash"
 boothPrefix = "minamotosyun"
 url = "https://booth.pm/ja/items/2559673"
 release = "2020-11-28"
+support = ["薄荷"]
 
 [[hair]]
 name = "ポニーテール＆猫耳 ||Ponytail and Cat Ears"
@@ -1091,6 +1401,7 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2787826"
 release = "2021-02-28"
+support = ["薄荷"]
 
 [[hair]]
 name = "魔法使い"
@@ -1098,6 +1409,7 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2743193"
 release = "2021-02-10"
+support = ["薄荷"]
 
 [[hair]]
 name = "ショート・クリップ・ヘア || Short Clip Hair"
@@ -1105,6 +1417,7 @@ author = "ハルカップ麺"
 boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2492285"
 release = "2020-10-30"
+support = ["薄荷"]
 
 [[hair]]
 name = "ふわっとウェーブ　Fluffy Wave Hair"
@@ -1112,6 +1425,7 @@ author = "神無月のにゃんこ"
 boothPrefix = "kannya"
 url = "https://booth.pm/ja/items/2926559"
 release = "2021-05-01"
+support = ["薄荷"]
 
 [[accessory]]
 name = "Cosmic ray ネックレス"
@@ -1119,6 +1433,7 @@ author = "mio3io"
 boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2703709"
 release = "2021-01-26"
+support = ["薄荷"]
 
 [[accessory]]
 name = "ノーツキーホルダー3Dモデル＠無料"
@@ -1126,6 +1441,7 @@ author = "mio3io"
 boothPrefix = "mio3works"
 url = "https://booth.pm/ja/items/2519225"
 release = "2020-11-12"
+support = ["薄荷"]
 
 [[accessory]]
 name = "Tactical Utility Gear`s"
@@ -1133,6 +1449,8 @@ author = "RyGrK　WebShop"
 boothPrefix = "rygrk888ggg"
 url = "https://booth.pm/ja/items/2553020"
 release = "2020-11-25"
+support = ["薄荷"]
+comment = "https://twitter.com/RyGrK888/status/1331526535958786048"
 
 [[accessory]]
 name = "AL-LW Platecarrier"
@@ -1140,6 +1458,8 @@ author = "RyGrK　WebShop"
 boothPrefix = "rygrk888ggg"
 url = "https://booth.pm/ja/items/2698787"
 release = "2021-01-24"
+support = ["薄荷"]
+comment = "https://twitter.com/RyGrK888/status/1353266703996600322"
 
 [[accessory]]
 name = "はちの巣ピアス"
@@ -1147,6 +1467,7 @@ author = "碧野屋"
 boothPrefix = "hekino"
 url = "https://booth.pm/ja/items/2872008"
 release = "2021-04-05"
+support = ["薄荷"]
 
 [[shoes]]
 name = "-tech midcut shoes"
@@ -1154,6 +1475,16 @@ author = "RyGrK　WebShop"
 boothPrefix = "rygrk888ggg"
 url = "https://booth.pm/ja/items/2660920"
 release = "2021-01-08"
+support = ["薄荷"]
+
+[[shoes]]
+name = "ラウンドトゥシューズ"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/3063714"
+release = "2021-06-22"
+support = ["薄荷"]
+comment = "https://twitter.com/nemutain333/status/1407262081749962755"
 
 [[shoes]]
 name = "スリッポン"
@@ -1161,6 +1492,8 @@ author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2808867"
 release = "2021-03-10"
+support = ["薄荷"]
+comment = "https://twitter.com/nemutain333/status/1369573734806261761"
 
 [[shoes]]
 name = "ローカットスニーカー"
@@ -1168,6 +1501,11 @@ author = "ネムタインストア"
 boothPrefix = "nemutain"
 url = "https://booth.pm/ja/items/2882289"
 release = "2021-04-10"
+support = ["薄荷", "透羽", "キッシュ", "リア-アリス", "ラスク", "フィリナ", "街狐", "レナ・カクテル", "セフィラ"]
+comment = """
+https://twitter.com/nemutain333/status/1413422682536914945
+https://twitter.com/nemutain333/status/1380812051497414660
+"""
 
 [[cloth]]
 name = "ねこパーカー"
@@ -1176,6 +1514,8 @@ boothPrefix = 'wakonoatorie'
 url = "https://booth.pm/ja/items/2877994"
 style = "parka"
 release = "2021-04-02"
+support = ["薄荷"]
+comment = "https://twitter.com/wako_VRchat/status/1380449631100760069"
 
 [[nail]]
 name = "３Dアバター向けネイルテクスチャ ７色"
@@ -1183,6 +1523,7 @@ author = "む"
 boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/2805447"
 release = "2021-03-21"
+support = ["薄荷"]
 
 [[nail]]
 name = "３Dアバター向けネイルテクスチャ ”夜空イメージ”"
@@ -1190,6 +1531,7 @@ author = "む"
 boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/2903635"
 release = "2021-04-21"
+support = ["薄荷"]
 
 [[eyes]]
 name = "サイバーアイテクスチャ"
@@ -1197,6 +1539,7 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/3037890"
 release = "2021-06-11"
+support = ["薄荷"]
 
 [[accessory]]
 name = "✝︎祈り✝︎"
@@ -1204,6 +1547,7 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/3017737"
 release = "2021-06-10"
+support = ["薄荷"]
 
 [[nail]]
 name = "フラワーモチーフネイル"
@@ -1211,6 +1555,8 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/2980652"
 release = "2021-05-20"
+support = ["薄荷"]
+comment = "https://twitter.com/urrativ/status/1395091307287093248"
 
 [[eyes]]
 name = "ドールアイテクスチャ"
@@ -1218,6 +1564,8 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/2980135"
 release = "2021-05-19"
+support = ["薄荷"]
+comment = "https://twitter.com/urrativ/status/1395044391354470401"
 
 [[eyes]]
 name = "キラキラ夜空の瞳テクスチャ"
@@ -1225,6 +1573,7 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/2923908"
 release = "2021-04-27"
+support = ["薄荷"]
 
 [[eyes]]
 name = "瞳キラキラ追加テクスチャ"
@@ -1232,6 +1581,8 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/2921946"
 release = "2021-04-26"
+support = ["薄荷"]
+comment = "https://twitter.com/urrativ/status/1386658585166241799"
 
 [[eyes]]
 name = "おめかしテクスチャセット"
@@ -1239,6 +1590,8 @@ author = "-Silence-"
 boothPrefix = "silence-track"
 url = "https://booth.pm/ja/items/2958732"
 release = "2021-05-10"
+support = ["薄荷"]
+comment = "https://twitter.com/urrativ/status/1391706313684623365"
 
 [[cloth]]
 name = "なつつばめ"
@@ -1246,6 +1599,7 @@ author =  "ふぃーねちゃんのあれこれ"
 boothPrefix = "3dfactorydayo"
 url = "https://booth.pm/ja/items/2960153"
 release = "2021-05-11"
+support = ["薄荷1_2"]
 
 [[cloth]]
 name = "春のアリス"
@@ -1253,6 +1607,8 @@ author = "ふぃーねちゃんのあれこれ"
 boothPrefix = "3dfactorydayo"
 url = "https://booth.pm/ja/items/2961244"
 release = "2021-05-12"
+support = ["薄荷1_2"]
+comment = "https://twitter.com/alfine21/status/1392403477112889345"
 
 [[cloth]]
 name = "ギンガムチェック水着"
@@ -1260,6 +1616,8 @@ author = "Melty Lily"
 boothPrefix = "meltylily"
 url = "https://booth.pm/ja/items/2865864"
 release = "2021-05-20"
+support = ["薄荷"]
+comment = "https://twitter.com/_Melty_Lily_/status/1395343872163680262"
 
 [[cloth]]
 name = "カエルのレインコート"
@@ -1267,6 +1625,8 @@ author = "くらにゃ工房"
 boothPrefix = "cloudnyan"
 url = "https://booth.pm/ja/items/2986632"
 release = "2021-05-22"
+support = ["薄荷"]
+comment = "https://twitter.com/cloud_t2/status/1395996105075159040"
 
 [[cloth]]
 name = "浴衣"
@@ -1274,6 +1634,8 @@ author = "Atelier Astra"
 boothPrefix = "vic"
 url = "https://booth.pm/ja/items/2982499"
 release = "2021-05-21"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[eyes]]
 name = "シンプルなおめめ"
@@ -1281,6 +1643,8 @@ author = "無知なむちのガラクタ置き場"
 boothPrefix = "chiya-muti"
 url = "https://booth.pm/ja/items/3033193"
 release = "2021-06-09"
+support = ["薄荷"]
+comment = "https://twitter.com/muchi6888/status/1402505658239393793"
 
 [[hair]]
 name = "ベリーショートヘアー初めての髪ー"
@@ -1288,6 +1652,7 @@ author = "無知なむちのガラクタ置き場"
 boothPrefix = "chiya-muti"
 url = "https://booth.pm/ja/items/2988618"
 release = "2021-05-23"
+support = ["薄荷"]
 
 [[cloth]]
 name = "サマーセットアップ"
@@ -1295,6 +1660,8 @@ author = "あいのスタジオ"
 boothPrefix = "ai-studio"
 release = "2021-05-24"
 url = "https://booth.pm/ja/items/2988424"
+support = ["薄荷"]
+category = ["cloth", "shoes"]
 
 [[cloth]]
 name = "リボン付きエレガント水着"
@@ -1302,6 +1669,7 @@ author = "うさぎのしっぽ"
 boothPrefix = "nyaro"
 url = "https://booth.pm/ja/items/2998269"
 release = "2021-05-27"
+support = ["薄荷1_2"]
 
 [[cloth]]
 name = "Mermaid beach wear"
@@ -1310,6 +1678,12 @@ boothPrefix = "nul10"
 url = "https://booth.pm/ja/items/2995754"
 origRelease = "2021-05-26"
 release = "2021-05-27"
+support = ["薄荷", "LSbody", "狐雪", "リア-アリス"]
+comment = "https://twitter.com/enu_001/status/1398563403212357634"
+
+#【Viviちゃん対応】パデットサンダル　2カラー - nullの足音 - BOOTH
+#https://nul10.booth.pm/ja/items/2906759
+#https://twitter.com/enu_001/status/1385631627691192322
 
 [[cloth]]
 name = "着物ドレス"
@@ -1317,6 +1691,9 @@ author = "Apple-store"
 boothPrefix = "rurarinringo"
 url = "https://booth.pm/ja/items/2995319"
 release = "2021-05-28"
+category = ["cloth", "shoes"]
+support = ["セフィラ", "リア-アリス", "薄荷1_2", "メリノ", "ミーシェ"]
+comment = "https://twitter.com/ruarinringo/status/1398234589240315909"
 
 [[cloth]]
 name = "専用衣装"
@@ -1324,6 +1701,8 @@ author = "Uryu Laboratory"
 boothPrefix = "uryushop"
 url = "https://booth.pm/ja/items/2876647"
 release = "2021-05-31"
+support = ["薄荷"]
+comment = "https://twitter.com/uryu0329/status/1399326728418324481"
 
 [[cloth]]
 name = "シンプルシャツ＆パンツ"
@@ -1331,6 +1710,8 @@ author = "きゅう番地"
 boothPrefix = "kokonoka99"
 url = "https://booth.pm/ja/items/3013749"
 release = "2021-06-02"
+support = ["薄荷1_2"]
+comment = "https://twitter.com/VRkokonoka99/status/1400023645989203969"
 
 [[nail]]
 name = "フルーツの切り口ネイルテクスチャ"
@@ -1338,6 +1719,8 @@ author = "きゅう番地"
 boothPrefix = "kokonoka99"
 url = "https://booth.pm/ja/items/3013827"
 release = "2021-06-02"
+support = ["薄荷"]
+comment = "https://twitter.com/VRkokonoka99/status/1400023745851363331"
 
 [[cloth]]
 name = "ブラジャー"
@@ -1345,6 +1728,8 @@ author = "ストラスショップ"
 boothPrefix = "strustrust"
 url = "https://booth.pm/ja/items/3004663"
 release = "2021-05-29"
+support = ["薄荷"]
+comment = "https://twitter.com/strustrust_VRC/status/1398625038895435779"
 
 [[cloth]]
 name = "ニーソックス"
@@ -1352,6 +1737,8 @@ author = "ストラスショップ"
 boothPrefix = "strustrust"
 url = "https://booth.pm/ja/items/2973532"
 release = "2021-05-19"
+support = ["薄荷"]
+comment = "https://twitter.com/strustrust_VRC/status/1395014039818752000"
 
 [[cloth]]
 name = "背中あきホルターネック"
@@ -1359,6 +1746,9 @@ author = "Store*Snowlight"
 boothPrefix = "snowlight0102"
 url = "https://booth.pm/ja/items/2440229"
 release = "2021-06-05"
+category = ["cloth", "accessory"]
+support = ["薄荷1_2", "メリノ", "リーメ/リーバ", "レイニィ", "イヨ", "京狐", "ウルフェリア", "ここあ"]
+comment = "https://twitter.com/Snowlight0102/status/1401067802052546564"
 
 [[cloth]]
 name = "ゆるゆるフリル普段着セット（2着）"
@@ -1366,6 +1756,8 @@ author = "Core_Sirius"
 boothPrefix = "coresirius"
 url = "https://booth.pm/ja/items/3013260"
 release = "2021-06-01"
+comment = "https://twitter.com/ALcelica_VR/status/1399728194480005120"
+support = ["フィリナ", "セフィラ", "キッシュ", "LUA", "受付嬢", "リア-アリス", "ミーシェ", "薄荷1_2", "ラスク", "狐雪", "幽狐"]
 
 [[cloth]]
 name = "巻きバスタオル"
@@ -1373,6 +1765,8 @@ author = "Store*Snowlight"
 boothPrefix = "snowlight0102"
 url = "https://booth.pm/ja/items/1672708"
 release = "2021-06-11"
+support = ["幽狐族", "ミーシェ", "フィリナ", "LUA", "キッシュ", "シャーロ", "ファジー", "アルディナ", "京狐", "リネィ", "リーメ/リーバ", "メリノ", "レイニィ", "ウルフェリア", "薄荷1_2"]
+comment = "https://twitter.com/Snowlight0102/status/1403310625908879360"
 
 [[cloth]]
 name = "水着＆カーディガンセット"
@@ -1380,6 +1774,7 @@ author = "RiumuStore"
 boothPrefix = "riumu960"
 url = "https://booth.pm/ja/items/3026337"
 release = "2021-06-09"
+support = ["フィリナ", "ファジー", "マロン", "ミーシェ", "リナリィ・ココ", "ルシナ", "リア-アリス", "ラスク", "ユウ", "薄荷1_2", "幽狐"]
 
 [[cloth]]
 name  = "Girly summer shirt"
@@ -1388,3 +1783,107 @@ boothPrefix = "yzneko-cafe"
 url = "https://booth.pm/ja/items/3045337"
 release = "2021-06-13"
 comment = "https://twitter.com/Yzha_v/status/1404325435203211264"
+support = ["薄荷1_2"]
+
+[[cloth]]
+name = "ダルシャツ&スポーツインナーセット"
+author = "LunaticFox"
+boothPrefix = "attic"
+url = "https://booth.pm/ja/items/2688342"
+release = "2021-06-17"
+support = ["薄荷", "幽狐族"]
+comment = "https://twitter.com/attica69795467/status/1405489691818827779"
+
+[[shoes]]
+name = "夏っぽいサンダル"
+author = "keipiiの素材置き場"
+boothPrefix = "keipii"
+url = "https://booth.pm/ja/items/3051311"
+release = "2021-06-17"
+support = ["薄荷"]
+comment = "https://twitter.com/keipii_VRC/status/1405329410836688899"
+
+[[cloth]]
+name = "Daydream"
+author = "いな屋さん"
+boothPrefix = "inani"
+url = "https://booth.pm/ja/items/3060911"
+release = "2021-06-20"
+support = ["薄荷"]
+comment = "https://twitter.com/inaya_san/status/1406541007835959298"
+
+[[cloth]]
+name = "Casual tunic Outfit"
+author = "Yzneko cafe"
+boothPrefix = "yzneko-cafe"
+url = "https://booth.pm/ja/items/3062816"
+release = "2021-06-21"
+support = ["薄荷1_2", "透羽"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/Yzha_v/status/1406914887624716293"
+
+[[cloth]]
+name = "ショートパンツ水着"
+author = "syuutaShop"
+boothPrefix = "syuuta"
+url = "https://booth.pm/ja/items/3050903"
+release = "2021-06-29"
+support = ["薄荷", "リア-アリス", "セフィラ"]
+comment = "https://twitter.com/syuutaVRC/status/1409863963148394497"
+
+[[cloth]]
+name = "アール・セレスト"
+author = "Magecraft【メイジクラフト】"
+boothPrefix = "mage-v"
+url = "https://booth.pm/ja/items/3073772"
+release = "2021-06-26"
+category = ["cloth", "shoes"]
+support = ["薄荷1_2"]
+comment = "https://twitter.com/magecraft_VR/status/1408609453658632192"
+
+[[eyes]]
+name = "ぽっぷでかわいいおめめテクスチャ"
+author = "チノりんのおみせ〜(´∀`)"
+boothPrefix = "tinorin-store"
+url = "https://booth.pm/ja/items/3064461"
+release = "2021-06-27"
+support = ["薄荷", "フィー", "リア-アリス", "メープル", "シンシア", "あまなつ", "シャオン", "VRoid"]
+comment = "https://twitter.com/_tinorinVR/status/1408983973099761671"
+
+[[cloth]]
+name = "クリオネ風パーカー"
+author = "あいのスタジオ"
+boothPrefix = "ai-studio"
+url = "https://booth.pm/ja/items/3073377"
+support = ["薄荷1_2", "透羽", "ユウ", "リア-アリス"]
+origRelease = "2021-06-25"
+release = "2021-07-05"
+comment = "https://twitter.com/ai00amr/status/1412040358347689986"
+
+[[cloth]]
+name = "湯煙バスタオル"
+author = "うさぎのしっぽ"
+boothPrefix = "nyaro"
+url = "https://booth.pm/ja/items/3088078"
+support = ["薄荷1_2"]
+release = "2021-07-08"
+comment = "https://twitter.com/usahara333/status/1413049430056398854"
+
+[[cloth]]
+name = "バンドギャルセット"
+author = "AsaList"
+boothPrefix = "asarichan"
+url = "https://booth.pm/ja/items/3100480"
+support = ["薄荷1_2"]
+release = "2021-07-06"
+category = ["cloth", "shoes", "accessory"]
+comment = "https://twitter.com/asari_vv/status/1412330646744141827"
+
+[[hair]]
+name = "編み込みお団子ヘア"
+author = "Melty Lily"
+boothPrefix = "meltylily"
+url = "https://booth.pm/ja/items/3081271"
+release = "2021-07-04"
+support = ["薄荷1_2", "透羽", "一介天使", "翠蓮", "Cygnet", "ここあ", "狐雪", "ウルフェリア", "沙猫", "京狐", "Aco", "セフィラ", "リア-アリス", "ルシナ", "狐薄", "リナリィ・ココ", "メリノ", "みみの"]
+
