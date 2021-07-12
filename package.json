@@ -14,7 +14,7 @@
     "express": "^4.17.1",
     "fs": "0.0.1-security",
     "node-fetch": "^2.6.1",
-    "ogp-parser": "^0.5.4",
+    "ogp-parser": "^0.5.6",
     "sanitize-filename": "^1.6.3"
   }
 }
