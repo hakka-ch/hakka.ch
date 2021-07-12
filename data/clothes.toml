@@ -1,5 +1,15 @@
 
 [[cloth]]
+name = "レイヤードシャツセット"
+author = "mio3io"
+boothPrefix = "mio3works"
+url = "https://booth.pm/ja/items/3096338"
+release = "2021-07-04"
+support = ["薄荷1_2", "透羽"]
+comment = "https://twitter.com/mio3io/status/1411655050330443782"
+
+
+[[cloth]]
 name = "ぶかぶかニット"
 author = "mio3io"
 url = "https://booth.pm/ja/items/2309065"
@@ -134,7 +144,7 @@ https://twitter.com/nemutain333/status/1399653496584998917
 name = "カスミ / ダリア"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
-url = "https://booth.pm/items/3110779"
+url = "https://booth.pm/ja/items/3110779"
 support = ["薄荷1_2"]
 release = "2021-07-10"
 category = ["cloth", "hair"]
@@ -438,6 +448,13 @@ release = "2021-02-13"
 support = ["薄荷", "イヨ", "狐雪"]
 
 [[cloth]]
+name = "Beachwear2"
+author = "アトリエORCA[Booth店]"
+url = "https://booth.pm/ja/items/3080448"
+release = "2021-06-28"
+support = ["薄荷", "透羽"]
+
+[[cloth]]
 name = "アクティブパーカー"
 author = "アトリエORCA"
 boothPrefix = "atelierorca"
@@ -572,6 +589,15 @@ url = "https://booth.pm/ja/items/2405969"
 style = "twopiece"
 release = "2020-09-25"
 category = ["cloth", "shoes"]
+support = ["薄荷"]
+
+[[cloth]]
+name = "チャイナドレス - China Dress"
+author = "seele"
+boothPrefix = "seele"
+url = "https://booth.pm/ja/items/3063628"
+release = "2021-06-21"
+category = ["cloth", "shoes", "accessory"]
 support = ["薄荷"]
 
 [[cloth]]
@@ -890,6 +916,22 @@ style = "sailor uniform"
 support = ["薄荷"]
 
 [[cloth]]
+name = "うさぎさん水着"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/3040672"
+release = "2021-06-13"
+category = ["cloth", "shoes"]
+support = ["薄荷"]
+
+[[cloth]]
+name = "うーちゃんオーバーオール"
+author = "かぷちやのぶーす"
+url = "https://booth.pm/ja/items/3058460"
+release = "2021-06-20"
+category = ["cloth", "shoes", "accessory"]
+support = ["薄荷"]
+
+[[cloth]]
 name = "セーラーフリル水着"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
@@ -987,6 +1029,13 @@ url = "https://booth.pm/ja/items/2623037"
 style = "coat winter"
 release = "2020-12-23"
 support = ["薄荷"]
+
+[[cloth]]
+name = "Nun"
+author = "agape_love"
+url = "https://booth.pm/ja/items/3042246"
+twitter_first_post = "2021-06-13"
+support = ["薄荷", "透羽"]
 
 [[cloth]]
 name = "セーラー服"
@@ -1777,6 +1826,14 @@ release = "2021-06-09"
 support = ["フィリナ", "ファジー", "マロン", "ミーシェ", "リナリィ・ココ", "ルシナ", "リア-アリス", "ラスク", "ユウ", "薄荷1_2", "幽狐"]
 
 [[cloth]]
+name = "Casual tunic Outfit"
+author = "Yzneko cafe"
+url = "https://booth.pm/ja/items/3062816"
+release = "2021-06-21"
+support = ["薄荷1_2"]
+comment = "https://twitter.com/Yzha_v/status/1406914887624716293"
+
+[[cloth]]
 name  = "Girly summer shirt"
 author = "Yzneko cafe"
 boothPrefix = "yzneko-cafe"
@@ -1887,3 +1944,51 @@ url = "https://booth.pm/ja/items/3081271"
 release = "2021-07-04"
 support = ["薄荷1_2", "透羽", "一介天使", "翠蓮", "Cygnet", "ここあ", "狐雪", "ウルフェリア", "沙猫", "京狐", "Aco", "セフィラ", "リア-アリス", "ルシナ", "狐薄", "リナリィ・ココ", "メリノ", "みみの"]
 
+[[cloth]]
+name = "ファンシーバイオレンス"
+author = "P_Store"
+boothPrefix = "poppo-shop"
+url = "https://booth.pm/ja/items/3107408"
+release = "2021-07-11"
+support = ["薄荷1_2", "透羽"]
+category = ["cloth", "shoes"]
+comment = "https://twitter.com/PoppoPro/status/1414009222640017412"
+
+[[accessory]]
+name = "風鈴イヤリング　「清風」"
+author = "MONO沖"
+boothPrefix = "qiq"
+url = "https://booth.pm/ja/items/3115929"
+release = "2021-07-12"
+support = ["薄荷"]
+comment = "https://twitter.com/qiq909044040960/status/1414416060346900480"
+
+[[accessory]]
+name = "願いの代償 ピアス"
+author = "-Silence-"
+url = "https://booth.pm/ja/items/3098685"
+release = "2021-07-06"
+support = ["薄荷", "翠蓮", "ミーシェ", "U", "Cygnet"]
+
+[[accessory]]
+name = "猫耳 三点セット"
+author = "LunaticFox"
+url = "https://booth.pm/ja/items/3072201"
+release = "2021-06-27"
+support = ["薄荷", "ルシナ", "幽狐族"]
+comment = "https://twitter.com/attica_vrc/status/1408965865773539333"
+
+[[cloth]]
+name = "おめかし水着"
+author = "choco*shop"
+url = "https://booth.pm/ja/items/2982426"
+support = ["透羽", "薄荷1_2", "Rono"]
+release = "2021-07-05"
+
+[[cloth]]
+name = "普段着パーカー"
+author = "choco*shop"
+url = "https://booth.pm/ja/items/3080745"
+release = "2021-06-28"
+comment = "https://twitter.com/logico_szm/status/1409379083616620547"
+support = ["透羽", "薄荷1_2"]
