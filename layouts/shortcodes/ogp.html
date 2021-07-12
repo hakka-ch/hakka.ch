@@ -10,12 +10,12 @@
   </div>
 </div>
 {{- else if in $URL "vrchat.com/home/" }}
-{{- $ogpimage := resources.Get $json.local_ogp_image_path -}}
+{{/* $ogpimage := resources.Get $json.local_ogp_image_path */}}
 <div class="ogp-card vrc">
   <div class="ogp-card__contents">
-    <div class="ogp-card__image"><img src="{{ ($ogpimage.Resize "150x webp").RelPermalink }}" alt=""></div>
-    <div class="ogp-card__title"><a href="{{ $URL }}">{{ index (index ($json.seo) "twitter:title") 0 }}</a></div>
-    <div class="ogp-card__desc"><span>{{ index (index ($json.seo) "twitter:description") 0 }}</span></div>
+    <div class="ogp-card__image"><img src="{{/* ($ogpimage.Resize "150x webp").RelPermalink */}}" alt=""></div>
+    <div class="ogp-card__title"><a href="{{ $URL }}">{{/* index (index ($json.seo) "twitter:title") 0 */}}{{ $URL }}</a></div>
+    <div class="ogp-card__desc"><span>{{/* index (index ($json.seo) "twitter:description") 0 */}}</span></div>
   </div>
 </div>
 {{- else if $json.seo }}
