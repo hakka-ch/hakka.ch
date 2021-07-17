@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', function() {
   const itemsArr = Array.from(itemsEle);
 
   const selector = document.querySelector('select.clothet-sort');
+  const clothCategoryLogi = document.querySelector('input#cloth-category-logi-and');
+  let isClothCategoryLogiAnd = clothCategoryLogi.checked;
+  document.querySelector('input#cloth-category-logi-and').addEventListener('change', function(e) {
+    isClothCategoryLogiAnd = e.target.checked;
+  });
+
+  const selectedCategories = [];
+  document.querySelectorAll('input[name=cloth-category]').forEach(el => {
+    if (el.checked) selectedCategories.push(el.value);
+  });
 
   const sortOption = [
     // [, 'default', 'デフォルト'],
@@ -81,13 +91,30 @@ document.addEventListener('DOMContentLoaded', function() {
   /**
    * カテゴリで絞るやつ
    */
-  document.querySelectorAll('input[name=cloth-category]').forEach(el => {
+  document.querySelectorAll('input[name=cloth-category]').forEach((el, index) => {
     el.addEventListener('change', function (ev) {
       const checked = ev.target.checked;
-      const category = ev.target.id;
+      const category = ev.target.value;
+
+      const idx = selectedCategories.findIndex(e => e == category);
+      if (idx != -1) {
+        if (checked) selectedCategories.splice(index, 0, category);
+        if (!checked) selectedCategories.splice(idx, 1);
+      } else
+      if (idx == -1) {
+        if (checked) selectedCategories.splice(index, 0, category);
+        if (!checked) selectedCategories.splice(idx, 1);
+      }
       itemsArr.forEach(item => {
-        if (item.dataset.category == category) {
-          if (checked) {
+        const itemCategory = item.dataset.category.split(',');
+        if (isClothCategoryLogiAnd) {
+          if (selectedCategories.every(e => itemCategory.includes(e)) && selectedCategories.length == itemCategory.length) {
+            item.classList.remove('clothet__item--hidden');
+          } else {
+            item.classList.add('clothet__item--hidden');
+          }
+        } else { // or
+          if (itemCategory.some(e => selectedCategories.includes(e))) {
             item.classList.remove('clothet__item--hidden');
           } else {
             item.classList.add('clothet__item--hidden');
@@ -95,6 +122,10 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       });
     });
+  });
+
+  clothCategoryLogi.addEventListener('change', function() {
+    document.querySelector('input[name=cloth-category]').dispatchEvent(new  Event('change'))
   });
 
   /**
