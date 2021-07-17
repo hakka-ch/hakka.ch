@@ -1,5 +1,18 @@
+{{- $scratch := newScratch -}}
+{{- range $filename, $val := $.Site.Data.clothet -}}
+  {{- range $category, $item := $val -}}
+    {{- if ($scratch.Get "c") -}}
+      {{- if (index ($scratch.Get "c") $category) -}}
+        {{- $scratch.SetInMap "c" $category ((index ($scratch.Get "c") $category) | append $item) -}}
+      {{- else -}}
+        {{- $scratch.SetInMap "c" $category $item -}}
+      {{- end -}}
+    {{- else -}}
+      {{- $scratch.SetInMap "c" $category $item -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 {
-  "LastMod": {{ (os.Stat "data/clothes.toml").ModTime.Format "2006-01-02 15:04:05 MST" | jsonify }},
-  "content":
-    {{ .Site.Data.clothes | jsonify }}
+  "LastMod": {{ (os.Stat "data/clothet/").ModTime.Format "2006-01-02 15:04:05 MST" | jsonify }},
+  "content": {{ $scratch.Get "c" | jsonify }}
 }

@@ -1,0 +1,218 @@
+
+[[clothes]]
+name = "「透羽」専用衣装【浴衣】"
+author = "Atelier Astra"
+url = "https://booth.pm/ja/items/3020795"
+support = ["透羽"]
+release = "2021-06-04"
+
+[[hair]]
+name = "『ワンサイドロングヘアー』 - VRC用 B-TYPE"
+author = "snori"
+url = "https://snori.booth.pm/items/3023327"
+release = "2021-06-05"
+comment = "https://twitter.com/Snori2074/status/1401092397715443712"
+support = ["透羽", "ウルフェリア", "メリノ"]
+
+[[clothes]]
+name = "VRChat向け スポーティージャージ（一介天使ちゃん翠蓮ちゃん想定）（ロポリこんちゃん/ティグリなすちゃん対応モデル同梱）"
+author = "ゆえゆえ"
+url = "https://booth.pm/ja/items/2668491"
+release = "2021-01-12"
+support = ["一介天使", "ロポリこん", "ティグリなす"]
+
+[[clothes]]
+name = "VRChat向け ふわモコルームウェア（一介天使ちゃん翠蓮ちゃん想定）"
+author = "ゆえゆえ"
+url = "https://booth.pm/ja/items/2742561"
+release = "2021-02-12"
+support = ["一介天使"]
+
+[[bundle]]
+name = "「一介天使専用」EYEテクスチャ ＆ ネイル"
+author = "猫だんご屋"
+url = "https://booth.pm/ja/items/3021251"
+comment = "https://twitter.com/vrc_new_item/status/1403344419999342592"
+support = ["一介天使"]
+vrc_new_item = "2021-06-11"
+category = ["eye", "nail"]
+
+[[accessory]]
+name = "【VRChat】アジサイの耳飾り(イヤリング、ピアス)"
+author = "Chantilly shop"
+url = "https://booth.pm/ja/items/3038198"
+release = "2021-06-11"
+support = ["透羽"]
+
+[[nail]]
+name = "透羽ちゃん用ネイルテクスチャ"
+author = "無知なむちのガラクタ置き場"
+url = "https://chiya-muti.booth.pm/items/3036930"
+release = "2021-06-11"
+support = ["透羽"]
+comment = "https://twitter.com/vrc_new_item/status/1403220971671199746"
+
+[[eyes]]
+name = "透羽ちゃん専用シンプルなおめめ"
+author = "無知なむちのガラクタ置き場"
+url = "https://booth.pm/ja/items/3036954"
+release = "2021-06-11"
+support = ["透羽"]
+comment = "https://twitter.com/muchi6888/status/1403266546516914178"
+
+[[nail]]
+name = "てんしなネイル Reincarnation[透羽ちゃん専用][An-Lumi]"
+author = "An-Labo ‐ Virtual"
+url = "https://booth.pm/ja/items/3023469"
+release = "2021-06-05"
+comment = "https://twitter.com/kamomi_iru/status/1401146086962569225"
+support = ["透羽"]
+
+[[clothes]]
+name = "ゆずねこカッターシャツ【透羽版】"
+author = "Yzneko cafe"
+url = "https://booth.pm/ja/items/3019635"
+release = "2021-06-04"
+support = ["透羽"]
+
+[[bundle]]
+name = "「透羽専用」EYEテクスチャ ＆ ネイル"
+author = "猫だんご屋"
+url = "https://booth.pm/ja/items/3021236"
+release = "2021-06-05"
+comment = "https://twitter.com/_Nekodango/status/1401141569806237697"
+support = ["透羽"]
+category = ["eyes", "nail"]
+
+[[clothes]]
+name = "[VRC専用]クロップセーラー服 (ウルフェリア / セフィラ / 透羽 用)"
+author = "Popapi"
+url = "https://booth.pm/ja/items/3034137"
+release = "2021-06-10"
+comment = "https://twitter.com/zzy_yaa/status/1402654801142288392"
+support = ["透羽", "ウルフェリア", "セフィラ"]
+
+[[nail]]
+name = "3Dアバター向けネイルテクスチャ ”夜空イメージ” ウルフェリア、ここあ、薄荷、ラスク（ミルク新）、レイニィ、フィリナ、レスキュナ、狐雪、ユメ、エミスティア、透羽想定"
+author = "む"
+url = "https://mumumumum.booth.pm/items/2903635"
+release = "2021-04-21"
+comment = "https://twitter.com/vr59084269/status/1402646339238842369"
+support = ["薄荷", "透羽", "ウルフェリア", "ここあ", "ラスク（ミルク新）", "レイニィ", "フィリナ", "レスキュナ", "狐雪", "ユメ", "エミスティア"]
+
+[[nail]]
+name = "３Dアバター向けネイルテクスチャ ７色 ウルフェリア、ここあ、京狐、リナリィココ、リアアリス、薄荷、ラスク（ミルク新）、レスキュナ、狐雪、ユメ、エミスティア、透羽想定"
+author = "む"
+url = "https://mumumumum.booth.pm/items/2805447"
+release = "2021-03-21"
+comment = "https://twitter.com/vr59084269/status/1402643113953304577"
+support = ["薄荷", "透羽", "ウルフェリア", "ここあ", "京狐", "リナリィココ", "リアアリス", "ラスク（ミルク新）", "レスキュナ", "狐雪", "ユメ", "エミスティア"]
+
+[[eyes]]
+name = "透羽ちゃん用アイテクスチャ星空イメージ"
+author = "む"
+url = "https://booth.pm/ja/items/3019188"
+release = "2021-04-04"
+comment = "https://twitter.com/vr59084269/status/1400523559106060288"
+support = ["透羽"]
+
+[[clothes]]
+name = "⚫️透羽ちゃん用_東方ファンタジー風⚫️【オリジナル3D】「dynamic bone 設定済み」"
+author = "tiana"
+url = "https://tiana.booth.pm/items/3076570"
+release = "2021-06-26"
+comment = "https://twitter.com/tiana_tiana000/status/1408774287155101696"
+support = ["透羽"]
+
+[[clothes]]
+name = "着物ドレス"
+author = "Apple-store"
+url = "https://rurarinringo.booth.pm/items/2995319"
+# release = "2021-05-28"
+release = "2021-07-09"
+support = ["透羽", "薄荷1_2", "リア-アリス", "セフィラ", "メリノ", "ミーシェ"]
+comment = "https://twitter.com/ruarinringo/status/1413450333494284288"
+
+[[clothes]]
+name = "オフショルメイド服"
+author = "紅雨の降る蒼"
+url = "https://kouuao.booth.pm/items/3083893"
+release = "2021-07-07"
+support = ["透羽"]
+comment = """
+https://twitter.com/KouuAo/status/1410091075276972038
+https://twitter.com/mio3io/status/1412541443122499584
+"""
+
+[[clothes]]
+name = "透羽用衣装)でにむわんぴーす"
+author = "ふぃーねちゃんのあれこれ"
+url = "https://3dfactorydayo.booth.pm/items/3078270"
+support = ["透羽"]
+release = "2021-07-01"
+comment = """
+https://twitter.com/alfine21/status/1410532703154315264
+https://twitter.com/alfine21/status/1414177267559718919
+"""
+
+[[clothes]]
+name = "G&D OverSize P2"
+author = "Goudan WorkShop&GOUDAN ワークショップ"
+url = "https://booth.pm/ja/items/3104374"
+support = ["透羽"]
+release = "2021-07-08"
+
+[[clothes]]
+name = "[3Dモデル]透羽用クラシック風ワンピース"
+author = "nyakomake"
+support = ["透羽"]
+url = "https://booth.pm/ja/items/3100905"
+release = "2021-07-06"
+
+[[clothes]]
+name = "[3dモデル]透羽 Dress"
+author = "CatsWorkshop"
+url = "https://booth.pm/ja/items/3049054"
+release = "2021-06-16"
+support = ["透羽"]
+comment = "https://twitter.com/WorkshopCats/status/1404819183536197632"
+
+[[clothes]]
+name = "[3Dモデル]Suit-Nero(透羽専用)"
+author = "Pini"
+url = "https://booth.pm/ja/items/3045456"
+release = "2021-06-14"
+support = ["透羽"]
+comment = "https://twitter.com/Pini_3D/status/1404337810052575233"
+
+[[clothes]]
+name = "Jean & Shirt (For Sue & Hakka body)"
+author = "shard"
+url = "https://booth.pm/ja/items/3067527"
+release = "2021-06-23"
+support = ["透羽", "薄荷1_2"]
+comment = "https://twitter.com/Shard_Vrc/status/1407580172585299971"
+
+[[clothes]]
+name = "【透羽ちゃん専用】プリンセスドレス"
+author = "KONEKO0v0"
+url = "https://booth.pm/ja/items/3072351"
+release = "2021-06-25"
+support = ["透羽"]
+comment = "https://twitter.com/KONEKO0v0/status/1408274357344899077"
+
+[[clothes]]
+name = "👚🐈透羽ちゃん用ー猫フード🐈👚【オリジナル3D】「dynamic bone 設定済み」"
+author = "tiana"
+url = "https://booth.pm/ja/items/3064999"
+release = "2021-06-22"
+support = ["透羽"]
+comment = "https://twitter.com/tiana_tiana000/status/1407178798483656707"
+
+[[clothes]]
+name = "[店員の衣装, Clerk Uniform] - ウルフェリア,透羽 ,Wolferia, Sue"
+author = "Eliya Workshop"
+url = "https://booth.pm/ja/items/3099491"
+release = "2021-07-11"
+support = ["透羽"]
+

@@ -3,7 +3,7 @@ $category-border-width: 1rem;
 
 $categories: (
   accessory: rgba(#89A1EF, 0.3),
-  cloth: rgba(#CFE8E0, 1),
+  clothes: rgba(#CFE8E0, 1),
   eyes: rgba(#384545, 0.3),
   hair: rgba(#BA637C, 0.3),
   nail: rgba(#A15E49, 0.3),
@@ -50,11 +50,26 @@ $categories: (
           grid-column-start: 2;
           grid-row-start: 2;
         }
+        &__support {
+          grid-column-start: 2;
+          grid-row-start: 3;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: nowrap;
+          overflow: hidden;
+          overflow-x: scroll;
+          scroll-behavior: smooth;
+          scrollbar-width: none;
+          span {
+            margin-right: .5em;
+            flex-shrink: 0;
+          }
+        }
         &__image {
           grid-column-start: 1;
           grid-column-end: 2;
           grid-row-start: 1;
-          grid-row-end: 3;
+          grid-row-end: 4;
         }
         &__image div {
           width: 7em;
@@ -66,7 +81,7 @@ $categories: (
       }
 
       @each $category, $color in $categories {
-        &[data-category=#{$category}] a {
+        .icon.#{$category} {
           // border-left: $color solid $category-border-width;
           &::before {
             display: inline-block;
@@ -86,45 +101,47 @@ $categories: (
 
 .search {
   &-category {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
-    gap: 4px;
-    label {
-      display: block;
-      user-select: none;
-      input {
-        display: none;
-      }
-      span {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        margin: 0;
-        padding: 0 0.5em;
-        border: #719a9d solid 1px;
-      }
-      @each $category, $color in $categories {
-        input##{$category} + span::before {
-          display: inline-block;
-          width: 24px;
-          height: 24px;
-          margin-right: 0.5em;
-          content: '';
-          background: url('/pict/#{$category}.png');
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      gap: 4px;
+      label {
+        display: block;
+        user-select: none;
+        input {
+          display: none;
         }
-      }
-      input:checked {
-        + span {
-          background: #cfe8e0;
+        span {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          margin: 0;
+          padding: 0 0.5em;
+          border: #719a9d solid 1px;
         }
-      }
-      @each $category, $color in $categories {
-        input##{$category}:checked {
-          & + span {
-            background: $color;
+        @each $category, $color in $categories {
+          input##{$category} + span::before {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            margin-right: 0.5em;
+            content: '';
+            background: url('/pict/#{$category}.png');
+          }
+        }
+        input:checked {
+          + span {
+            background: #cfe8e0;
+          }
+        }
+        @each $category, $color in $categories {
+          input##{$category}:checked {
+            & + span {
+              background: $color;
+            }
           }
         }
       }
