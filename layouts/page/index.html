@@ -29,14 +29,14 @@
                 {{- dateFormat "2006/01/02 15:05 MST" .Params.event_date -}}
               </div>
               <div class="event-content">
-                {{- if not .Params.hideContent -}}
-                  {{ .Content }}
-                {{- end -}}
                 {{- if .Params.tweet -}}
                   <!-- https://github.com/gohugoio/hugo/blob/master/tpl/tplimpl/embedded/templates/shortcodes/twitter.html -->
                   {{- $url := printf "https://api.twitter.com/1.1/statuses/oembed.json?id=%v" (.Params.tweet) -}}
                   {{- $json := getJSON $url -}}
                   {{ $json.html | safeHTML }}
+                {{- end -}}
+                {{- if not .Params.hideContent -}}
+                  {{ .Content }}
                 {{- end -}}
               </div>
             {{- end -}}
