@@ -125,15 +125,6 @@ comment = "https://twitter.com/tiana_tiana000/status/1408774287155101696"
 support = ["透羽"]
 
 [[clothes]]
-name = "着物ドレス"
-author = "Apple-store"
-url = "https://rurarinringo.booth.pm/items/2995319"
-# release = "2021-05-28"
-release = "2021-07-09"
-support = ["透羽", "薄荷1_2", "リア-アリス", "セフィラ", "メリノ", "ミーシェ"]
-comment = "https://twitter.com/ruarinringo/status/1413450333494284288"
-
-[[clothes]]
 name = "オフショルメイド服"
 author = "紅雨の降る蒼"
 url = "https://kouuao.booth.pm/items/3083893"
@@ -190,7 +181,7 @@ name = "Jean & Shirt (For Sue & Hakka body)"
 author = "shard"
 url = "https://booth.pm/ja/items/3067527"
 release = "2021-06-23"
-support = ["透羽", "薄荷1_2"]
+support = ["透羽", "薄荷1.2"]
 comment = "https://twitter.com/Shard_Vrc/status/1407580172585299971"
 
 [[clothes]]
@@ -216,3 +207,10 @@ url = "https://booth.pm/ja/items/3099491"
 release = "2021-07-11"
 support = ["透羽"]
 
+[[nail]]
+name = "透羽ちゃん用ネイルセット"
+author = "あいかわらぼ"
+url = "https://aikawa2.booth.pm/items/3133828"
+release = "2021-07-25"
+support = ["透羽"]
+comment = "https://twitter.com/aikawa_222/status/1419143902649458688"

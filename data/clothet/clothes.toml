@@ -1832,7 +1832,8 @@ name = "着物ドレス"
 author = "Apple-store"
 boothPrefix = "rurarinringo"
 url = "https://booth.pm/ja/items/2995319"
-release = "2021-05-28"
+release = "2021-07-09"
+origRelease = "2021-05-28"
 category = ["clothes", "shoes"]
 support = ["セフィラ", "リア-アリス", "薄荷1.2", "メリノ", "ミーシェ"]
 comment = "https://twitter.com/ruarinringo/status/1398234589240315909"
@@ -2146,3 +2147,16 @@ release = "2021-07-19"
 origRelease = "2021-07-13"
 support = ["薄荷1.2", "シグネット"]
 comment = "https://twitter.com/_RAKOKO_/status/1416992172562292736"
+
+[[clothes]]
+name = "Bottled scape"
+author = "Aquatic Hideout"
+boothPrefix = "aquatic"
+url = "https://booth.pm/ja/items/3032797"
+release = "2021-07-25"
+origRelease = "2021-06-23"
+support = ["薄荷", "メリノ"]
+comment = """
+https://twitter.com/Name1ess_Newbie/status/1420684766219685896
+https://twitter.com/Name1ess_Newbie/status/1419162533911433218
+"""
