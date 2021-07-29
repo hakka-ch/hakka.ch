@@ -916,6 +916,15 @@ style = "sailor uniform"
 support = ["薄荷"]
 
 [[clothes]]
+name = "ロリータシリーズ -浴衣-"
+author = "かぷちやのぶーす"
+release = "2021-07-19"
+origRelease = "2021-07-17"
+support = ["薄荷"]
+category = ["clothes", "shoes", "accessory"]
+url = "https://booth.pm/ja/items/3129255"
+
+[[clothes]]
 name = "うさぎさん水着"
 author = "かぷちやのぶーす"
 url = "https://booth.pm/ja/items/3040672"
@@ -1744,6 +1753,16 @@ comment = "https://twitter.com/enu_001/status/1398563403212357634"
 #https://twitter.com/enu_001/status/1385631627691192322
 
 [[clothes]]
+name = "エプロンドレス"
+author = "Apple-store"
+boothPrefix = "rurarinringo"
+url = "https://booth.pm/ja/items/3126308"
+release = "2021-07-21"
+category = ["clothes", "shoes"]
+support = ["薄荷1.2", "リア-アリス", "セフィラ", "ミーシェ"]
+comment = "https://twitter.com/ruarinringo/status/1417812064005890055"
+
+[[clothes]]
 name = "着物ドレス"
 author = "Apple-store"
 boothPrefix = "rurarinringo"
@@ -1797,6 +1816,16 @@ url = "https://booth.pm/ja/items/2973532"
 release = "2021-05-19"
 support = ["薄荷"]
 comment = "https://twitter.com/strustrust_VRC/status/1395014039818752000"
+
+[[clothes]]
+name = "甚平"
+author = "Store*Snowlight"
+boothPrefix = "snowlight0102"
+url = "https://booth.pm/ja/items/3138163"
+release = "2021-07-22"
+category = ["clothes", "shoes"]
+support = ["薄荷1.2", "メリノ", "ウルフェリア", "イヨ", "イメリス", "リーメ"]
+comment = "https://twitter.com/Snowlight0102/status/1418150915068989440"
 
 [[clothes]]
 name = "背中あきホルターネック"
@@ -1936,6 +1965,16 @@ release = "2021-07-08"
 comment = "https://twitter.com/usahara333/status/1413049430056398854"
 
 [[clothes]]
+name = "サマードレスセット"
+author = "AsaList"
+boothPrefix = "asarichan"
+url = "https://booth.pm/ja/items/3139665"
+release = "2021-07-22"
+category = ["clothes", "shoes"]
+support = ["薄荷1.2"]
+comment = "https://twitter.com/asari_vv/status/1418084938935509001"
+
+[[clothes]]
 name = "バンドギャルセット"
 author = "AsaList"
 boothPrefix = "asarichan"
@@ -2011,3 +2050,24 @@ url = "https://booth.pm/ja/items/3080745"
 release = "2021-06-28"
 comment = "https://twitter.com/logico_szm/status/1409379083616620547"
 support = ["透羽", "薄荷1.2"]
+
+[[clothes]]
+name = "スイートロリワンピース"
+author = "白猫通りのナギ亭"
+boothPrefix = "naginagistore"
+url = "https://booth.pm/ja/items/3063794"
+release = "2021-07-20"
+origRelease = "2021-06-23"
+support = ["薄荷", "リア-アリス", "セフィラ", "ミーシェ", "フィリナ", "レイニィ", "キッシュ", "リリエ", "トゥエル", "くりねこちゃん", "ろうちゃん", "あまなつ", "せびなちゃん", "ウイカ", "幽狐族"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/NagiRevere/status/1417439694317441026"
+
+[[clothes]]
+name = "オープンショルダードレス"
+author = "RAKO"
+boothPrefix = "rakoko"
+url = "https://booth.pm/ja/items/3118280"
+release = "2021-07-19"
+origRelease = "2021-07-13"
+support = ["薄荷1.2", "シグネット"]
+comment = "https://twitter.com/_RAKOKO_/status/1416992172562292736"
