@@ -116,6 +116,15 @@ release = "2021-02-12"
 support = ["薄荷", "狐雪", "メリノ", "ミーシェ", "レイニィ", "イヨ", "幽狐族"]
 
 [[clothes]]
+name = "キャット&ワンピースコーデ"
+author = "ネムタインストア"
+boothPrefix = "nemutain"
+url = "https://booth.pm/ja/items/3156666"
+release = "2021-07-30"
+support = ["薄荷", "キッシュ", "リア-アリス", "ラスク"]
+comment = "https://twitter.com/nemutain333/status/1421032834895077376"
+
+[[clothes]]
 name = "キャット&スカジャンコーデ"
 author = "ネムタインストア"
 boothPrefix = "nemutain"
@@ -139,6 +148,16 @@ comment = """
 https://twitter.com/nemutain333/status/1377187192657702914
 https://twitter.com/nemutain333/status/1399653496584998917
 """
+
+[[clothes]]
+name = "ヒガンバナ"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3169463"
+release = "2021-08-03"
+support = ["薄荷1.2"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/Noahs00Ark/status/1422488724902842369"
 
 [[hair]]
 name = "カスミ / ダリア"
@@ -795,6 +814,15 @@ style = "onepiece"
 release = "2020-09-02"
 support = ["薄荷"]
 category = ["clothes", "shoes"]
+
+[[clothes]]
+name = "へそチラ"
+author = "エネ_ene"
+boothPrefix = "ene-0919"
+url = "https://booth.pm/ja/items/3156148"
+release = "2021-07-30"
+support = ["薄荷", "透羽"]
+comment = "https://twitter.com/ene_ene_ee/status/1421038594945212418"
 
 [[clothes]]
 name = "制服ドレス (school dress)"
@@ -1787,6 +1815,14 @@ release = "2021-05-23"
 support = ["薄荷"]
 
 [[clothes]]
+name = "【6アバター対応】アシメコーデ"
+author = "あいのスタジオ"
+url = "https://booth.pm/ja/items/3157992"
+release = "2021-07-30"
+support = ["薄荷1.2", "透羽"]
+comment = "https://twitter.com/vrc_new_item/status/1421011381487378435"
+
+[[clothes]]
 name = "サマーセットアップ"
 author = "あいのスタジオ"
 boothPrefix = "ai-studio"
@@ -1963,6 +1999,15 @@ url = "https://booth.pm/ja/items/3051311"
 release = "2021-06-17"
 support = ["薄荷"]
 comment = "https://twitter.com/keipii_VRC/status/1405329410836688899"
+
+[[clothes]]
+name = "メイドビキニ"
+author = "いな屋さん"
+boothPrefix = "inani"
+url = "https://booth.pm/ja/items/3133170"
+release = "2021-08-01"
+support = ["薄荷"]
+comment = "https://twitter.com/inaya_san/status/1421710236335804416"
 
 [[clothes]]
 name = "Daydream"
@@ -2160,3 +2205,22 @@ comment = """
 https://twitter.com/Name1ess_Newbie/status/1420684766219685896
 https://twitter.com/Name1ess_Newbie/status/1419162533911433218
 """
+
+[[eyes]]
+name = "さわやかポップテクスチャセット"
+author = "べじわーくす"
+boothPrefix = "vegemite0429"
+url = "https://booth.pm/ja/items/3159710"
+release = "2021-07-30"
+support = ["薄荷1.2"]
+category = ["eyes", "nail", "face", "texture"]
+comment = "https://twitter.com/VEGEmite0429/status/1421106271952916486"
+
+[[clothes]]
+name = "彼シャツ＆彼カーディガン"
+author = "ぺんぎんの冷蔵庫"
+boothPrefix = "penguin-coolbox"
+url = "https://booth.pm/ja/items/3157707"
+support = ["薄荷1.2"]
+release = "2021-07-30"
+comment = "https://twitter.com/raz_penginVR/status/1421301212205379584"
