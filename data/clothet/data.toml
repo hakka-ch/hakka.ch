@@ -74,6 +74,7 @@ author = "Yzneko cafe"
 url = "https://booth.pm/ja/items/3019635"
 release = "2021-06-04"
 support = ["透羽"]
+comment = "https://twitter.com/Yzha_v/status/1423134464247357442"
 
 [[bundle]]
 name = "「透羽専用」EYEテクスチャ ＆ ネイル"
@@ -214,3 +215,35 @@ url = "https://aikawa2.booth.pm/items/3133828"
 release = "2021-07-25"
 support = ["透羽"]
 comment = "https://twitter.com/aikawa_222/status/1419143902649458688"
+
+[[clothes]]
+name = "Casual suit"
+author = "CatsWorkshop"
+url = "https://catsws.booth.pm/items/3139428"
+support = ["透羽"]
+release = "2021-07-22"
+comment = "https://twitter.com/WorkshopCats/status/1418061046191849472"
+
+[[clothes]]
+name = "summer Dress"
+author = "CatsWorkshop"
+url = "https://catsws.booth.pm/items/3172806"
+release = "2021-08-04"
+support = ["透羽"]
+comment = "https://twitter.com/WorkshopCats/status/1423090820308115457"
+
+[[nail]]
+name = "かわいいネコと夏っぽいネイル"
+author = "アリスにゃん"
+url = "https://aliceoxo.booth.pm/items/3178035"
+support = ["透羽"]
+release = "2021-08-07"
+comment = "https://twitter.com/ALiCe_OxOa/status/1423916920894476291"
+
+[[clothes]]
+name = "休日のおしゃれ着"
+author = "anzyu-blender"
+url = "https://anzyu-blender.booth.pm/items/3171060"
+release = "2021-08-08"
+support = ["透羽"]
+comment = "https://twitter.com/AnzyuV/status/1424365071799492609"

@@ -150,6 +150,16 @@ https://twitter.com/nemutain333/status/1399653496584998917
 """
 
 [[clothes]]
+name = "フリージア"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3183255"
+release = "2021-08-09"
+support = ["薄荷1.2"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/Noahs00Ark/status/1424599901824905221"
+
+[[clothes]]
 name = "ヒガンバナ"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -403,6 +413,13 @@ url = "https://booth.pm/ja/items/2668311"
 release = "2021-01-11"
 support = ["薄荷"]
 comment = "https://twitter.com/tokikaze_ikebo/status/1348467964513644555"
+
+[[clothes]]
+name = "制服ポンチョ"
+author = "P_Store"
+url = "https://booth.pm/ja/items/2437422"
+release = "2020-10-16"
+support = ["薄荷"]
 
 [[clothes]]
 name = "ロイヤルバニー"
@@ -1759,7 +1776,10 @@ boothPrefix = "3dfactorydayo"
 url = "https://booth.pm/ja/items/3146962"
 release = "2021-07-26"
 support = ["薄荷1.2","透羽"]
-comment = "https://twitter.com/alfine21/status/1419584498279141376"
+comment = """
+https://twitter.com/alfine21/status/1419584498279141376
+https://twitter.com/alfine21/status/1423187433315704834
+"""
 
 [[clothes]]
 name = "ギンガムチェック水着"
@@ -1920,6 +1940,14 @@ support = ["薄荷"]
 comment = "https://twitter.com/strustrust_VRC/status/1395014039818752000"
 
 [[clothes]]
+name = "スポーティワークアウトセット"
+author = "Store*Snowlight"
+url = "https://booth.pm/ja/items/3039590"
+release = "2021-08-09"
+support = ["薄荷1.2", "メリノ", "ウルフェリア", "イヨ", "リーメ", "イメリス"]
+comment = "https://twitter.com/Snowlight0102/status/1424676675590135818"
+
+[[clothes]]
 name = "甚平"
 author = "Store*Snowlight"
 boothPrefix = "snowlight0102"
@@ -1964,6 +1992,15 @@ boothPrefix = "riumu960"
 url = "https://booth.pm/ja/items/3026337"
 release = "2021-06-09"
 support = ["フィリナ", "ファジー", "マロン", "ミーシェ", "リナリィ・ココ", "ルシナ", "リア-アリス", "ラスク", "ユウ", "薄荷1.2", "幽狐"]
+
+[[clothes]]
+name = "Mori one piece"
+author = "Yzneko cafe"
+boothPrefix = "yzneko-cafe"
+url = "https://booth.pm/hja/items/3133175"
+release = "2021-08-05"
+support = ["薄荷1.2"]
+comment = "https://twitter.com/Yzha_v/status/1423135721016029190"
 
 [[clothes]]
 name = "Casual tunic Outfit"
@@ -2074,6 +2111,15 @@ url = "https://booth.pm/ja/items/3088078"
 support = ["薄荷1.2"]
 release = "2021-07-08"
 comment = "https://twitter.com/usahara333/status/1413049430056398854"
+
+[[clothes]]
+name = "中華風水着"
+author = "AsaList"
+boothPrefix = "asarichan"
+url = "https://booth.pm/ja/items/3175755"
+release = "2021-08-06"
+support = ["薄荷1.2"]
+comment = "https://twitter.com/asari_vv/status/1423569994319761408"
 
 [[clothes]]
 name = "サマードレスセット"
@@ -2224,3 +2270,12 @@ url = "https://booth.pm/ja/items/3157707"
 support = ["薄荷1.2"]
 release = "2021-07-30"
 comment = "https://twitter.com/raz_penginVR/status/1421301212205379584"
+
+[[clothes]]
+name = "シンプル夏服1"
+author = "モジナ屋"
+boothPrefix = "arumogina"
+url = "https://booth.pm/ja/items/3181181"
+release = "2021-08-08"
+support = ["薄荷"]
+comment = "https://twitter.com/arumogina/status/1424294902238572548"
