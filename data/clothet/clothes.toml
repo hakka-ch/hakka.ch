@@ -477,6 +477,13 @@ release = "2021-02-13"
 support = ["薄荷", "イヨ", "狐雪"]
 
 [[clothes]]
+name = "Suit-Nero"
+author = "Pini"
+url = "https://booth.pm/ja/items/3045456"
+release = "2021-02-13"
+support = ["透羽"]
+
+[[clothes]]
 name = "Beachwear2"
 author = "アトリエORCA[Booth店]"
 url = "https://booth.pm/ja/items/3080448"
@@ -847,6 +854,14 @@ url = "https://booth.pm/ja/items/2742810"
 twitter_first_post = "2021-02-13"
 support = ["薄荷"]
 category = ["clothes", "shoes"]
+
+[[clothes]]
+name = "店員の衣装, Clerk Uniform"
+author = "Eliya Workshop"
+url = "https://booth.pm/ja/items/3099491"
+release = "2021-07-12"
+support = ["透羽"]
+category = ["clothes"]
 
 [[clothes]]
 name = "シースルー ツーピース"
@@ -1365,6 +1380,15 @@ support = ["薄荷"]
 comment = "https://twitter.com/kamomi_iru/status/1402903764458110977"
 
 [[nail]]
+name = "てんしなネイル Reincarnation[An-Lumi]"
+author = "An-Labo ‐ Virtual"
+boothPrefix = "van-labo"
+url = "https://booth.pm/ja/items/3023469"
+release = "2021-06-8"
+support = ["透羽"]
+comment = "https://twitter.com/kamomi_iru/status/1401146086962569225"
+
+[[nail]]
 name = "[An-Lumi]ウィンターネイル2020"
 author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
@@ -1397,6 +1421,14 @@ boothPrefix = "mumumumum"
 url = "https://booth.pm/ja/items/3148247"
 release = "2021-07-28"
 support = ["薄荷1.2", "透羽"]
+
+[[nail]]
+name = "かわいいネコと夏っぽいネイル！"
+author = "アリス"
+boothPrefix = "aliceoxo"
+url = "https://booth.pm/ja/items/3178035"
+release = "2021-08-7"
+support = ["透羽"]
 
 [[hair]]
 name = "フレイポニーテール"
@@ -1525,6 +1557,15 @@ boothPrefix = "harukappumen"
 url = "https://booth.pm/ja/items/2787826"
 release = "2021-02-28"
 support = ["薄荷"]
+
+[[hair]]
+name = "透羽＆薄荷ツインテール||Sue & Hakka Pigtails"
+author = "ハルカップ麺"
+boothPrefix = "harukappumen"
+url = "https://booth.pm/ja/items/3186975"
+release = "2021-08-10"
+support = ["薄荷","透羽"]
+comment = "https://twitter.com/HarukaVRC/status/1425145435480596495"
 
 [[hair]]
 name = "魔法使い"
@@ -1762,6 +1803,15 @@ support = ["薄荷1.2","透羽"]
 comment = "https://twitter.com/alfine21/status/1419584498279141376"
 
 [[clothes]]
+name = "でにむわんぴーす"
+author = "ふぃーねちゃんのあれこれ"
+boothPrefix = "3dfactorydayo"
+url = "https://booth.pm/ja/items/3078270"
+release = "2021-07-11"
+support = ["透羽"]
+comment = "https://twitter.com/alfine21/status/1414177267559718919"
+
+[[clothes]]
 name = "ギンガムチェック水着"
 author = "Melty Lily"
 boothPrefix = "meltylily"
@@ -1796,6 +1846,42 @@ url = "https://booth.pm/ja/items/3149358"
 release = "2021-07-26"
 support = ["薄荷","透羽"]
 category = ["clothes", "shoes"]
+
+[[clothes]]
+name = "J_Jersey_Sue (Hakka body)"
+author = "shard"
+boothPrefix = "shard"
+url = "https://booth.pm/ja/items/3176884"
+release = "2021-08-7"
+support = ["薄荷","透羽"]
+category = ["clothes", "shoes"]
+
+[[clothes]]
+name = "OVER_T_Sue(Hakka_Body)"
+author = "shard"
+boothPrefix = "shard"
+url = "https://booth.pm/ja/items/3121492"
+release = "2021-07-14"
+support = ["薄荷","透羽"]
+category = ["clothes", "shoes","accessory"]
+
+[[clothes]]
+name = "Jean & Shirt (For Sue & Hakka body)"
+author = "shard"
+boothPrefix = "shard"
+url = "https://booth.pm/ja/items/items/3067527"
+release = "2021-07-6"
+support = ["薄荷","透羽"]
+category = ["clothes", "shoes","accessory"]
+
+[[clothes]]
+name = "シンプルスウェット"
+author = "EK-shop"
+boothPrefix = "ek-shop"
+url = "https://booth.pm/ja/items/3183419"
+release = "2021-08-9"
+support = ["薄荷","透羽"]
+comment = "https://twitter.com/EKshop001/status/1424660825386586112"
 
 [[eyes]]
 name = "シンプルなおめめ"
@@ -1958,6 +2044,15 @@ support = ["幽狐族", "ミーシェ", "フィリナ", "LUA", "キッシュ", "
 comment = "https://twitter.com/Snowlight0102/status/1403310625908879360"
 
 [[clothes]]
+name = "『らいふせーばー？』"
+author = "Store*Snowlight"
+boothPrefix = "snowlight0102"
+url = "https://booth.pm/ja/items/3194136"
+release = "2021-08-14"
+category = ["clothes"]
+support = ["薄荷"]
+
+[[clothes]]
 name = "水着＆カーディガンセット"
 author = "RiumuStore"
 boothPrefix = "riumu960"
@@ -1965,13 +2060,6 @@ url = "https://booth.pm/ja/items/3026337"
 release = "2021-06-09"
 support = ["フィリナ", "ファジー", "マロン", "ミーシェ", "リナリィ・ココ", "ルシナ", "リア-アリス", "ラスク", "ユウ", "薄荷1.2", "幽狐"]
 
-[[clothes]]
-name = "Casual tunic Outfit"
-author = "Yzneko cafe"
-url = "https://booth.pm/ja/items/3062816"
-release = "2021-06-21"
-support = ["薄荷1.2"]
-comment = "https://twitter.com/Yzha_v/status/1406914887624716293"
 
 [[clothes]]
 name  = "Girly summer shirt"
@@ -1980,6 +2068,15 @@ boothPrefix = "yzneko-cafe"
 url = "https://booth.pm/ja/items/3045337"
 release = "2021-06-13"
 comment = "https://twitter.com/Yzha_v/status/1404325435203211264"
+support = ["薄荷1.2"]
+
+[[clothes]]
+name  = "Mori one piece"
+author = "Yzneko cafe"
+boothPrefix = "yzneko-cafe"
+url = "https://booth.pm/ja/items/3133175"
+release = "2021-07-19"
+comment = "https://twitter.com/Yzha_v/status/1417064205006508035"
 support = ["薄荷1.2"]
 
 [[clothes]]
@@ -2224,3 +2321,103 @@ url = "https://booth.pm/ja/items/3157707"
 support = ["薄荷1.2"]
 release = "2021-07-30"
 comment = "https://twitter.com/raz_penginVR/status/1421301212205379584"
+
+[[clothes]]
+name = "制服です~"
+author = "seunchan"
+boothPrefix = "seunchan"
+url = "https://booth.pm/ja/items/3186748"
+release = "2021-8-11"
+support = ["薄荷"]
+category = ["clothes", "hair","accessory"]
+
+[[clothes]]
+name = "シンプル夏服1"
+author = "モジナ屋"
+boothPrefix = "arumogina"
+url = "https://booth.pm/ja/items/3181181"
+release = "2021-8-8"
+support = ["薄荷"]
+category = ["clothes", "hair","shoes"]
+
+[[clothes]]
+name = "探偵助手風衣装"
+author = "モジナ屋"
+boothPrefix = "arumogina"
+url = "https://booth.pm/ja/items/3168323"
+release = "2021-8-3"
+support = ["薄荷"]
+
+[[eyes]]
+name = "Watercolor Eye Textures 水彩画眼 瞳テクスチャ"
+author = "RottenDeer"
+boothPrefix = "rottendeer"
+url = "https://booth.pm/ja/items/3183533"
+release = "2021-08-9"
+support = ["透羽"]
+
+[[clothes]]
+name = "summer Dress"
+author = "Cats workshop"
+boothPrefix = "catsws"
+url = "https://booth.pm/ja/items/3172806"
+release = "2021-8-5"
+support = ["透羽"]
+
+[[eyes]]
+name = "EYEテクスチャ"
+author = "chacha shop"
+boothPrefix = "chamengmiao"
+url = "https://booth.pm/ja/items/3160467"
+release = "2021-07-31"
+support = ["透羽"]
+
+[[eyes]]
+name = "EYEテクスチャ ＆ ネイル"
+author = "猫だんご屋"
+boothPrefix = "nekoyii"
+url = "https://booth.pm/ja/items/3021236"
+release = "2021-06-5"
+support = ["透羽"]
+category = ["eyes", "nail","texture"]
+
+[[clothes]]
+name = "Casual suit"
+author = "Cats workshop"
+boothPrefix = "catsws"
+url = "https://booth.pm/ja/items/3139428"
+release = "2021-7-22"
+support = ["透羽"]
+
+[[clothes]]
+name = "casual set"
+author = "Cats workshop"
+boothPrefix = "catsws"
+url = "https://booth.pm/ja/items/3123815"
+release = "2021-7-15"
+support = ["透羽"]
+
+[[clothes]]
+name = "Dress"
+author = "Cats workshop"
+boothPrefix = "catsws"
+url = "https://booth.pm/ja/items/3049054"
+release = "2021-7-15"
+support = ["透羽"]
+
+[[clothes]]
+name = "G&D OverSize P2"
+author = "Goudan WorkShop&GOUDAN ワークショップ"
+boothPrefix = "goudan"
+url = "https://booth.pm/ja/items/3104374"
+release = "2021-7-8"
+support = ["透羽"]
+
+[[clothes]]
+name = "プリンセスドレス"
+author = "KONEKO0v0"
+boothPrefix = "koneko0v0"
+url = "https://booth.pm/ja/items/3072351"
+release = "2021-6-25"
+support = ["透羽"]
+comment = "https://twitter.com/KONEKO0v0/status/1408274357344899077"
