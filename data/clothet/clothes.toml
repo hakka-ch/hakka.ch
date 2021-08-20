@@ -108,6 +108,15 @@ category = ["clothes", "shoes"]
 comment = "https://twitter.com/chi_store20/status/1367798230939955208"
 
 [[clothes]]
+name = "テックパーカ"
+author = "childfactory"
+boothPrefix = "childfactory"
+url = "https://booth.pm/ja/items/3207103"
+release = "2021-08-19"
+support = ["薄荷", "メリノ", "レイニィ", "イヨ", "狐雪", "ウルフェリア", "ここあ", "イメリス", "セフィラ", "ティコ", "ギモザード"]
+comment = "https://twitter.com/ChildVRC12/status/1428222573976817664"
+
+[[clothes]]
 name = "ストリートファッション005"
 author = "childfactory"
 boothPrefix = "childfactory"
@@ -148,6 +157,16 @@ comment = """
 https://twitter.com/nemutain333/status/1377187192657702914
 https://twitter.com/nemutain333/status/1399653496584998917
 """
+
+[[clothes]]
+name = "公立高校夏制服"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3203942"
+release = "2021-08-17"
+support = ["薄荷1.2"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/Noahs00Ark/status/1427562922251677696"
 
 [[clothes]]
 name = "フリージア"
@@ -1832,6 +1851,15 @@ support = ["透羽"]
 comment = "https://twitter.com/alfine21/status/1414177267559718919"
 
 [[clothes]]
+name = "フリル水着"
+author = "Melty Lily"
+url = "https://booth.pm/ja/items/3190026"
+release = "2021-08-12"
+support = ["薄荷1.2", "透羽"]
+category = ["clothes"]
+comment = "https://twitter.com/_Melty_Lily_/status/1425715875097677831"
+
+[[clothes]]
 name = "ギンガムチェック水着"
 author = "Melty Lily"
 boothPrefix = "meltylily"
@@ -2170,6 +2198,17 @@ category = ["clothes", "shoes"]
 comment = "https://twitter.com/Yzha_v/status/1406914887624716293"
 
 [[clothes]]
+name = "カジュアルドレス"
+author = "syuutaShop"
+boothPrefix = "syuuta"
+url = "https://booth.pm/ja/items/3207011"
+release = "2021-08-20"
+origRelease = "2021-08-18"
+support = ["薄荷", "リア-アリス", "セフィラ"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/syuutaVRC/status/1428604511707299841"
+
+[[clothes]]
 name = "ショートパンツ水着"
 author = "syuutaShop"
 boothPrefix = "syuuta"
@@ -2383,6 +2422,10 @@ url = "https://booth.pm/ja/items/3186748"
 release = "2021-8-11"
 support = ["薄荷"]
 category = ["clothes", "hair","accessory"]
+comment = """
+https://twitter.com/seunchan1/status/1425894305575493634
+https://twitter.com/seunchan1/status/1425452607720411139
+"""
 
 [[clothes]]
 name = "シンプル夏服1"
@@ -2475,3 +2518,12 @@ url = "https://booth.pm/ja/items/3072351"
 release = "2021-6-25"
 support = ["透羽"]
 comment = "https://twitter.com/KONEKO0v0/status/1408274357344899077"
+
+[[eyes]]
+name = "二十四節季テクスチャセット"
+author = "俺だけ割り箸が綺麗に割れない"
+boothPrefix = "wrbs"
+url = "https://booth.pm/ja/items/3191582"
+support = ["薄荷1.2"]
+category = ["eyes", "nail"]
+comment = "https://twitter.com/Hakunemui/status/1425860830164242435"
