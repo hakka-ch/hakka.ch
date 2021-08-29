@@ -169,6 +169,16 @@ https://twitter.com/nemutain333/status/1399653496584998917
 """
 
 [[clothes]]
+name = "アマリリス"
+author = "Noah’sArk"
+boothPrefix = "woodapple"
+url = "https://booth.pm/ja/items/3236663"
+release = "2021-08-29"
+support = ["薄荷"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/Noahs00Ark/status/1431832324237189122"
+
+[[clothes]]
 name = "ペチュニア"
 author = "Noah’sArk"
 boothPrefix = "woodapple"
@@ -920,6 +930,15 @@ support = ["透羽"]
 category = ["clothes"]
 
 [[clothes]]
+name = "少女ワンピース"
+author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
+boothPrefix = "jiha"
+url = "https://booth.pm/ja/items/3222145"
+release = "2021-08-24"
+support = ["薄荷1.2", "透羽", "狐雪"]
+comment = "https://twitter.com/SUMMER_VRC/status/1429856166289416208"
+
+[[clothes]]
 name = "シースルー ツーピース"
 author = "꒰* ॢꈍ◡ꈍ ॢ꒱JIHA"
 boothPrefix = "jiha"
@@ -1024,7 +1043,7 @@ url = "https://booth.pm/ja/items/1699116"
 style = "sailor uniform"
 support = ["薄荷"]
 
-[[clotheses]]
+[[clothes]]
 name = "ロリータシリーズ -浴衣-"
 author = "かぷちやのぶーす"
 release = "2021-07-19"
@@ -2016,6 +2035,14 @@ url = "https://booth.pm/ja/items/2998269"
 release = "2021-05-27"
 support = ["薄荷1.2"]
 
+# [[clothes]]
+# name = "china co-ord 3colors"
+# author = "nullの足音"
+# url = "https://nul10.booth.pm/items/3233208"
+# release = "2021-08-28"
+# support = ["LSBody"]
+# comment = "https://twitter.com/enu_001/status/1431500733736570882"
+
 [[clothes]]
 name = "Mermaid beach wear"
 author = "nullの足音"
@@ -2393,6 +2420,7 @@ author = "choco*shop"
 url = "https://booth.pm/ja/items/3213226"
 release = "2021-08-21"
 support = ["薄荷", "透羽", "Rono", "NecoMaid"]
+comment = "https://twitter.com/logico_szm/status/1428918818710036481"
 
 [[clothes]]
 name = "大正浪漫ゴシック"
@@ -2401,6 +2429,7 @@ url = "https://booth.pm/ja/items/3198433"
 release = "2021-08-15"
 category = ["clothes", "shoes"]
 support = ["薄荷", "透羽", "Rono", "鳴耶", "セフィラ", "ウルフェリア", "NecoMaid"]
+comment = "https://twitter.com/logico_szm/status/1426759792371011592"
 
 [[clothes]]
 name = "おめかし水着"
@@ -2476,12 +2505,40 @@ author = "seunchan"
 boothPrefix = "seunchan"
 url = "https://booth.pm/ja/items/3186748"
 release = "2021-8-11"
-support = ["薄荷"]
+support = ["薄荷", "透羽"]
 category = ["clothes", "hair","accessory"]
 comment = """
 https://twitter.com/seunchan1/status/1425894305575493634
 https://twitter.com/seunchan1/status/1425452607720411139
 """
+
+[[clothes]]
+name = "メイド服2　フレンチ風"
+author = "モジナ屋"
+url = "https://booth.pm/ja/items/3232190"
+release = "2021-08-28"
+support = ["薄荷"]
+category = ["clothes", "shoes", "accessory"]
+comment = "https://twitter.com/arumogina/status/1431573733668364295"
+
+[[clothes]]
+name = "メイド服1"
+author = "モジナ屋"
+boothPrefix = "arumogina"
+url = "https://booth.pm/ja/items/3229571"
+release = "2021-08-27"
+support = ["薄荷"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/arumogina/status/1430946251374088192"
+
+[[clothes]]
+name = "夏服2 (水着+普段着)"
+author = "モジナ屋"
+boothPrefix = "arumogina"
+url = "https://booth.pm/ja/items/3211751"
+release = "2021-08-20"
+support = ["薄荷"]
+comment = "https://twitter.com/arumogina/status/1428694399953694722"
 
 [[clothes]]
 name = "シンプル夏服1"
@@ -2528,11 +2585,12 @@ category = ["eyes", "nail","texture"]
 
 [[clothes]]
 name = "Dress"
-author = "Cats workshop"
+author = "CatsWorkshop"
 boothPrefix = "catsws"
-url = "https://booth.pm/ja/items/3049054"
-release = "2021-7-15"
-support = ["透羽"]
+url = "https://booth.pm/ja/items/3201682"
+release = "2021-08-16"
+support = ["薄荷"]
+comment = "https://twitter.com/WorkshopCats/status/1427190135267811328"
 
 [[eyes]]
 name = "二十四節季テクスチャセット"
@@ -2570,3 +2628,11 @@ author = "白猫通りのナギ亭"
 url = "https://booth.pm/ja/items/3133367"
 release = "2021-07-20"
 support = ["薄荷"]
+
+[[clothes]]
+name = "ミントオーバーサイズ衣装セット"
+author = "Mouse+ Shop"
+url = "https://booth.pm/ja/items/3224094"
+release = "2021-08-25"
+support = ["薄荷"]
+comment = "https://twitter.com/Tenkabutsu_mu/status/1430193196655513603"

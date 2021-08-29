@@ -1,3 +1,46 @@
+[[accessory]]
+name = "眼帯 Eye Patch 안대"
+author = "JustPerson 저펄이"
+url = "https://booth.pm/ja/items/3229846"
+release = "2021-08-27"
+support = ["杏里"]
+comment = """
+https://twitter.com/vrc_new_item/status/1431218690092064777
+https://twitter.com/JustPerson_VR/status/1431195475097448454
+"""
+
+[[clothes]]
+name = "バリスタセット|| Barista Set"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/3227323"
+release = "2021-08-25"
+support = ["杏里"]
+category = ["clothes", "shoes", "accessory"]
+comment = "https://twitter.com/HarukaVRC/status/1430700458990088195"
+
+[[clothes]]
+name = "フード付きコート"
+author = "DomDom"
+url = "https://booth.pm/ja/items/3226865"
+release = "2021-08-25"
+# 情報が無さすぎて正確リリース日がわからない
+support = ["杏里"]
+
+[[clothes]]
+name = "Jersey_Anri"
+author = "shard"
+url = "https://booth.pm/ja/items/3220651"
+release = "2021-08-23"
+support = ["杏里"]
+comment = "https://twitter.com/Shard_Vrc/status/1429724463977824265"
+
+[[hair]]
+name = "杏里ショート||Anri Short Hair"
+author = "ハルカップ麺"
+url = "https://booth.pm/ja/items/3212890"
+release = "2021-08-20"
+support = ["杏里"]
+
 [[clothes]]
 name = "浴衣"
 author = "DomDom"
