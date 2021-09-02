@@ -71,3 +71,22 @@ url = "https://booth.pm/ja/items/3187028"
 release = "2021-08-19"
 support = ["杏里"]
 comment = "https://twitter.com/Shard_Vrc/status/1428308551164776453"
+
+[[clothes]]
+name = "夏Tシャツ&オーバーオール / Summer T-shirt & Overalls"
+author = "SB"
+url = "https://booth.pm/ja/items/3244683"
+release = "2021-09-02"
+support = ["杏里"]
+comment = """
+https://twitter.com/Sinabro_vrc/status/1433255889369124866
+https://twitter.com/vrc_new_item/status/1433264670870278147
+"""
+
+[[clothes]]
+name = "杏里 - 衣装 / Anri Outfit"
+author = "The World"
+url = "https://booth.pm/ja/items/3237979"
+release = "2021-08-31"
+support = ["杏里"]
+comment = "https://twitter.com/theworld20124/status/1432687737526751235"

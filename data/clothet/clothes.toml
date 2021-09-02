@@ -991,7 +991,10 @@ boothPrefix = "jiha"
 url = "https://booth.pm/ja/items/2537716"
 style = "pants"
 release = "2020-12-21"
-support = ["薄荷"]
+support = ["薄荷1.2"]
+comment = """
+https://twitter.com/SUMMER_VRC/status/1432369895660941313
+"""
 
 [[clothes]]
 name = "Dream Rabbit"
@@ -2011,6 +2014,15 @@ release = "2021-05-23"
 support = ["薄荷"]
 
 [[clothes]]
+name = "helice"
+author = "あいのスタジオ"
+boothPrefix = "ai-studio"
+url = "https://booth.pm/ja/items/3239358"
+release = "2021-09-01"
+support = ["薄荷1.2", "セフィラ", "ユウ", "リル", "ミュゼラ"]
+comment = "https://twitter.com/ai00amr/status/1433008760604135427"
+
+[[clothes]]
 name = "アシメコーデ"
 author = "あいのスタジオ"
 url = "https://booth.pm/ja/items/3157992"
@@ -2513,6 +2525,16 @@ https://twitter.com/seunchan1/status/1425452607720411139
 """
 
 [[clothes]]
+name = "メイド服3 チャイナ風"
+author = "モジナ屋"
+boothPrefix = "arumogina"
+url = "https://booth.pm/ja/items/3241295"
+release = "2021-08-31"
+support = ["薄荷"]
+category = ["clothes", "shoes"]
+comment = "https://twitter.com/arumogina/status/1432648270367494148"
+
+[[clothes]]
 name = "メイド服2　フレンチ風"
 author = "モジナ屋"
 url = "https://booth.pm/ja/items/3232190"
@@ -2636,3 +2658,19 @@ url = "https://booth.pm/ja/items/3224094"
 release = "2021-08-25"
 support = ["薄荷"]
 comment = "https://twitter.com/Tenkabutsu_mu/status/1430193196655513603"
+
+[[clothes]]
+name = "リラックスゲーマー"
+author = "AO Bakery"
+url = "https://booth.pm/ja/items/3246296"
+release = "2021-09-02"
+support = ["薄荷"]
+comment = "https://twitter.com/vrc_new_item/status/1433356528191483904"
+
+[[nail]]
+name = "ネイルテクスチャ"
+author = "ぬいぬいのぬい堂"
+url = "https://booth.pm/ja/items/3190616/"
+release = "2021-09-02"
+support = ["薄荷"]
+comment = "https://twitter.com/nuinui01418/status/1433310094163255297"

@@ -226,6 +226,16 @@ release = "2021-08-07"
 comment = "https://twitter.com/ALiCe_OxOa/status/1423916920894476291"
 
 [[clothes]]
+name = "秋服ワンピース"
+author = "anzyu-blender"
+boothPrefix = "anzyu-blender"
+url = "https://booth.pm/ja/items/3242756"
+release = "2021-08-31"
+support = ["透羽"]
+category = ["clothes"]
+comment = "https://twitter.com/AnzyuV/status/1432693342203043842"
+
+[[clothes]]
 name = "トレジャーハンター服"
 author = "anzyu-blender"
 boothPrefix = "anzyu-blender"
