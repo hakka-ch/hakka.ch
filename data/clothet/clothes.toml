@@ -1516,13 +1516,13 @@ release = "2020-12-21"
 support = ["薄荷"]
 
 [[nail]]
-name = "てんしなネイル"
+name = "てんしなネイル Reincarnation"
 author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
-url = "https://booth.pm/ja/items/2564616"
-release = "2020-11-29"
+url = "https://booth.pm/ja/items/3035327"
+release = "2021-07-03"
 support = ["薄荷"]
-comment = "https://twitter.com/kamomi_iru/status/1332990122179006465"
+comment = "https://twitter.com/kamomi_iru/status/1410979185678381057"
 
 [[nail]]
 name = "チョコネイル[An-Lumi]"
@@ -2027,23 +2027,6 @@ url = "https://booth.pm/ja/items/3183419"
 release = "2021-08-9"
 support = ["薄荷","透羽"]
 comment = "https://twitter.com/EKshop001/status/1424660825386586112"
-
-[[eyes]]
-name = "シンプルなおめめ"
-author = "無知なむちのガラクタ置き場"
-boothPrefix = "chiya-muti"
-url = "https://booth.pm/ja/items/3033193"
-release = "2021-06-09"
-support = ["薄荷"]
-comment = "https://twitter.com/muchi6888/status/1402505658239393793"
-
-[[hair]]
-name = "ベリーショートヘアー初めての髪ー"
-author = "無知なむちのガラクタ置き場"
-boothPrefix = "chiya-muti"
-url = "https://booth.pm/ja/items/2988618"
-release = "2021-05-23"
-support = ["薄荷"]
 
 [[clothes]]
 name = "helice"
