@@ -650,6 +650,14 @@ support = ["薄荷1.2"]
 comment = "https://twitter.com/Akabane_Aki_KM/status/1355131246263734278"
 
 [[clothes]]
+name = "Caution Jacket"
+author = "赤羽雑貨店"
+boothPrefix = "akabanevrc"
+url = "https://booth.pm/ja/items/3229480"
+release = "2021-09-02"
+support = ["薄荷1.2"]
+
+[[clothes]]
 name = "デニムジャケット"
 author = "Akachan's items"
 boothPrefix = "akachan00"
@@ -1162,6 +1170,30 @@ release = "2020-11-28"
 support = ["薄荷"]
 
 [[clothes]]
+name = "アイドル衣装TypeC"
+author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
+url = "https://booth.pm/ja/items/3286556"
+release = "2021-09-19"
+support = ["薄荷"]
+
+[[clothes]]
+name = "アイドル衣装TypeD"
+author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
+url = "https://booth.pm/ja/items/3286558"
+release = "2021-09-19"
+support = ["薄荷"]
+
+[[clothes]]
+name = "うさぎさんルームウェア"
+author = "かぷちやのぶーす"
+boothPrefix = "capettiya"
+url = "https://booth.pm/ja/items/3215705"
+release = "2021-08-22"
+support = ["薄荷"]
+
+[[clothes]]
 name = "ねここーと"
 author = "かぷちやのぶーす"
 boothPrefix = "capettiya"
@@ -1484,13 +1516,13 @@ release = "2020-12-21"
 support = ["薄荷"]
 
 [[nail]]
-name = "てんしなネイル"
+name = "てんしなネイル Reincarnation"
 author = "An-Labo ‐ Virtual"
 boothPrefix = "van-labo"
-url = "https://booth.pm/ja/items/2564616"
-release = "2020-11-29"
+url = "https://booth.pm/ja/items/3035327"
+release = "2021-07-03"
 support = ["薄荷"]
-comment = "https://twitter.com/kamomi_iru/status/1332990122179006465"
+comment = "https://twitter.com/kamomi_iru/status/1410979185678381057"
 
 [[nail]]
 name = "チョコネイル[An-Lumi]"
@@ -1996,23 +2028,6 @@ release = "2021-08-9"
 support = ["薄荷","透羽"]
 comment = "https://twitter.com/EKshop001/status/1424660825386586112"
 
-[[eyes]]
-name = "シンプルなおめめ"
-author = "無知なむちのガラクタ置き場"
-boothPrefix = "chiya-muti"
-url = "https://booth.pm/ja/items/3033193"
-release = "2021-06-09"
-support = ["薄荷"]
-comment = "https://twitter.com/muchi6888/status/1402505658239393793"
-
-[[hair]]
-name = "ベリーショートヘアー初めての髪ー"
-author = "無知なむちのガラクタ置き場"
-boothPrefix = "chiya-muti"
-url = "https://booth.pm/ja/items/2988618"
-release = "2021-05-23"
-support = ["薄荷"]
-
 [[clothes]]
 name = "helice"
 author = "あいのスタジオ"
@@ -2284,7 +2299,7 @@ boothPrefix = "syuuta"
 url = "https://booth.pm/ja/items/3207011"
 release = "2021-08-20"
 origRelease = "2021-08-18"
-support = ["薄荷", "リア-アリス", "セフィラ"]
+support = ["薄荷", "リア-アリス", "セフィラ","ユウ"]
 category = ["clothes", "shoes"]
 comment = "https://twitter.com/syuutaVRC/status/1428604511707299841"
 
@@ -2459,6 +2474,20 @@ comment = "https://twitter.com/logico_szm/status/1409379083616620547"
 support = ["透羽", "薄荷1.2"]
 
 [[clothes]]
+name = "フライトジャケット"
+author = "choco*shop"
+url = "https://booth.pm/ja/items/3246038"
+release = "2021-09-02"
+support = ["透羽", "薄荷1.2","杏里"]
+
+[[clothes]]
+name = "セーラマリン"
+author = "choco*shop"
+url = "https://booth.pm/ja/items/3264513"
+release = "2021-09-10"
+support = ["透羽", "薄荷1.2"]
+
+[[clothes]]
 name = "スイートロリワンピース"
 author = "白猫通りのナギ亭"
 boothPrefix = "naginagistore"
@@ -2468,6 +2497,15 @@ origRelease = "2021-06-23"
 support = ["薄荷", "リア-アリス", "セフィラ", "ミーシェ", "フィリナ", "レイニィ", "キッシュ", "リリエ", "トゥエル", "くりねこちゃん", "ろうちゃん", "あまなつ", "せびなちゃん", "ウイカ", "幽狐族"]
 category = ["clothes", "shoes"]
 comment = "https://twitter.com/NagiRevere/status/1417439694317441026"
+
+[[clothes]]
+name = "ワッフルロリスイム"
+author = "白猫通りのナギ亭"
+boothPrefix = "naginagistore"
+url = "https://booth.pm/ja/items/3214009"
+release = "2021-08-23"
+support = ["薄荷", "リア-アリス", "セフィラ", "ミーシェ", "フィリナ", "レイニィ", "キッシュ", "リリエ", "トゥエル", "くりねこちゃん", "ろうちゃん", "あまなつ", "せびなちゃん", "ウイカ", "幽狐族"]
+category = ["clothes"]
 
 [[clothes]]
 name = "オープンショルダードレス"
@@ -2649,6 +2687,7 @@ name = "アクアマリンワンピース"
 author = "白猫通りのナギ亭"
 url = "https://booth.pm/ja/items/3133367"
 release = "2021-07-20"
+boothPrefix = "naginagistore"
 support = ["薄荷"]
 
 [[clothes]]
@@ -2670,7 +2709,111 @@ comment = "https://twitter.com/vrc_new_item/status/1433356528191483904"
 [[nail]]
 name = "ネイルテクスチャ"
 author = "ぬいぬいのぬい堂"
-url = "https://booth.pm/ja/items/3190616/"
+url = "https://booth.pm/ja/items/3190616"
 release = "2021-09-02"
 support = ["薄荷"]
 comment = "https://twitter.com/nuinui01418/status/1433310094163255297"
+
+[[clothes]]
+name = "セーラー風水着"
+author = "一夜こごみ"
+boothPrefix = "kogomi"
+url = "https://booth.pm/ja/items/3121597"
+release = "2021-07-17"
+support = ["薄荷"]
+
+[[clothes]]
+name = "ねこねこセーター"
+author = "白猫通りのナギ亭"
+boothPrefix = "naginagistore"
+url = "https://booth.pm/ja/items/3292177"
+release = "2021-09-21"
+support = ["薄荷", "リア-アリス", "セフィラ", "ミーシェ", "フィリナ", "レイニィ", "キッシュ", "リリエ", "トゥエル", "くりねこちゃん", "ろうちゃん", "あまなつ", "せびなちゃん", "ウイカ", "幽狐族"]
+
+[[hair]]
+name = "耳だしロングウェーブヘア　Longwave Hair"
+author = "tim"
+boothPrefix = "usagi88"
+url = "https://booth.pm/ja/items/3208338"
+release = "2020-08-19"
+support = ["薄荷","狐雪"]
+
+[[nail]]
+name = "やみかわネイルチップ"
+author = "もちもちしょっぷ"
+boothPrefix = "mocchiriomochi"
+url = "https://booth.pm/ja/items/3296215"
+release = "2021-09-02"
+support = ["薄荷1.2","アッシュ","ここあ","狐雪","ウルフェリア","透羽"]
+
+[[clothes]]
+name = "黒シャツ&黒スカート"
+author = "C=Thun"
+boothPrefix = "c-thun"
+url = "https://booth.pm/ja/items/3288260"
+release = "2021-09-21"
+support = ["薄荷"]
+
+[[clothes]]
+name = "『秋コーデ！』"
+author = "Store*Snowlight"
+boothPrefix = "snowlight0102"
+url = "https://booth.pm/ja/items/3282814"
+release = "2021-09-18"
+support = ["薄荷1.2","メリノ","ウルフェリア","京狐","イヨ","イメリス","リーメ＆リーバ","リリエ","ここあ","NORANEKOSEVEN","レイニィ"]
+
+[[clothes]]
+name = "『アヌビスさん』"
+author = "Store*Snowlight"
+boothPrefix = "snowlight0102"
+url = "https://booth.pm/ja/items/3240561"
+release = "2021-08-31"
+support = ["薄荷1.2","メリノ","ウルフェリア","京狐","イヨ","イメリス","リーメ＆リーバ","リリエ","ここあ","セフィラ"]
+
+[[clothes]]
+name = "夏色袖なしパーカー"
+author = "VMSS 0号店"
+boothPrefix = "vmss-0th-store"
+url = "https://booth.pm/ja/items/3288833"
+release = "2021-09-19"
+support = ["薄荷1.2"]
+
+[[clothes]]
+name = "夏色袖なしパーカー"
+author = "ふぃーねちゃんのあれこれ"
+boothPrefix = "3dfactorydayo"
+url = "https://booth.pm/ja/items/3295490"
+release = "2021-09-24"
+support = ["薄荷","透羽"]
+
+[[clothes]]
+name = "だぼパーカー"
+author = "あいかわらぼ"
+boothPrefix = "aikawa2"
+url = "https://booth.pm/ja/items/3260394"
+release = "2021-09-01"
+support = ["薄荷1.2", "セフィラ", "ユウ", "リル","ミラ","スピカ", "ミュゼラ","透羽","リア-アリス","ラスク","レイニィ"]
+
+[[accessory]]
+name = "天界美術館の入場証〔Silence×Noise〕"
+author = "mio3io"
+boothPrefix = "silence-track"
+url = "https://booth.pm/ja/items/3299182"
+release = "2021-09-23"
+support = ["薄荷","翠蓮","Grus","Cygnet","Celestia"]
+
+[[clothes]]
+name = "M+ テックウェア衣装セット Ver.1.0"
+author = "Mouse+ Shop"
+url = "https://booth.pm/ja/items/3270598"
+release = "2021-09-01"
+boothPrefix = "haven"
+support = ["薄荷", "メリノ"]
+
+[[clothes]]
+name = "透羽&薄荷 TWO PIECE"
+author = "Mouse+ Shop"
+boothPrefix = "agapelove"
+url = "https://booth.pm/ja/items/3281627"
+release = "2021-09-01"
+support = ["薄荷", "透羽"]

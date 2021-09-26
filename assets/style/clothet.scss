@@ -56,8 +56,7 @@ $categories: (
           display: flex;
           flex-direction: row;
           flex-wrap: nowrap;
-          overflow: hidden;
-          overflow-x: scroll;
+          overflow: auto;
           scroll-behavior: smooth;
           scrollbar-width: none;
           span {
